@@ -21,9 +21,9 @@ This repository is not intended to present a universal solution to biological de
 - produce candidate ranking outputs
 - track provenance for reproducibility
 
-## Current wedge
+## Initial focus
 
-The current v0.1 wedge is:
+The current v0.1 focus is:
 
 **BBB-oriented peptide / delivery-signal validation**
 
@@ -118,9 +118,20 @@ permea-signal-ml/
 - `src/`: importable pipeline code for data, features, models, evaluation, and provenance
 - `scripts/`: thin CLI entrypoints for baseline runs and export steps
 
-![Benchmark workflow outputs](figures/benchmark_workflow_outputs.png)
+## Benchmark workflow
 
-*Repository workflow from imported legacy artifacts through onboarding, rerun-ready dataset preparation, benchmark reruns, and contract outputs.*
+```mermaid
+flowchart LR
+    A["Imported legacy artifacts"] --> B["Onboarded dataset"]
+    B --> C["Rerun-ready dataset"]
+    C --> D["Benchmark reruns"]
+    D --> E["Metrics JSON"]
+    D --> F["Predictions CSV"]
+    D --> G["Ranking CSV"]
+    D --> H["Summary CSV"]
+    D --> I["Manifest JSON"]
+    D --> J["Figures"]
+```
 
 ## Baseline run example
 
@@ -159,6 +170,13 @@ This repository is intended to support reproducible workflows by default.
 ![Candidate ranking preview](figures/candidate_ranking_preview.png)
 
 *Top-ranked candidates from the regenerated Random Forest rerun shown as a compact preview rather than a final publication claim.*
+
+## Legacy evidence onboarding status
+
+- imported legacy artifacts are retained as legacy reference material
+- regenerated benchmark-contract reruns are now available for Dummy, Logistic Regression, and Random Forest
+- dataset version, attribution, and licensing remain pending confirmation
+- imported legacy artifacts should not be treated as current benchmark evidence unless rerun under the current contract
 
 ## Connection to Permea Core
 

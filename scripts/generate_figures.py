@@ -102,7 +102,7 @@ def save_legacy_vs_rerun_metrics() -> Path:
     metrics = ["roc_auc", "pr_auc", "f1", "mcc"]
     model_order = ["Dummy", "Logistic Regression", "Random Forest"]
 
-    fig, axes = plt.subplots(2, 2, figsize=(10, 7), sharey=False)
+    fig, axes = plt.subplots(2, 2, figsize=(12, 8), sharey=False)
     axes = axes.flatten()
 
     for ax, metric in zip(axes, metrics):
@@ -125,19 +125,26 @@ def save_legacy_vs_rerun_metrics() -> Path:
             )
             for model in model_order
         ]
-        x_positions = range(len(model_order))
+        x_positions = list(range(len(model_order)))
         width = 0.35
         ax.bar([x - width / 2 for x in x_positions], legacy_vals, width=width, label="Legacy imported")
         ax.bar([x + width / 2 for x in x_positions], rerun_vals, width=width, label="Regenerated rerun")
         ax.set_title(metric.replace("_", "-").upper())
-        ax.set_xticks(list(x_positions))
+        ax.set_xticks(x_positions)
         ax.set_xticklabels(model_order, rotation=15, ha="right")
         ax.set_ylim(0, 1.0)
+        ax.set_ylabel("Score")
 
     handles, labels = axes[0].get_legend_handles_labels()
-    fig.legend(handles, labels, loc="upper center", ncol=2, frameon=False)
+    fig.legend(
+        handles,
+        labels,
+        loc="center left",
+        bbox_to_anchor=(0.88, 0.5),
+        frameon=False,
+    )
     fig.suptitle("Legacy vs Regenerated Benchmark Evidence", y=0.98)
-    fig.tight_layout(rect=(0, 0, 1, 0.94))
+    fig.tight_layout(rect=(0, 0, 0.86, 0.95))
     output_path = FIGURES_DIR / "legacy_vs_rerun_metrics.png"
     fig.savefig(output_path, dpi=200)
     plt.close(fig)
