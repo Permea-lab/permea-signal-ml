@@ -1,0 +1,13 @@
+sequence_id,sequence,label,source
+seq_001,KKRFWLL,1,synthetic_v0
+seq_002,RRHFWYA,1,synthetic_v0
+seq_003,KLFWYRK,1,synthetic_v0
+seq_004,WRKKHFA,1,synthetic_v0
+seq_005,KRFWLHA,1,synthetic_v0
+seq_006,RRKYFLA,1,synthetic_v0
+seq_007,DEEASGS,0,synthetic_v0
+seq_008,DDNASST,0,synthetic_v0
+seq_009,EEDGGST,0,synthetic_v0
+seq_010,DNQESTG,0,synthetic_v0
+seq_011,EEGDSAT,0,synthetic_v0
+seq_012,DDQSGTN,0,synthetic_v0

@@ -1,0 +1,14 @@
+dataset_name: legacy_bbb_dataset_with_features
+dataset_version: pending_confirmation
+input_path: data/processed/legacy_bbb_dataset_with_features_rerun_ready.csv
+processed_path: data/processed/legacy_bbb_dataset_with_features_rerun_ready.csv
+id_column: sequence_id
+sequence_column: sequence
+label_column: label
+source_column: source
+notes:
+  - "Prepared from imported legacy processed dataset_with_features.csv."
+  - "A deterministic sequence_id column was added for rerun readiness."
+  - "A conservative source column value of legacy_bbb_import was added for rerun readiness."
+  - "Dataset version, attribution, and licensing must be confirmed before benchmark use."
+  - "This config is still provisional and should be finalized after version, attribution, and licensing verification."

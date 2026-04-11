@@ -1,0 +1,8 @@
+dataset_name: example_signal_smoke_test
+dataset_version: synthetic-v0.1
+input_path: data/examples/example_sequences.csv
+processed_path: data/processed/example_sequences_processed.csv
+id_column: sequence_id
+sequence_column: sequence
+label_column: label
+source_column: source

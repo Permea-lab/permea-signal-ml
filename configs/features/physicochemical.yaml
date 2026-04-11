@@ -1,0 +1,7 @@
+feature_set_name: physicochemical_v0
+enabled_features:
+  - length
+  - charge
+  - gravy
+  - pI
+  - aromaticity

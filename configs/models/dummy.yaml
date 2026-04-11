@@ -1,0 +1,3 @@
+model_name: dummy
+strategy: most_frequent
+class_weight: null

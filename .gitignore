@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Local results and derived artifacts
+results/**/*.parquet
+results/**/*.csv
+results/**/*.tsv
+results/**/*.json
+results/**/*.pkl
+results/**/*.joblib
+results/**/*.png
+results/**/*.pdf
+
+# Local data artifacts
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
