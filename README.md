@@ -4,7 +4,7 @@ Open benchmark-oriented ML workflow for studying permeability-related signal fro
 
 Permea Signal ML is the first public evidence package in the broader Permea program. It is designed as a reproducible, benchmark-aware workflow for early-stage computational validation and candidate prioritization before experimental validation.
 
-This repository focuses on an initial focus: BBB-oriented peptide and delivery-signal modeling from sequence-derived physicochemical features.
+The initial focus of this repository is BBB-oriented peptide and delivery-signal modeling from sequence-derived physicochemical features.
 
 ## Why this repository exists
 
