@@ -29,6 +29,12 @@ The current v0.1 wedge is:
 
 This wedge is intended to provide an initial computational evidence package that is narrow enough to execute, measurable enough to benchmark, and strong enough to support future preprint and validation work.
 
+### Visual snapshot
+
+![Legacy vs regenerated benchmark evidence](figures/legacy_vs_rerun_metrics.png)
+
+*Legacy imported benchmark metrics versus regenerated benchmark-contract reruns for Dummy, Logistic Regression, and Random Forest.*
+
 ## What this repository does
 
 Permea Signal ML currently focuses on the following workflow surfaces:
@@ -77,6 +83,12 @@ The current baseline framing is:
 
 This framing is intended as a benchmark-ready starting surface, not as a final scientific conclusion.
 
+## Initial dataset surface
+
+![Initial BBB dataset distribution](figures/dataset_distribution.png)
+
+*Initial BBB dataset distribution showing strong class imbalance in the current benchmark surface.*
+
 ## Repository structure
 
 ```text
@@ -106,6 +118,10 @@ permea-signal-ml/
 - `src/`: importable pipeline code for data, features, models, evaluation, and provenance
 - `scripts/`: thin CLI entrypoints for baseline runs and export steps
 
+![Benchmark workflow outputs](figures/benchmark_workflow_outputs.png)
+
+*Repository workflow from imported legacy artifacts through onboarding, rerun-ready dataset preparation, benchmark reruns, and contract outputs.*
+
 ## Baseline run example
 
 ```bash
@@ -127,6 +143,10 @@ This repository is intended to support reproducible workflows by default.
 - notebooks are present for inspection, but the intended workflow is scriptable and auditable
 - provenance artifacts are treated as first-class outputs rather than optional side notes
 
+![Random Forest feature importance](figures/legacy_rf_feature_importance_chart.png)
+
+*Imported legacy Random Forest feature-importance values retained as legacy evidence rather than current regenerated benchmark output.*
+
 ## Near-term outputs
 
 - baseline metrics exports
@@ -135,6 +155,10 @@ This repository is intended to support reproducible workflows by default.
 - provenance manifests
 - figure generation
 - preprint-support artifacts
+
+![Candidate ranking preview](figures/candidate_ranking_preview.png)
+
+*Top-ranked candidates from the regenerated Random Forest rerun shown as a compact preview rather than a final publication claim.*
 
 ## Connection to Permea Core
 
