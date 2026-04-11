@@ -4,13 +4,13 @@ Open benchmark-oriented ML workflow for studying permeability-related signal fro
 
 Permea Signal ML is the first public evidence package in the broader Permea program. It is designed as a reproducible, benchmark-aware workflow for early-stage computational validation and candidate prioritization before experimental validation.
 
-This repository focuses on an initial wedge: BBB-oriented peptide and delivery-signal modeling from sequence-derived physicochemical features.
+This repository focuses on an initial focus: BBB-oriented peptide and delivery-signal modeling from sequence-derived physicochemical features.
 
 ## Why this repository exists
 
 Biological delivery exploration is often difficult to compare across teams, methods, and internal workflows. In many cases, candidate prioritization remains opaque, inconsistently documented, or tightly coupled to closed research pipelines.
 
-Permea Signal ML exists to provide an open and reproducible starting point for studying whether permeability-related signal can be learned from sequence-derived features and used for candidate prioritization in a benchmark-oriented way.
+Permea Signal ML exists to provide an open and reproducible starting point for studying whether permeability-related signals can be learned from sequence-derived features and used for candidate prioritization in a benchmark-oriented way.
 
 This repository is not intended to present a universal solution to biological delivery. Its purpose is narrower and more practical:
 
@@ -27,7 +27,7 @@ The current v0.1 focus is:
 
 **BBB-oriented peptide / delivery-signal validation**
 
-This wedge is intended to provide an initial computational evidence package that is narrow enough to execute, measurable enough to benchmark, and strong enough to support future preprint and validation work.
+This focus is intended to provide an initial computational evidence package that is narrow enough to execute, measurable enough to benchmark, and strong enough to support future preprint and validation work.
 
 ### Visual snapshot
 
