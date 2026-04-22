@@ -4,6 +4,8 @@
 
 This document organizes the current `permea-signal-ml` evidence surface into a paper-support structure for future preprint drafting. It is not a full paper. It is the first compact planning layer that ties the current evidence package, methods surface, and figure assets into a draft-ready scientific outline.
 
+The first manuscript-facing draft built from this package is [PREPRINT_SKELETON_V0_1.md](./PREPRINT_SKELETON_V0_1.md).
+
 ## Working paper framing
 
 The current paper framing should remain narrow. The repository currently supports initial computational evidence that permeability-related signal is learnable from sequence-derived physicochemical features in a BBB-oriented peptide benchmark surface. The strongest supported interpretation is benchmark-oriented candidate prioritization before experimental validation.
