@@ -4,7 +4,7 @@
 
 This document organizes the current `permea-signal-ml` evidence surface into a paper-support structure for future preprint drafting. It is not a full paper. It is the first compact planning layer that ties the current evidence package, methods surface, and figure assets into a draft-ready scientific outline.
 
-The first manuscript-facing draft built from this package is [PREPRINT_SKELETON_V0_1.md](./PREPRINT_SKELETON_V0_1.md). The first full prose manuscript draft is [PREPRINT_DRAFT_V0_1.md](./PREPRINT_DRAFT_V0_1.md).
+The first manuscript-facing draft built from this package is [PREPRINT_SKELETON_V0_1.md](./PREPRINT_SKELETON_V0_1.md). The first full prose manuscript draft is [PREPRINT_DRAFT_V0_1.md](./PREPRINT_DRAFT_V0_1.md). Assembly planning is documented in [PREPRINT_ASSEMBLY_V0_1.md](./PREPRINT_ASSEMBLY_V0_1.md), and supplementary planning is documented in [SUPPLEMENTARY_OUTLINE_V0_1.md](./SUPPLEMENTARY_OUTLINE_V0_1.md).
 
 ## Working paper framing
 

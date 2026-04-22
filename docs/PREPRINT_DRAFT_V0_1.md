@@ -111,7 +111,9 @@ This contribution remains intentionally narrow. Its value lies in combining a re
 - `docs/FIRST_EVIDENCE_SUMMARY.md`
 - `docs/V0_1_EVIDENCE_PACKAGE.md`
 - `docs/PAPER_PACKAGE_V0_1.md`
+- `docs/PREPRINT_ASSEMBLY_V0_1.md`
 - `docs/PREPRINT_SKELETON_V0_1.md`
+- `docs/SUPPLEMENTARY_OUTLINE_V0_1.md`
 - `results/tables/model_comparison_summary.csv`
 - `results/tables/regenerated_rf_feature_importance.csv`
 - `figures/regenerated_rf_feature_importance.png`
