@@ -1,8 +1,36 @@
 # Preprint Draft v0.1
 
-## Working title
+## Provisional title
 
 Initial Computational Evidence for Permeability-Related Signal in a BBB-Oriented Peptide Benchmark
+
+## Author placeholders
+
+- Author 1 — placeholder
+- Author 2 — placeholder
+
+## Affiliation placeholders
+
+- Affiliation 1 — placeholder
+- Affiliation 2 — placeholder
+
+## Correspondence placeholder
+
+- Corresponding author — placeholder
+
+## Keywords
+
+- blood-brain barrier
+- peptide benchmark
+- permeability-related signal
+- sequence-derived physicochemical features
+- candidate prioritization
+- benchmark-first evaluation
+- reproducible evidence package
+
+## Manuscript status
+
+Draft preprint, not submission-ready. Computational evidence only; no experimental validation included.
 
 ## Abstract
 
@@ -111,6 +139,7 @@ This contribution remains intentionally narrow. Its value lies in combining a re
 - `docs/FIRST_EVIDENCE_SUMMARY.md`
 - `docs/V0_1_EVIDENCE_PACKAGE.md`
 - `docs/PAPER_PACKAGE_V0_1.md`
+- `docs/BIORXIV_SUBMISSION_CHECKLIST_V0_1.md`
 - `docs/PREPRINT_ASSEMBLY_V0_1.md`
 - `docs/PREPRINT_SKELETON_V0_1.md`
 - `docs/SUPPLEMENTARY_OUTLINE_V0_1.md`

@@ -4,6 +4,8 @@
 
 This document assembles the current preprint draft and its supporting assets into a practical package for later submission-oriented refinement. It is intended to clarify what the current manuscript is, which metadata remain placeholders, which figures and tables belong in the main text, and which items are more appropriate for supplementary treatment.
 
+Submission readiness for this package is tracked in [BIORXIV_SUBMISSION_CHECKLIST_V0_1.md](./BIORXIV_SUBMISSION_CHECKLIST_V0_1.md).
+
 ## Current manuscript status
 
 The repository now contains a v0.1 evidence package, a paper package planning document, a preprint skeleton, a first full prose preprint draft, and a polished preprint draft. Together, these assets define the current BBB-oriented manuscript surface for internal review and later refinement.
