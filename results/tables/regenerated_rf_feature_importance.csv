@@ -1,0 +1,6 @@
+feature,importance,run_id,model,artifact_type
+gravy,0.2726510654,legacy_bbb_rf_v01,random_forest,regenerated
+aromaticity,0.2419220398,legacy_bbb_rf_v01,random_forest,regenerated
+pI,0.2139099567,legacy_bbb_rf_v01,random_forest,regenerated
+length,0.1606671663,legacy_bbb_rf_v01,random_forest,regenerated
+charge,0.1108497719,legacy_bbb_rf_v01,random_forest,regenerated

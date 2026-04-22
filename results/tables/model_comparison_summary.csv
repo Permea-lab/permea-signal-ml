@@ -1,0 +1,4 @@
+model,roc_auc,pr_auc,precision,recall,f1,mcc,artifact_type,run_id,notes
+dummy,0.5000000000,0.0909086752,0.0000000000,0.0000000000,0.0000000000,0.0000000000,regenerated,legacy_bbb_dummy_v01,regenerated dummy baseline rerun
+logistic_regression,0.8605197837,0.4903136018,0.2669539073,0.7621243885,0.3948677854,0.3617558873,regenerated,legacy_bbb_lr_v01,regenerated logistic baseline rerun
+random_forest,0.8488935260,0.5001631580,0.5824801587,0.3868623340,0.4643754930,0.4331184653,regenerated,legacy_bbb_rf_v01,regenerated random-forest baseline rerun

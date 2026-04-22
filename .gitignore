@@ -34,6 +34,8 @@ results/**/*.pkl
 results/**/*.joblib
 results/**/*.png
 results/**/*.pdf
+!results/tables/model_comparison_summary.csv
+!results/tables/regenerated_rf_feature_importance.csv
 
 # Local data artifacts
 data/interim/*
