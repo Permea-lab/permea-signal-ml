@@ -51,10 +51,10 @@ This wedge matters because it gives Permea an initial evidence layer for sequenc
 
 The broader Permea standard layer is now defined in:
 
-- [Permea Core Delivery Taxonomy](../../docs/DELIVERY-TAXONOMY.md)
-- [Permea Core Evidence Ladder](../../docs/EVIDENCE-LADDER.md)
-- [Permea Core Benchmark Contract](../../docs/BENCHMARK-CONTRACT.md)
-- [Permea Core Result Artifact Schema](../../docs/RESULT-ARTIFACT-SCHEMA.md)
+- [Permea Core Delivery Taxonomy](https://github.com/Permea-lab/permea-core/blob/main/docs/DELIVERY-TAXONOMY.md)
+- [Permea Core Evidence Ladder](https://github.com/Permea-lab/permea-core/blob/main/docs/EVIDENCE-LADDER.md)
+- [Permea Core Benchmark Contract](https://github.com/Permea-lab/permea-core/blob/main/docs/BENCHMARK-CONTRACT.md)
+- [Permea Core Result Artifact Schema](https://github.com/Permea-lab/permea-core/blob/main/docs/RESULT-ARTIFACT-SCHEMA.md)
 
 ## Immediate next evidence steps
 

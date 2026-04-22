@@ -38,7 +38,7 @@ This package matters because it turns `permea-signal-ml` from a generic ML scaff
 
 The broader Permea standard layer for taxonomy, claim discipline, benchmark contracts, and result artifacts is defined in the companion `permea-core` docs:
 
-- [Delivery Taxonomy](../../docs/DELIVERY-TAXONOMY.md)
-- [Evidence Ladder](../../docs/EVIDENCE-LADDER.md)
-- [Benchmark Contract](../../docs/BENCHMARK-CONTRACT.md)
-- [Result Artifact Schema](../../docs/RESULT-ARTIFACT-SCHEMA.md)
+- [Delivery Taxonomy](https://github.com/Permea-lab/permea-core/blob/main/docs/DELIVERY-TAXONOMY.md)
+- [Evidence Ladder](https://github.com/Permea-lab/permea-core/blob/main/docs/EVIDENCE-LADDER.md)
+- [Benchmark Contract](https://github.com/Permea-lab/permea-core/blob/main/docs/BENCHMARK-CONTRACT.md)
+- [Result Artifact Schema](https://github.com/Permea-lab/permea-core/blob/main/docs/RESULT-ARTIFACT-SCHEMA.md)

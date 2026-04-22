@@ -2,7 +2,7 @@
 
 Open benchmark-oriented ML workflow for studying permeability-related signal from sequence-derived physicochemical features.
 
-Permea Signal ML is the first public evidence package in the broader Permea program. It is designed as a reproducible, benchmark-aware workflow for early-stage computational validation and candidate prioritization before experimental validation.
+Permea Signal ML is the first Permea wedge evidence package in the broader program. It is designed as a reproducible, BBB-oriented, benchmark-aware workflow for initial computational evidence and candidate prioritization before experimental validation.
 
 The initial focus of this repository is BBB-oriented peptide and delivery-signal modeling from sequence-derived physicochemical features.
 
@@ -61,6 +61,9 @@ The intended interpretation is more limited and more rigorous:
 
 **This repository provides an open, benchmark-oriented workflow for studying whether permeability-related signal can be learned from sequence-derived physicochemical features and used for candidate prioritization before experimental validation.**
 
+The current evidence package definition is documented in [docs/V0_1_EVIDENCE_PACKAGE.md](docs/V0_1_EVIDENCE_PACKAGE.md).
+The current paper-support planning layer is documented in [docs/PAPER_PACKAGE_V0_1.md](docs/PAPER_PACKAGE_V0_1.md).
+
 ## Current baseline task framing
 
 The current baseline framing is:
@@ -82,6 +85,14 @@ The current baseline framing is:
   - MCC
 
 This framing is intended as a benchmark-ready starting surface, not as a final scientific conclusion.
+
+## What the current evidence surface supports
+
+The current repository supports:
+
+- reproducible baseline reruns
+- benchmark-oriented model comparison
+- bounded candidate-prioritization interpretation before wet-lab
 
 ## Initial dataset surface
 
@@ -188,6 +199,13 @@ Permea Core defines the public technical foundation, benchmark-first principles,
 - can that signal support transparent candidate prioritization under a benchmark-oriented workflow
 
 This repository should therefore be read as a scoped evidence package connected to Permea Core, not as a claim that the broader delivery problem is solved.
+
+Related Permea Core documents:
+
+- [Delivery Taxonomy](https://github.com/Permea-lab/permea-core/blob/main/docs/DELIVERY-TAXONOMY.md)
+- [Evidence Ladder](https://github.com/Permea-lab/permea-core/blob/main/docs/EVIDENCE-LADDER.md)
+- [Benchmark Contract](https://github.com/Permea-lab/permea-core/blob/main/docs/BENCHMARK-CONTRACT.md)
+- [Result Artifact Schema](https://github.com/Permea-lab/permea-core/blob/main/docs/RESULT-ARTIFACT-SCHEMA.md)
 
 ## Status
 
