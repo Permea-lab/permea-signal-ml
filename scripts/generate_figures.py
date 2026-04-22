@@ -168,6 +168,23 @@ def save_rf_feature_importance() -> Path:
     return output_path
 
 
+def save_regenerated_rf_feature_importance() -> Path:
+    """Create a feature-importance chart from regenerated RF values."""
+    path = RESULTS_DIR / "tables" / "regenerated_rf_feature_importance.csv"
+    frame = pd.read_csv(path)
+
+    fig, ax = plt.subplots(figsize=(7, 4))
+    ax.bar(frame["feature"], frame["importance"])
+    ax.set_title("Regenerated RF Feature Importance")
+    ax.set_ylabel("Importance")
+    ax.set_xlabel("Feature")
+    fig.tight_layout()
+    output_path = FIGURES_DIR / "regenerated_rf_feature_importance.png"
+    fig.savefig(output_path, dpi=200)
+    plt.close(fig)
+    return output_path
+
+
 def save_candidate_ranking_preview() -> Path:
     """Create a preview chart from the regenerated RF ranking table."""
     path = RESULTS_DIR / "tables" / "legacy_bbb_rf_v01_ranking.csv"
@@ -250,6 +267,7 @@ def main() -> None:
         save_dataset_distribution(),
         save_legacy_vs_rerun_metrics(),
         save_rf_feature_importance(),
+        save_regenerated_rf_feature_importance(),
         save_candidate_ranking_preview(),
         save_benchmark_workflow_outputs(),
     ]

@@ -1,117 +1,64 @@
 # First Evidence Summary
 
-## Title
+## Purpose
 
-First BBB Evidence Surface in `permea-signal-ml`
+This document summarizes the current bounded evidence surface of `permea-signal-ml`. It is intended as a compact scientific summary of what the repository currently demonstrates and what remains outside the supported claim boundary.
 
-## What was onboarded
+## Current question
 
-The repository now contains a first onboarded legacy BBB evidence surface consisting of:
+The current wedge asks whether permeability-related signal can be detected from sequence-derived physicochemical features in a BBB-oriented peptide dataset, and whether that signal is sufficient to support benchmarked candidate prioritization before wet-lab validation.
 
-- imported legacy processed dataset candidate:
-  - `legacy_bbb_dataset_with_features.csv`
-- imported legacy metrics artifacts:
-  - `legacy_baseline_ml_results.csv`
-  - `legacy_benchmark_ml_results.csv`
-- imported legacy feature-importance artifacts:
-  - `legacy_rf_feature_importance.csv`
-  - `legacy_rf_feature_importance.png`
+## Current evidence surface
 
-These remain imported legacy artifacts, not current benchmark outputs.
+The current evidence surface includes:
 
-## What was regenerated
+- imported legacy dataset continuity
+- regenerated benchmark-contract reruns
+- baseline model comparison
+- ranking-oriented outputs
+- evidence package documentation
 
-Using the onboarded dataset surface, the repository produced regenerated benchmark-contract outputs for:
+This repository should be read as an initial evidence package rather than as a general delivery platform.
 
-- Dummy most-frequent
-- RandomForest
-- LogisticRegression
+## Main findings
 
-For each rerun, the repository now has:
+- trivial baseline behavior is recovered as expected under strong class imbalance
+- non-trivial baseline models show signal above trivial behavior on the current benchmark surface
+- regenerated Random Forest and Logistic Regression results support bounded prioritization utility under the present contract
+- the repository now distinguishes imported historical artifacts from regenerated benchmark evidence
 
-- metrics JSON
-- predictions CSV
-- ranking CSV
-- summary CSV
-- manifest JSON
-- score-distribution figure
+## What this does support
 
-## Current dataset surface
+The current repository supports:
 
-Current imported dataset size:
+- initial computational evidence for learnable permeability-related signal
+- benchmark-oriented candidate prioritization before wet-lab
+- reproducible comparison of baseline methods under the current contract
 
-- `2959` rows
+## What this does not support
 
-Current feature set:
+The current repository does not support claims of:
 
-- `length`
-- `charge`
-- `gravy`
-- `pI`
-- `aromaticity`
+- solved delivery
+- universal BBB prediction
+- mechanistic biological proof
+- experimental validation
+- therapeutic conclusions
 
-For rerun readiness, a derived dataset was created with:
+## Why this matters for Permea
 
-- deterministic `sequence_id`
-- conservative `source` value
+This wedge matters because it gives Permea an initial evidence layer for sequence-first delivery work under benchmark-first infrastructure. It also demonstrates evidence discipline by keeping claim boundaries explicit and gives the broader Permea program a concrete starting point for standard-setting work.
 
-Dataset version, attribution, and licensing remain pending confirmation.
+The broader Permea standard layer is now defined in:
 
-## Current baseline result snapshot
+- [Permea Core Delivery Taxonomy](../../docs/DELIVERY-TAXONOMY.md)
+- [Permea Core Evidence Ladder](../../docs/EVIDENCE-LADDER.md)
+- [Permea Core Benchmark Contract](../../docs/BENCHMARK-CONTRACT.md)
+- [Permea Core Result Artifact Schema](../../docs/RESULT-ARTIFACT-SCHEMA.md)
 
-Regenerated Dummy rerun:
+## Immediate next evidence steps
 
-- ROC-AUC: `0.5000`
-- PR-AUC: `0.0909`
-- Precision: `0.0000`
-- Recall: `0.0000`
-- F1: `0.0000`
-- MCC: `0.0000`
-
-Regenerated RandomForest rerun:
-
-- ROC-AUC: `0.8489`
-- PR-AUC: `0.5002`
-- Precision: `0.5825`
-- Recall: `0.3869`
-- F1: `0.4644`
-- MCC: `0.4331`
-
-Regenerated LogisticRegression rerun:
-
-- ROC-AUC: `0.8605`
-- PR-AUC: `0.4903`
-- Precision: `0.2670`
-- Recall: `0.7621`
-- F1: `0.3949`
-- MCC: `0.3618`
-
-## Why this matters
-
-This is the first point where imported legacy BBB evidence and current benchmark-contract execution meet inside one repository.
-
-That matters because the repository can now:
-
-- preserve legacy artifacts transparently
-- rerun baseline models under explicit configs
-- emit manifest-backed outputs
-- support further evidence-building without relying only on opaque historical files
-
-## What this does not prove
-
-This does not prove:
-
-- solved biological delivery
-- validated wet-lab performance
-- universal permeability prediction
-- finalized dataset provenance
-
-The current state is still an early computational evidence surface.
-
-## Next evidence-building steps
-
-- confirm dataset version
-- confirm attribution requirements
-- confirm licensing status
-- compare regenerated outputs against imported legacy artifacts more systematically
-- prepare a publication-support package only after provenance gaps are reduced
+- close remaining provenance gaps
+- refresh regenerated support figures where useful
+- strengthen evidence-package formatting for paper support
+- connect future validation work to the current benchmark surface without overstating current evidence
