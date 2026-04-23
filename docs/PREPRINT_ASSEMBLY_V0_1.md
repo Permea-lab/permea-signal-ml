@@ -8,7 +8,7 @@ Submission readiness for this package is tracked in [BIORXIV_SUBMISSION_CHECKLIS
 
 ## Current manuscript status
 
-The repository now contains a v0.1 evidence package, a paper package planning document, a preprint skeleton, a first full prose preprint draft, and a polished preprint draft. Together, these assets define the current BBB-oriented manuscript surface for internal review and later refinement.
+The repository now contains a v0.1 evidence package, a paper package planning document, a preprint skeleton, a full prose preprint draft, a polished preprint draft, and a bioRxiv submission-readiness checklist. Together, these assets define the current BBB-oriented manuscript surface for internal review and later refinement.
 
 ## Provisional title
 
@@ -35,7 +35,7 @@ Initial Computational Evidence for Permeability-Related Signal in a BBB-Oriented
   - benchmark-first evaluation
   - reproducible evidence package
 - abstract status: draft prose available
-- manuscript status: draft v0.1 with first polishing pass completed
+- manuscript status: draft v0.1 with first polishing pass completed and front-matter placeholders added
 - evidence status: bounded computational evidence package
 - validation status: no experimental validation included
 
@@ -70,8 +70,8 @@ Initial Computational Evidence for Permeability-Related Signal in a BBB-Oriented
 
 ## Immediate next assembly steps
 
-- add a supplementary outline and decide what belongs in the appendix
-- add structured running-title and metadata fields to the manuscript draft if needed
+- decide what belongs in the appendix versus the main text
+- replace metadata placeholders when authorship details are ready
 - perform a figure numbering and caption pass
 - prepare appendix text for imported versus regenerated artifacts
 - prepare export-friendly manuscript formatting

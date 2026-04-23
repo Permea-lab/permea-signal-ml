@@ -18,7 +18,7 @@ The repository currently contains a preprint draft, a preprint assembly document
 - discussion — drafted
 - limitations — drafted
 - conclusion — drafted
-- front matter — placeholder / pending final metadata
+- front matter — placeholder sections added; final metadata pending
 - formal references — pending
 
 ## Figure and table status
