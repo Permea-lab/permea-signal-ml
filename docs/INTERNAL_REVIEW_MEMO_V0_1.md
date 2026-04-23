@@ -4,6 +4,8 @@
 
 This memo summarizes the current internal state of the BBB-oriented preprint package after the first full drafting, polishing, assembly, and submission-readiness rounds.
 
+For circulation-facing guidance, see [CIRCULATION_GUIDE_V0_1.md](./CIRCULATION_GUIDE_V0_1.md) and [REVIEWER_NOTE_V0_1.md](./REVIEWER_NOTE_V0_1.md).
+
 ## What is now in place
 
 - v0.1 evidence package

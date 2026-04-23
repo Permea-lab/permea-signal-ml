@@ -5,6 +5,7 @@
 This document assembles the current preprint draft and its supporting assets into a practical package for later submission-oriented refinement. It is intended to clarify what the current manuscript is, which metadata remain placeholders, which figures and tables belong in the main text, and which items are more appropriate for supplementary treatment.
 
 Submission readiness for this package is tracked in [BIORXIV_SUBMISSION_CHECKLIST_V0_1.md](./BIORXIV_SUBMISSION_CHECKLIST_V0_1.md).
+Circulation-facing review guidance is documented in [CIRCULATION_GUIDE_V0_1.md](./CIRCULATION_GUIDE_V0_1.md) and [REVIEWER_NOTE_V0_1.md](./REVIEWER_NOTE_V0_1.md).
 
 ## Current manuscript status
 
