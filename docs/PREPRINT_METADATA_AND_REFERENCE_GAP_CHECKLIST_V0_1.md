@@ -16,7 +16,7 @@ Reference search and verification planning is tracked in `docs/REFERENCE_SEARCH_
 
 The current literature-survey-derived candidate landscape is tracked in `docs/LITERATURE_SURVEY_SOURCE_LANDSCAPE_V0_1.md`, and the unverified candidate queue is tracked in `docs/REFERENCE_VERIFICATION_QUEUE_BIORXIV_V0_1.md`.
 
-The first verified reference pack has been prepared in `docs/VERIFIED_REFERENCE_PACK_BIORXIV_V0_1.md`, with insertion planning in `docs/CITATION_PLACEHOLDER_MAP_BIORXIV_V0_1.md`. The second verified reference pack has been prepared in `docs/VERIFIED_REFERENCE_PACK_BIORXIV_V0_2.md`, with insertion planning in `docs/CITATION_PLACEHOLDER_MAP_BIORXIV_V0_2.md`. A draft `references.bib` and build log now exist, but final human bibliography review and manuscript citation consistency review remain open. Public preprint status remains **Not yet**.
+The first verified reference pack has been prepared in `docs/VERIFIED_REFERENCE_PACK_BIORXIV_V0_1.md`, with insertion planning in `docs/CITATION_PLACEHOLDER_MAP_BIORXIV_V0_1.md`. The second verified reference pack has been prepared in `docs/VERIFIED_REFERENCE_PACK_BIORXIV_V0_2.md`, with insertion planning in `docs/CITATION_PLACEHOLDER_MAP_BIORXIV_V0_2.md`. A draft `references.bib` and build log now exist, but final human bibliography review and manuscript citation consistency review remain open. Draft metadata/disclosure placeholder blocks are available in `docs/PREPRINT_METADATA_BLOCKS_DRAFT_V0_1.md`. Public preprint status remains **Not yet**.
 
 ## Metadata checklist
 
@@ -45,6 +45,8 @@ The first verified reference pack has been prepared in `docs/VERIFIED_REFERENCE_
 | Data availability statement | Placeholder | Checklist and dataset docs | Yes | `OWNER_DATA_LEGAL` | Draft only after dataset redistribution status is resolved or caveated. | Open |
 | Code availability statement | Placeholder | Checklist; repo URL exists locally but final public URL/status not finalized here | Yes | `OWNER_METADATA` | Confirm repository URL, branch/tag, and release/archive policy. | Open |
 | License statement | Incomplete for data | `LICENSE`; `data/README.md`; dataset checklist | Yes | `OWNER_DATA_LEGAL` | Separate code license from dataset license/redistribution status. | Open |
+
+Metadata/disclosure placeholder blocks for the items above are drafted in `docs/PREPRINT_METADATA_BLOCKS_DRAFT_V0_1.md`. They are not final values.
 
 ## Dataset/legal checklist
 

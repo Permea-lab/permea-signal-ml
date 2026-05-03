@@ -38,6 +38,7 @@ Initial Computational Evidence for Permeability-Related Signal in a BBB-Oriented
   - reproducible evidence package
 - abstract status: draft prose available
 - manuscript status: draft v0.1 with citation placeholders, bioRxiv-style section flow, and front-matter placeholders added
+- metadata/disclosure block status: draft placeholder blocks available in `docs/PREPRINT_METADATA_BLOCKS_DRAFT_V0_1.md`
 - evidence status: bounded computational evidence package
 - validation status: no experimental validation included
 
@@ -77,6 +78,7 @@ Initial Computational Evidence for Permeability-Related Signal in a BBB-Oriented
 
 - authorship metadata not finalized
 - affiliations not finalized
+- metadata and disclosure placeholder blocks drafted, but not human-completed
 - final human bibliography review not yet completed
 - provenance closure remains incomplete
 - label-source criteria remain unresolved

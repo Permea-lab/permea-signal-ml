@@ -76,6 +76,7 @@ Supplementary structure now exists as an outline and a prose draft at `docs/SUPP
 - conflicts of interest — placeholder
 - ethics / approvals — placeholder, add only if applicable
 - code and data availability statement — placeholder
+- metadata/disclosure block source — `docs/PREPRINT_METADATA_BLOCKS_DRAFT_V0_1.md`
 
 ## Scope and claim-boundary checks
 
@@ -103,7 +104,7 @@ Supplementary structure now exists as an outline and a prose draft at `docs/SUPP
 
 ## Remaining blockers before submission
 
-- authorship and affiliation metadata not finalized
+- authorship and affiliation metadata not finalized; placeholder blocks exist but require human completion
 - draft `references.bib` prepared and citation placeholders inserted, but citation consistency checking, deferred-reference decisions, and final human reference review are not complete
 - supplement drafted in prose, but final formatting, captions, and human review remain pending
 - figure polish and publication formatting remain pending

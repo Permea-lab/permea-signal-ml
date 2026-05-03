@@ -145,6 +145,7 @@ Code availability statement pending human review of repository URL, branch/tag, 
 - Acknowledgements: placeholder; no acknowledgement text has been provided.
 - Author contributions: placeholder; no final author metadata has been provided.
 - Ethics statement: placeholder; computational evidence package only, final wording pending human review.
+- Full placeholder block source: `docs/PREPRINT_METADATA_BLOCKS_DRAFT_V0_1.md`.
 
 ## References Placeholder
 
