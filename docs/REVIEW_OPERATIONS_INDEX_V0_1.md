@@ -28,6 +28,7 @@ The package is ready for internal or trusted review. It is not final for public 
 - `HARSH_REVIEW_ROUND_1_REVISION_PLAN_V0_1.md` — priority-based plan for converting Round 1 findings into scoped revisions
 - `HARSH_REVIEW_ROUND_1_P1_CLAIM_BOUNDARY_CHANGELOG_V0_1.md` — focused changelog for P1 claim-boundary tightening after Round 1
 - `HARSH_REVIEW_ROUND_1_P2_PROVENANCE_BENCHMARK_CHANGELOG_V0_1.md` — focused changelog for P2 provenance and benchmark-clarity revisions after Round 1
+- `HARSH_REVIEW_POST_P1_P2_COUNCIL_CHECK_V0_1.md` — internal post-revision council check after P1/P2 edits
 - `REVIEW_FEEDBACK_LOG_V0_1.md` — structured feedback log
 - `REVISION_PRIORITY_FRAMEWORK_V0_1.md` — P0-P4 triage and revision rules
 
@@ -42,10 +43,11 @@ The package is ready for internal or trusted review. It is not final for public 
 7. Use `HARSH_REVIEW_ROUND_1_REVISION_PLAN_V0_1.md` to separate trusted-review readiness from preprint-readiness work.
 8. Review `HARSH_REVIEW_ROUND_1_P1_CLAIM_BOUNDARY_CHANGELOG_V0_1.md` for applied P1 claim-boundary tightening.
 9. Review `HARSH_REVIEW_ROUND_1_P2_PROVENANCE_BENCHMARK_CHANGELOG_V0_1.md` for applied P2 provenance and benchmark-clarity revisions.
-10. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
-11. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
-12. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
-13. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
+10. Review `HARSH_REVIEW_POST_P1_P2_COUNCIL_CHECK_V0_1.md` for post-revision readiness.
+11. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
+12. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
+13. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
+14. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
 
 ## Minimum first-wave packet
 
