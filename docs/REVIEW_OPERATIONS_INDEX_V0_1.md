@@ -31,6 +31,7 @@ The package is ready for internal or trusted review. It is not final for public 
 - `HARSH_REVIEW_ROUND_1_P1_CLAIM_BOUNDARY_CHANGELOG_V0_1.md` — focused changelog for P1 claim-boundary tightening after Round 1
 - `HARSH_REVIEW_ROUND_1_P2_PROVENANCE_BENCHMARK_CHANGELOG_V0_1.md` — focused changelog for P2 provenance and benchmark-clarity revisions after Round 1
 - `HARSH_REVIEW_POST_P1_P2_COUNCIL_CHECK_V0_1.md` — internal post-revision council check after P1/P2 edits
+- `VIRTUAL_EXPERT_RED_TEAM_REVIEW_MAX_HARSH_V0_1.md` — internal maximum-harsh virtual expert red-team review, not external feedback
 - `REVIEW_FEEDBACK_LOG_V0_1.md` — structured feedback log
 - `REVISION_PRIORITY_FRAMEWORK_V0_1.md` — P0-P4 triage and revision rules
 
@@ -47,11 +48,12 @@ The package is ready for internal or trusted review. It is not final for public 
 9. Review `HARSH_REVIEW_ROUND_1_P1_CLAIM_BOUNDARY_CHANGELOG_V0_1.md` for applied P1 claim-boundary tightening.
 10. Review `HARSH_REVIEW_ROUND_1_P2_PROVENANCE_BENCHMARK_CHANGELOG_V0_1.md` for applied P2 provenance and benchmark-clarity revisions.
 11. Review `HARSH_REVIEW_POST_P1_P2_COUNCIL_CHECK_V0_1.md` for post-revision readiness.
-12. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
-13. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
-14. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
-15. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
-16. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
+12. Review `VIRTUAL_EXPERT_RED_TEAM_REVIEW_MAX_HARSH_V0_1.md` as an internal simulated stress test only.
+13. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
+14. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
+15. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
+16. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
+17. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
 
 ## Minimum first-wave packet
 
