@@ -16,7 +16,7 @@ Reference search and verification planning is tracked in `docs/REFERENCE_SEARCH_
 
 The current literature-survey-derived candidate landscape is tracked in `docs/LITERATURE_SURVEY_SOURCE_LANDSCAPE_V0_1.md`, and the unverified candidate queue is tracked in `docs/REFERENCE_VERIFICATION_QUEUE_BIORXIV_V0_1.md`.
 
-The first verified reference pack has been prepared in `docs/VERIFIED_REFERENCE_PACK_BIORXIV_V0_1.md`, with insertion planning in `docs/CITATION_PLACEHOLDER_MAP_BIORXIV_V0_1.md`. A final `references.bib` file has not been created, and public preprint status remains **Not yet**.
+The first verified reference pack has been prepared in `docs/VERIFIED_REFERENCE_PACK_BIORXIV_V0_1.md`, with insertion planning in `docs/CITATION_PLACEHOLDER_MAP_BIORXIV_V0_1.md`. The second verified reference pack has been prepared in `docs/VERIFIED_REFERENCE_PACK_BIORXIV_V0_2.md`, with insertion planning in `docs/CITATION_PLACEHOLDER_MAP_BIORXIV_V0_2.md`. A final `references.bib` file has not been created, and public preprint status remains **Not yet**.
 
 ## Metadata checklist
 
@@ -116,4 +116,4 @@ No formal bibliography file, `CITATION.cff`, `.bib`, or final reference list was
 
 ## Recommended next Codex task
 
-Task 045 — Create Draft references.bib from Verified Reference Pack
+Task 047 — Create Draft references.bib from Verified Reference Packs

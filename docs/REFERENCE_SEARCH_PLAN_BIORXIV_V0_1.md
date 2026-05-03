@@ -20,6 +20,13 @@ The first verified reference pack and placeholder insertion map are tracked in:
 
 These documents support bibliography preparation and later citation insertion. They do not create a final bibliography and do not modify manuscript text.
 
+The second verified reference pack and placeholder insertion map are tracked in:
+
+- `docs/VERIFIED_REFERENCE_PACK_BIORXIV_V0_2.md`
+- `docs/CITATION_PLACEHOLDER_MAP_BIORXIV_V0_2.md`
+
+These second-pass documents add verified related-work and background references supplied for Task 046. `REF_PEPBENCHMARK` remains partially verified and must not be used for precise k-mer or homology-split claims without PDF/supplement support.
+
 ## Reference principles
 
 - Every citation must be verified before insertion.
@@ -103,4 +110,4 @@ Reference insertion should happen after verified search, dataset/source attribut
 
 ## Recommended next Codex task
 
-Task 045 — Create Draft references.bib from Verified Reference Pack
+Task 047 — Create Draft references.bib from Verified Reference Packs

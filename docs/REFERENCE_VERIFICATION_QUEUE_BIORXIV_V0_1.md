@@ -121,3 +121,25 @@ A candidate should be rejected or replaced if:
 ## Recommended next Codex task
 
 Task 043 — Commit Literature Survey Landscape and Reference Queue
+
+## Task 046 second-pass verification update
+
+The following second-pass references have supplied title, author naming, year, venue, DOI, and manuscript-use context and are now ready for draft bibliography preparation if the bibliography policy accepts the supplied author form:
+
+- `REF_BBB_SHUTTLE_REVIEW`
+- `REF_AUGUR`
+- `REF_BRAINPEPPASS`
+- `REF_DEEPB3P3`
+- `REF_ESM_BBB_PRED`
+- `REF_B3BPFN`
+- `REF_PERSEUCPP`
+
+The following reference has supplied title, year, venue, DOI, and use context but no author metadata in the current task context:
+
+- `REF_CPP_COMPUTATIONAL_REVIEW` — ready for planning use; defer from `references.bib` if author metadata is required.
+
+The following reference remains partially verified:
+
+- `REF_PEPBENCHMARK` — benchmark-standardization lead only. Do not insert into `references.bib` or manuscript citation placeholders until exact citation type and PDF/supplement-supported claims are verified.
+
+`REF_CPP_CLINICAL_REVIEW` remains candidate-only because no second-pass metadata were supplied for that placeholder. The second-pass files are `docs/VERIFIED_REFERENCE_PACK_BIORXIV_V0_2.md` and `docs/CITATION_PLACEHOLDER_MAP_BIORXIV_V0_2.md`.
