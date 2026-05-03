@@ -14,6 +14,8 @@ Task 052 manuscript candidate file: `docs/PREPRINT_MANUSCRIPT_CANDIDATE_V0_1.md`
 
 Task 053 claim-boundary audit file: `docs/PREPRINT_CLAIM_BOUNDARY_AUDIT_V0_1.md`. Status: pass with caveats; no major claim-boundary violation found.
 
+Task 054 citation consistency check file: `docs/CITATION_CONSISTENCY_CHECK_V0_1.md`. Status: pass; all citation keys used in the draft and candidate exist in `references.bib`.
+
 ## Manuscript file status
 
 - title — provisional
@@ -27,7 +29,7 @@ Task 053 claim-boundary audit file: `docs/PREPRINT_CLAIM_BOUNDARY_AUDIT_V0_1.md`
 - limitations — drafted and placed before discussion in the candidate flow
 - conclusion — drafted
 - front matter — placeholder sections added; final metadata pending
-- formal references — first and second verified reference packs prepared; draft `references.bib` created; citation placeholders inserted into restructured `docs/PREPRINT_DRAFT_V0_1.md`; final citation consistency check still pending
+- formal references — first and second verified reference packs prepared; draft `references.bib` created; citation placeholders inserted into restructured `docs/PREPRINT_DRAFT_V0_1.md`; citation consistency check passed; human reference review still pending
 
 ## Figure and table status
 
