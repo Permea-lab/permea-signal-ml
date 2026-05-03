@@ -1,21 +1,15 @@
 # Preprint Draft v0.1
 
-## Provisional title
+## Title
 
 Initial Computational Evidence for Permeability-Related Signal in a BBB-Oriented Peptide Benchmark
 
-## Author placeholders
+## Author and Affiliation Placeholders
 
 - Author 1 — placeholder
 - Author 2 — placeholder
-
-## Affiliation placeholders
-
 - Affiliation 1 — placeholder
 - Affiliation 2 — placeholder
-
-## Correspondence placeholder
-
 - Corresponding author — placeholder
 
 ## Keywords
@@ -30,7 +24,7 @@ Initial Computational Evidence for Permeability-Related Signal in a BBB-Oriented
 
 ## Manuscript status
 
-Draft preprint, not submission-ready. Computational evidence only; no experimental validation included.
+bioRxiv v0.1 candidate draft, not submission-ready. Computational evidence only; no experimental validation included. Public preprint status remains candidate prepared / human review required.
 
 ## Abstract
 
@@ -108,9 +102,15 @@ The practical relevance of the current reruns lies in candidate prioritization r
 
 Within the regenerated Random Forest artifact set, the current feature-importance ordering is `gravy`, `aromaticity`, `pI`, `length`, and `charge`. This ordering is useful as a compact summary of how the baseline Random Forest distributes emphasis across the present feature surface. It should not, however, be overread as a mechanistic explanation of BBB-related transport behavior. In the present manuscript, the feature-importance result is best understood as an internal summary of model behavior within the current rerun contract.
 
-### Evidence-boundary interpretation
+## Leakage Audit and Benchmark Interpretation
 
 Taken together, the regenerated results support a bounded computational interpretation. On the present random-stratified benchmark surface, sequence-derived physicochemical features appear sufficient to support non-trivial baseline comparison and candidate-prioritization analysis beyond a class-prior reference. Because same-label duplicate and high-similarity sequence pairs cross reconstructed folds, the current performance estimates may be optimistic and should be interpreted as evidence of learnable signal under the current split rather than stronger generalization evidence. These findings remain computational and benchmark-specific. They do not constitute experimental validation, mechanistic proof, or evidence of broad delivery behavior beyond the current BBB-oriented wedge.
+
+## Limitations
+
+The present draft is subject to several clear limitations. Dataset provenance is not yet fully closed, and attribution and licensing requirements still require confirmation before the dataset surface can be treated as fully settled for broad public reference. The feature surface is narrow and limited to a small set of sequence-derived physicochemical descriptors, which constrains the representational scope of the analysis. The model family is baseline-oriented rather than exhaustive or heavily optimized, so the results should be read as an initial benchmark comparison rather than a mature modeling frontier. No wet-lab validation is included, which means the work does not establish experimental confirmation of transport behavior. Nor does the present wedge establish mechanistic proof, broad delivery generalization, clinical interpretation, or therapeutic relevance. These limitations define the boundary within which the manuscript should be read.
+
+Additional benchmark-readiness limitations remain. Original label-source criteria are not yet fully reconstructed. The first leakage audit found no normalized exact-sequence label conflicts, but it did identify same-label exact duplicates, near-duplicate pairs, high-similarity pairs, and cross-fold high-similarity pairs under the reconstructed random-stratified split. These findings create a moderate benchmark optimism risk. Adjacent CPP benchmark work reinforces the need for conservative imbalance, deduplication, and validation language in peptide-prediction settings [@practicpp_2024; @perseucpp_2025]. The audit findings do not invalidate the current bounded computational benchmark surface for trusted review, but they require conservative reporting before public preprint use and motivate leakage-aware or similarity-aware sensitivity analysis before stronger benchmark claims.
 
 ## Discussion
 
@@ -124,17 +124,31 @@ Within that framework, the observed baseline results are useful without being ov
 
 Within the broader Permea program, this wedge functions as the first concrete evidence layer for a sequence-first and benchmark-first approach. Its purpose is to show that a narrow but disciplined repository can preserve historical continuity, generate current-contract evidence, and provide a manuscript-ready computational surface without pretending to solve the broader delivery problem. That role is modest by design, but it provides a clearer base for later refinement, stronger provenance closure, and eventual validation linkage.
 
-## Limitations
-
-The present draft is subject to several clear limitations. Dataset provenance is not yet fully closed, and attribution and licensing requirements still require confirmation before the dataset surface can be treated as fully settled for broad public reference. The feature surface is narrow and limited to a small set of sequence-derived physicochemical descriptors, which constrains the representational scope of the analysis. The model family is baseline-oriented rather than exhaustive or heavily optimized, so the results should be read as an initial benchmark comparison rather than a mature modeling frontier. No wet-lab validation is included, which means the work does not establish experimental confirmation of transport behavior. Nor does the present wedge establish mechanistic proof, broad delivery generalization, clinical interpretation, or therapeutic relevance. These limitations define the boundary within which the manuscript should be read.
-
-Additional benchmark-readiness limitations remain. Original label-source criteria are not yet fully reconstructed. The first leakage audit found no normalized exact-sequence label conflicts, but it did identify same-label exact duplicates, near-duplicate pairs, high-similarity pairs, and cross-fold high-similarity pairs under the reconstructed random-stratified split. These findings create a moderate benchmark optimism risk. Adjacent CPP benchmark work reinforces the need for conservative imbalance, deduplication, and validation language in peptide-prediction settings [@practicpp_2024; @perseucpp_2025]. The audit findings do not invalidate the current bounded computational benchmark surface for trusted review, but they require conservative reporting before public preprint use and motivate leakage-aware or similarity-aware sensitivity analysis before stronger benchmark claims.
-
 ## Conclusion
 
 The present work contributes an initial computational evidence package for a BBB-oriented peptide benchmark built around sequence-derived physicochemical features and reproducible baseline reruns. Within that bounded scope, the repository now provides a clearer benchmark surface for comparing trivial and non-trivial baselines and for supporting computational candidate-prioritization analysis prior to experimental validation.
 
 This contribution remains intentionally narrow. Its value lies in combining a reproducible baseline benchmark surface with explicit provenance boundaries and a clear imported-versus-regenerated distinction. Future progress depends on stronger provenance closure, continued improvement of artifact packaging and figure support, and eventual linkage to experimental validation pathways. Until then, the current manuscript should be read as an early but structured computational wedge rather than as a claim of validated biological delivery performance.
+
+## Data Availability Placeholder
+
+Data availability statement pending human dataset/licensing review. Current processed dataset provenance, attribution, label-source criteria, and redistribution status remain incomplete and must not be represented as finalized.
+
+## Code Availability Placeholder
+
+Code availability statement pending human review of repository URL, branch/tag, archive policy, and release status.
+
+## Funding, Competing Interests, and Acknowledgements Placeholders
+
+- Funding: placeholder; no funding statement has been provided.
+- Competing interests: placeholder; no competing-interest statement has been provided.
+- Acknowledgements: placeholder; no acknowledgement text has been provided.
+- Author contributions: placeholder; no final author metadata has been provided.
+- Ethics statement: placeholder; computational evidence package only, final wording pending human review.
+
+## References Placeholder
+
+Draft bibliography source: `references.bib`. Citation placeholders in this draft use BibTeX keys from that file. Final references require human metadata and formatting review before public posting.
 
 ## Draft figure placement notes
 

@@ -14,14 +14,16 @@ The repository currently contains a preprint draft, a preprint assembly document
 
 - title — provisional
 - abstract — drafted
-- introduction — drafted
+- introduction — drafted with citation placeholders
+- related work — drafted with citation placeholders
 - methods — drafted
 - results — drafted
 - discussion — drafted
-- limitations — drafted
+- leakage audit and benchmark interpretation — drafted with conservative caveat
+- limitations — drafted and placed before discussion in the candidate flow
 - conclusion — drafted
 - front matter — placeholder sections added; final metadata pending
-- formal references — first and second verified reference packs prepared; draft `references.bib` created; citation placeholders inserted into `docs/PREPRINT_DRAFT_V0_1.md`; final citation consistency check still pending
+- formal references — first and second verified reference packs prepared; draft `references.bib` created; citation placeholders inserted into restructured `docs/PREPRINT_DRAFT_V0_1.md`; final citation consistency check still pending
 
 ## Figure and table status
 
