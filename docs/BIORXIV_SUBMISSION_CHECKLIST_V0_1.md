@@ -33,6 +33,9 @@ The repository currently contains a preprint draft, a preprint assembly document
 ## Provenance and benchmark-readiness status
 
 - dataset surface identifier — `legacy_bbb_dataset_with_features`
+- imported processed dataset path — `data/processed/legacy_bbb_dataset_with_features.csv`
+- rerun-ready processed dataset path — `data/processed/legacy_bbb_dataset_with_features_rerun_ready.csv`
+- raw source dataset path — unresolved in this repo
 - dataset version — still `pending_confirmation` in current manifests
 - split policy — recovered as `StratifiedKFold(n_splits=5, shuffle=True, random_state=42)`
 - random seed — recovered as `42`
@@ -41,6 +44,8 @@ The repository currently contains a preprint draft, a preprint assembly document
 - attribution and licensing — still require confirmation
 
 These items are acceptable for trusted review with the extended packet, but they remain preprint-readiness blockers or explicit-deferral items before public submission.
+
+See `docs/DATASET_PROVENANCE_AND_LABEL_SOURCE_CHECKLIST_V0_1.md` for the current provenance and label-source checklist. The checklist documents current processed paths and fields, but it does not resolve source attribution, licensing, original label criteria, or leakage-audit status.
 
 ## Supplementary status
 
@@ -96,6 +101,7 @@ Supplementary structure now exists as an outline, but not yet as a full drafted 
 - provenance closure remains incomplete
 - attribution and licensing confirmation are still needed
 - label-source criteria remain partially unresolved
+- raw source dataset availability remains unresolved
 - duplicate, near-duplicate, and sequence-similarity leakage status remain unaudited in current docs
 - artifact-to-claim traceability should be checked once more before export
 - one final manuscript consistency pass would still be useful

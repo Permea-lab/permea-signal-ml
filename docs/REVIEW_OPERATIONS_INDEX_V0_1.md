@@ -34,6 +34,7 @@ The package is ready for internal or trusted review. It is not final for public 
 - `VIRTUAL_EXPERT_RED_TEAM_REVIEW_MAX_HARSH_V0_1.md` — internal maximum-harsh virtual expert red-team review, not external feedback
 - `POST_RED_TEAM_NEXT_DEVELOPMENT_ROADMAP_V0_1.md` — next development roadmap after internal virtual red-team review
 - `FINAL_ARTIFACT_TRACEABILITY_EXPORT_CHECK_V0_1.md` — internal artifact traceability and export-readiness check after the post-red-team roadmap
+- `DATASET_PROVENANCE_AND_LABEL_SOURCE_CHECKLIST_V0_1.md` — current dataset provenance, label-source, and licensing-status checklist
 - `REVIEW_FEEDBACK_LOG_V0_1.md` — structured feedback log
 - `REVISION_PRIORITY_FRAMEWORK_V0_1.md` — P0-P4 triage and revision rules
 
@@ -53,11 +54,12 @@ The package is ready for internal or trusted review. It is not final for public 
 12. Review `VIRTUAL_EXPERT_RED_TEAM_REVIEW_MAX_HARSH_V0_1.md` as an internal simulated stress test only.
 13. Use `POST_RED_TEAM_NEXT_DEVELOPMENT_ROADMAP_V0_1.md` to choose the next internal development track.
 14. Use `FINAL_ARTIFACT_TRACEABILITY_EXPORT_CHECK_V0_1.md` before public supplement, project-page, or deck export work.
-15. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
-16. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
-17. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
-18. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
-19. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
+15. Use `DATASET_PROVENANCE_AND_LABEL_SOURCE_CHECKLIST_V0_1.md` when reviewing dataset provenance or label-source blockers.
+16. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
+17. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
+18. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
+19. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
+20. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
 
 ## Minimum first-wave packet
 

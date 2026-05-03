@@ -64,6 +64,7 @@ This is an internal artifact audit. It does not add new scientific evidence, add
 | Artifact path | Artifact type | Generated/imported/current status | Source script or source doc | Referenced by | Trusted review status | Public preprint status | Caveat |
 |---|---|---|---|---|---|---|---|
 | `docs/DATASET.md` | Dataset documentation | Current documentation | Documentation source | Manuscript, evidence package, assembly, checklist | Ready with caveats | Not yet | Dataset version remains `pending_confirmation`; attribution, licensing, label-source criteria, and leakage status remain unresolved. |
+| `docs/DATASET_PROVENANCE_AND_LABEL_SOURCE_CHECKLIST_V0_1.md` | Dataset provenance and label-source checklist | Current documentation | Documentation source | Dataset hardening and preprint-readiness planning | Ready with caveats | Not yet | Clarifies processed paths and file-verified fields, but does not resolve attribution, licensing, source criteria, or leakage audit. |
 | `results/tables/model_comparison_summary.csv` | Model comparison table | Current regenerated summary table | `scripts/export_metrics.py` from metrics JSON files | Manuscript, evidence package, assembly | Ready | Ready with caveats | Supports benchmark-level metric statements only, not biological validation or delivery success probability. |
 | `results/metrics/legacy_bbb_dummy_v01_metrics.json` | Dummy baseline metrics JSON | Current regenerated metric artifact | Existing benchmark rerun/export workflow | Assembly, evidence package, summary table | Ready | Ready with caveats | Dataset provenance caveats still apply. |
 | `results/metrics/legacy_bbb_lr_v01_metrics.json` | Logistic Regression metrics JSON | Current regenerated metric artifact | Existing benchmark rerun/export workflow | Assembly, evidence package, summary table | Ready | Ready with caveats | Dataset provenance caveats still apply. |
@@ -121,6 +122,7 @@ This is an internal artifact audit. It does not add new scientific evidence, add
 ## Missing or ambiguous links
 
 - The final raw dataset artifact path and final dataset version remain ambiguous in public-facing documentation; `docs/DATASET.md` records the current surface but leaves the version as `pending_confirmation`.
+- `docs/DATASET_PROVENANCE_AND_LABEL_SOURCE_CHECKLIST_V0_1.md` clarifies the imported processed path and rerun-ready processed path; the raw source dataset path and final public version remain unresolved.
 - Attribution and licensing remain unconfirmed; no artifact in the current package closes that issue.
 - Original label-source criteria remain partially unresolved; current labels are usable for the recovered benchmark setting but are not independently verified biological truth.
 - No duplicate, near-duplicate, or sequence-similarity leakage audit artifact is present.
@@ -149,4 +151,3 @@ This is an internal artifact audit. It does not add new scientific evidence, add
 ## Recommended next Codex task
 
 Recommended next task: Task 026 — Commit Final Artifact Traceability Export Check.
-
