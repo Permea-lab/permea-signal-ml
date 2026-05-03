@@ -9,6 +9,7 @@ Use it with `FIRST_REVIEW_WAVE_PLAN_V0_1.md`, `REVIEWER_PACKET_V0_1.md`, `REVIEW
 ## Before sending
 
 - [ ] Confirm the package is still framed as draft preprint, not submission-ready.
+- [ ] Review `FIRST_REVIEW_WAVE_DRY_RUN_V0_1.md` for packet-routing risks.
 - [ ] Confirm no new wet-lab validation, therapeutic, mechanistic, or broad generalization claims were introduced.
 - [ ] Confirm the manuscript still describes the work as computational evidence only.
 - [ ] Confirm unresolved provenance, attribution, and licensing items remain visible limitations.

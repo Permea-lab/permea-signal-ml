@@ -17,6 +17,7 @@ The package is ready for internal or trusted review. It is not final for public 
 - `REVIEW_OUTREACH_TEMPLATES_V0_1.md` — short outreach messages by reviewer type
 - `FIRST_REVIEW_WAVE_PLAN_V0_1.md` — reviewer mix, sequence, expected outputs, and completion criteria
 - `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` — operational checklist for sending, intake, triage, and refresh
+- `FIRST_REVIEW_WAVE_DRY_RUN_V0_1.md` — internal pre-circulation packet dry run
 - `REVIEW_FEEDBACK_LOG_V0_1.md` — structured feedback log
 - `REVISION_PRIORITY_FRAMEWORK_V0_1.md` — P0-P4 triage and revision rules
 
@@ -24,10 +25,11 @@ The package is ready for internal or trusted review. It is not final for public 
 
 1. Read `REVIEWER_PACKET_V0_1.md`.
 2. Use `FIRST_REVIEW_WAVE_PLAN_V0_1.md` to assign reviewer types.
-3. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
-4. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
-5. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
-6. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
+3. Review `FIRST_REVIEW_WAVE_DRY_RUN_V0_1.md` before sending.
+4. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
+5. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
+6. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
+7. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
 
 ## Minimum first-wave packet
 
