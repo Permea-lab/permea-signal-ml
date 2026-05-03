@@ -50,9 +50,9 @@ If a factual contradiction is found during a later revision pass, stop trusted c
 
 | Issue ID | Area | Affected document or artifact | Revision intent | Recommended wording direction | Required before trusted review? | Required before preprint? | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| I-05 | Metric and claim interpretation | `PREPRINT_DRAFT_V0_1.md`; reviewer docs | Keep ROC-AUC, PR-AUC, and MCC framed as benchmark-level evidence, not biological validation. | Pair metrics with "current benchmark surface," "baseline comparison," and "candidate prioritization before experimental validation." | No | Yes | Planned |
-| I-06 | Biological overread risk | `PREPRINT_DRAFT_V0_1.md`; `FIRST_EVIDENCE_SUMMARY.md` | Keep "permeability-related signal" adjacent to computational and benchmark-specific qualifiers. | Avoid isolated wording that could read as solved BBB prediction or validated delivery. | No | Yes | Planned |
-| I-07 | Feature importance | `PREPRINT_DRAFT_V0_1.md`; figures | Preserve feature importance as model-level behavior only. | Use "model-level feature importance" or "descriptive model signal"; avoid mechanism, causality, transport mechanism, or biological proof language. | No | Yes | Planned |
+| I-05 | Metric and claim interpretation | `PREPRINT_DRAFT_V0_1.md`; reviewer docs | Keep ROC-AUC, PR-AUC, and MCC framed as benchmark-level evidence, not biological validation. | Pair metrics with "current benchmark surface," "baseline comparison," and "candidate prioritization before experimental validation." | No | Yes | Applied in P1 tightening pass |
+| I-06 | Biological overread risk | `PREPRINT_DRAFT_V0_1.md`; `FIRST_EVIDENCE_SUMMARY.md` | Keep "permeability-related signal" adjacent to computational and benchmark-specific qualifiers. | Avoid isolated wording that could read as solved BBB prediction or validated delivery. | No | Yes | Applied in P1 tightening pass |
+| I-07 | Feature importance | `PREPRINT_DRAFT_V0_1.md`; figures | Preserve feature importance as model-level behavior only. | Use "model-level feature importance" or "descriptive model signal"; avoid mechanism, causality, transport mechanism, or biological proof language. | No | Yes | Applied in P1 tightening pass |
 
 P1 revisions should specifically avoid wet-lab validation ambiguity, solved delivery language, broad biological generalization, therapeutic or clinical efficacy implications, and treating computational prioritization as biological validation.
 

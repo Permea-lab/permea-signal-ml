@@ -6,7 +6,7 @@ This document summarizes the current bounded evidence surface of `permea-signal-
 
 ## Current question
 
-The current wedge asks whether permeability-related signal can be detected from sequence-derived physicochemical features in a BBB-oriented peptide dataset, and whether that signal is sufficient to support benchmarked candidate prioritization before wet-lab validation.
+The current wedge asks whether computational permeability-related signal can be detected from sequence-derived physicochemical features in a BBB-oriented peptide dataset, and whether that benchmark signal is sufficient to support candidate prioritization before wet-lab validation.
 
 ## Current evidence surface
 
@@ -23,15 +23,15 @@ This repository should be read as an initial evidence package rather than as a g
 ## Main findings
 
 - trivial baseline behavior is recovered as expected under strong class imbalance
-- non-trivial baseline models show signal above trivial behavior on the current benchmark surface
-- regenerated Random Forest and Logistic Regression results support bounded prioritization utility under the present contract
+- non-trivial baseline models show benchmark signal above trivial behavior on the current computational surface
+- regenerated Random Forest and Logistic Regression results support bounded computational prioritization utility under the present contract
 - the repository now distinguishes imported historical artifacts from regenerated benchmark evidence
 
 ## What this does support
 
 The current repository supports:
 
-- initial computational evidence for learnable permeability-related signal
+- initial computational evidence for learnable permeability-related signal on the current benchmark surface
 - benchmark-oriented candidate prioritization before wet-lab
 - reproducible comparison of baseline methods under the current contract
 
@@ -47,7 +47,7 @@ The current repository does not support claims of:
 
 ## Why this matters for Permea
 
-This wedge matters because it gives Permea an initial evidence layer for sequence-first delivery work under benchmark-first infrastructure. It also demonstrates evidence discipline by keeping claim boundaries explicit and gives the broader Permea program a concrete starting point for standard-setting work.
+This wedge matters because it gives Permea an initial computational evidence layer for sequence-first delivery work under benchmark-first infrastructure. It also demonstrates evidence discipline by keeping claim boundaries explicit and gives the broader Permea program a concrete starting point for standard-setting work without treating the current evidence as validated delivery performance.
 
 The broader Permea standard layer is now defined in:
 

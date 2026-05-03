@@ -44,7 +44,7 @@ Initial Computational Evidence for Permeability-Related Signal in a BBB-Oriented
 
 - Figure 1 — `dataset_distribution.png` — dataset distribution and class balance
 - Figure 2 — `legacy_vs_rerun_metrics.png` — baseline comparison across imported and regenerated benchmark evidence
-- Figure 3 — `regenerated_rf_feature_importance.png` — regenerated Random Forest feature importance
+- Figure 3 — `regenerated_rf_feature_importance.png` — regenerated model-level Random Forest feature importance, not mechanistic evidence
 - Figure 4 — `benchmark_workflow_outputs.png` — benchmark workflow / evidence package structure
 - Table 1 — `model_comparison_summary.csv` — compact regenerated baseline comparison
 
@@ -55,7 +55,7 @@ Initial Computational Evidence for Permeability-Related Signal in a BBB-Oriented
 - Methods / Workflow structure → `figures/benchmark_workflow_outputs.png`
 - Results / Dataset and class balance → `figures/dataset_distribution.png`
 - Results / Baseline comparison → `figures/legacy_vs_rerun_metrics.png`, `results/tables/model_comparison_summary.csv`
-- Results / Feature emphasis → `figures/regenerated_rf_feature_importance.png`, `results/tables/regenerated_rf_feature_importance.csv`
+- Results / Model-level feature emphasis → `figures/regenerated_rf_feature_importance.png`, `results/tables/regenerated_rf_feature_importance.csv`
 - Discussion / Evidence boundary → `docs/FIRST_EVIDENCE_SUMMARY.md`, `docs/V0_1_EVIDENCE_PACKAGE.md`
 
 ## Submission-gap checklist

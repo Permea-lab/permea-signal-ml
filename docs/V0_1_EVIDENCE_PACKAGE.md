@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Permea Signal ML v0.1 is the first reproducible public evidence surface for `permea-signal-ml`. It defines the current benchmark-facing artifact package for BBB-oriented peptide and permeability-related signal modeling under the current repository contract.
+Permea Signal ML v0.1 is the first reproducible public computational evidence surface for `permea-signal-ml`. It defines the current benchmark-facing artifact package for BBB-oriented peptide and permeability-related signal modeling under the current repository contract.
 
 ## Scope
 
@@ -26,7 +26,7 @@ This package supports only initial computational evidence for candidate prioriti
 
 ## Current evidence summary
 
-The current evidence surface shows that baseline models trained on sequence-derived physicochemical features produce non-random benchmark signal on the present BBB-oriented dataset surface. The strongest current use of this package is bounded comparison across baseline methods and transparent generation of artifacts that can be inspected, rerun, and extended.
+The current evidence surface shows that baseline models trained on sequence-derived physicochemical features produce non-random benchmark signal on the present BBB-oriented dataset surface. The strongest current use of this package is bounded comparison across baseline methods and transparent generation of artifacts that can be inspected, rerun, and extended; it does not establish biological validation or delivery performance.
 
 ## Known limitations
 
