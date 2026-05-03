@@ -74,6 +74,8 @@ This track should clarify or audit uncertainty. It must not fill provenance gaps
 
 Track B status after dataset-provenance hardening: partially addressed as documentation clarity. The current checklist documents processed dataset paths, rerun-ready path, row count, file-verified fields, and unresolved attribution/licensing/label-source items. It does not close public preprint blockers.
 
+Track B leakage-audit planning status: drafted as `LEAKAGE_AUDIT_PLAN_V0_1.md`. This defines future duplicate, near-duplicate, sequence-similarity, label-conflict, and source/group leakage checks, but it does not run the audit or claim leakage-free status.
+
 ## Track C - Artifact traceability and export
 
 Focus:

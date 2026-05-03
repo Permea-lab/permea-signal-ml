@@ -65,6 +65,7 @@ This is an internal artifact audit. It does not add new scientific evidence, add
 |---|---|---|---|---|---|---|---|
 | `docs/DATASET.md` | Dataset documentation | Current documentation | Documentation source | Manuscript, evidence package, assembly, checklist | Ready with caveats | Not yet | Dataset version remains `pending_confirmation`; attribution, licensing, label-source criteria, and leakage status remain unresolved. |
 | `docs/DATASET_PROVENANCE_AND_LABEL_SOURCE_CHECKLIST_V0_1.md` | Dataset provenance and label-source checklist | Current documentation | Documentation source | Dataset hardening and preprint-readiness planning | Ready with caveats | Not yet | Clarifies processed paths and file-verified fields, but does not resolve attribution, licensing, source criteria, or leakage audit. |
+| `docs/LEAKAGE_AUDIT_PLAN_V0_1.md` | Leakage audit plan | Planned audit documentation | Documentation source | Preprint-readiness planning | Ready with caveats | Not yet | Defines future checks only; no leakage audit outputs exist yet. |
 | `results/tables/model_comparison_summary.csv` | Model comparison table | Current regenerated summary table | `scripts/export_metrics.py` from metrics JSON files | Manuscript, evidence package, assembly | Ready | Ready with caveats | Supports benchmark-level metric statements only, not biological validation or delivery success probability. |
 | `results/metrics/legacy_bbb_dummy_v01_metrics.json` | Dummy baseline metrics JSON | Current regenerated metric artifact | Existing benchmark rerun/export workflow | Assembly, evidence package, summary table | Ready | Ready with caveats | Dataset provenance caveats still apply. |
 | `results/metrics/legacy_bbb_lr_v01_metrics.json` | Logistic Regression metrics JSON | Current regenerated metric artifact | Existing benchmark rerun/export workflow | Assembly, evidence package, summary table | Ready | Ready with caveats | Dataset provenance caveats still apply. |
@@ -126,6 +127,7 @@ This is an internal artifact audit. It does not add new scientific evidence, add
 - Attribution and licensing remain unconfirmed; no artifact in the current package closes that issue.
 - Original label-source criteria remain partially unresolved; current labels are usable for the recovered benchmark setting but are not independently verified biological truth.
 - No duplicate, near-duplicate, or sequence-similarity leakage audit artifact is present.
+- `docs/LEAKAGE_AUDIT_PLAN_V0_1.md` defines the future audit scope, but no duplicate, near-duplicate, sequence-similarity, label-conflict, or fold-leakage results are available yet.
 - No standalone public supplement/export bundle currently packages all tables, figures, manifests, and caveats in one reviewer-readable directory or index.
 - Figure/caption polish and final export naming are not complete for public preprint use.
 - Deck, pitch, and partner-facing materials are absent from `permea-signal-ml`, so public deck/partner traceability cannot be cleared.

@@ -41,6 +41,7 @@ The repository currently contains a preprint draft, a preprint assembly document
 - random seed — recovered as `42`
 - label-source criteria — not yet fully reconstructed
 - duplicate / near-duplicate / sequence-similarity leakage status — not yet documented as audited
+- leakage audit plan — drafted in `docs/LEAKAGE_AUDIT_PLAN_V0_1.md`; audit not yet run
 - attribution and licensing — still require confirmation
 
 These items are acceptable for trusted review with the extended packet, but they remain preprint-readiness blockers or explicit-deferral items before public submission.
@@ -103,6 +104,7 @@ Supplementary structure now exists as an outline, but not yet as a full drafted 
 - label-source criteria remain partially unresolved
 - raw source dataset availability remains unresolved
 - duplicate, near-duplicate, and sequence-similarity leakage status remain unaudited in current docs
+- leakage audit must be completed or retained as an explicit strong limitation before public benchmark claims are strengthened
 - artifact-to-claim traceability should be checked once more before export
 - one final manuscript consistency pass would still be useful
 

@@ -17,6 +17,7 @@ It does not add new data, validate biological labels, resolve unconfirmed proven
 - Confirmed row count: 2,959 data rows in both processed CSV files, based on file line counts excluding the header row.
 - Confirmed rerun-ready fields: `sequence_id`, `sequence`, `label`, `length`, `charge`, `gravy`, `pI`, `aromaticity`, `source`.
 - Pending confirmation items: public dataset version identifier, source attribution, license or redistribution rights, original label-source criteria, and duplicate/near-duplicate/sequence-similarity leakage status.
+- Leakage audit plan: `docs/LEAKAGE_AUDIT_PLAN_V0_1.md` defines future checks, but no leakage audit has been run by that plan.
 
 ## Confirmed fields table
 
@@ -104,7 +105,6 @@ Reason: the current repository now documents the processed dataset paths, rerun-
 
 ## Recommended next action
 
-Recommended next action: draft leakage audit plan.
+Recommended next action: commit the leakage audit plan, then implement audit utilities in a separate future task if approved.
 
-The dataset path and field documentation is now clearer, but public preprint readiness still depends on leakage-risk handling in addition to provenance and label-source closure.
-
+The dataset path and field documentation is now clearer, and leakage-audit planning is defined separately. Public preprint readiness still depends on actually running or explicitly deferring the leakage audit in addition to provenance and label-source closure.
