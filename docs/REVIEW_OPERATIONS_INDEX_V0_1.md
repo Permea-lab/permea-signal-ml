@@ -25,6 +25,7 @@ The package is ready for internal or trusted review. It is not final for public 
 - `HARSH_REVIEW_REVIEWER_B_BIOLOGICAL_SKEPTICAL_V0_1.md` — internal Reviewer B detailed harsh review
 - `HARSH_REVIEW_REVIEWER_C_TECHNICAL_CLARITY_V0_1.md` — internal Reviewer C detailed harsh review
 - `HARSH_REVIEW_ROUND_1_INTEGRATED_ISSUE_REGISTER_V0_1.md` — integrated internal Round 1 issue register
+- `HARSH_REVIEW_ROUND_1_REVISION_PLAN_V0_1.md` — priority-based plan for converting Round 1 findings into scoped revisions
 - `REVIEW_FEEDBACK_LOG_V0_1.md` — structured feedback log
 - `REVISION_PRIORITY_FRAMEWORK_V0_1.md` — P0-P4 triage and revision rules
 
@@ -36,10 +37,11 @@ The package is ready for internal or trusted review. It is not final for public 
 4. Use `FIRST_REVIEW_WAVE_OUTREACH_PACKET_V0_1.md` to confirm reviewer-specific routing.
 5. Use `HARSH_REVIEW_COUNCIL_CHARTER_V0_1.md` and `HARSH_REVIEW_ROUND_0_BASELINE_V0_1.md` for internal skeptical review context.
 6. Review the Reviewer A/B/C detailed harsh review memos and `HARSH_REVIEW_ROUND_1_INTEGRATED_ISSUE_REGISTER_V0_1.md`.
-7. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
-8. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
-9. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
-10. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
+7. Use `HARSH_REVIEW_ROUND_1_REVISION_PLAN_V0_1.md` to separate trusted-review readiness from preprint-readiness work.
+8. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
+9. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
+10. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
+11. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
 
 ## Minimum first-wave packet
 
