@@ -23,14 +23,14 @@ For circulation-facing guidance, see [CIRCULATION_GUIDE_V0_1.md](./CIRCULATION_G
 - provenance closure remains incomplete
 - attribution and licensing confirmation are still pending
 - label-source criteria remain partially unresolved
-- duplicate, near-duplicate, and sequence-similarity leakage status have not been documented as audited
+- first leakage audit has been documented; it found same-label duplicate and high-similarity pairs crossing reconstructed folds, creating moderate benchmark optimism risk
 - supplementary text is outlined but not fully drafted
 - figure polish remains limited
 - one final human editorial pass is still desirable
 
 ## Current recommendation
 
-The package is near-ready for internal circulation and structured preprint preparation, but it still needs final metadata, references, and a last editorial review before external submission.
+The package remains suitable for internal circulation and trusted review with caveats. Public preprint submission remains not ready until final metadata, references, conservative leakage language, provenance/licensing disclosures, and a last editorial review are complete.
 
 For computational/reproducibility review, the extended packet should include `DATASET.md`, `V0_1_EVIDENCE_PACKAGE.md`, `FIRST_EVIDENCE_SUMMARY.md`, `PREPRINT_ASSEMBLY_V0_1.md`, and `SUPPLEMENTARY_OUTLINE_V0_1.md` so reviewers can inspect provenance, artifact, and benchmark-boundary context.
 

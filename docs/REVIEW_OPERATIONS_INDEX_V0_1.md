@@ -39,6 +39,8 @@ The package is ready for internal or trusted review. It is not final for public 
 - `LEAKAGE_AUDIT_UTILITIES_V0_1.md` — leakage-audit utility usage notes; implementation docs, not audit results
 - `LEAKAGE_AUDIT_REPORT_V0_1.md` — first leakage audit output summary and conservative interpretation; not a leakage-free claim
 - `LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md` — deeper investigation of first audit findings before manuscript/evidence updates
+- `LEAKAGE_AUDIT_MANUSCRIPT_UPDATE_CHANGELOG_V0_1.md` — changelog for manuscript/evidence updates based on leakage audit findings
+- `results/audits/leakage_audit_summary.json` — machine-readable leakage audit summary counts
 - `REVIEW_FEEDBACK_LOG_V0_1.md` — structured feedback log
 - `REVISION_PRIORITY_FRAMEWORK_V0_1.md` — P0-P4 triage and revision rules
 
@@ -63,11 +65,12 @@ The package is ready for internal or trusted review. It is not final for public 
 17. Use `LEAKAGE_AUDIT_UTILITIES_V0_1.md` for dry-run and full-audit command guidance.
 18. Use `LEAKAGE_AUDIT_REPORT_V0_1.md` before updating leakage-related manuscript or evidence wording.
 19. Use `LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md` to decide whether audit outputs need refinement or can be committed as-is.
-20. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
-21. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
-22. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
-23. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
-24. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
+20. Use `LEAKAGE_AUDIT_MANUSCRIPT_UPDATE_CHANGELOG_V0_1.md` to review where leakage findings were reflected in manuscript/evidence docs.
+21. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
+22. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
+23. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
+24. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
+25. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
 
 ## Minimum first-wave packet
 

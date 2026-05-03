@@ -96,21 +96,31 @@ The current provenance surface is partially recovered and partially unresolved. 
 - exact version naming convention for public reference
 - whether additional source-level metadata should be restored later
 - original label-source criteria and labeling provenance
-- duplicate, near-duplicate, and sequence-similarity leakage status
+- leakage-aware split or sensitivity-analysis status after the first audit
 
 These unresolved items do not block the current rerun workflow, but they do limit how broadly the dataset surface should be presented or redistributed.
 
-## Leakage and duplicate-status note
+## Leakage audit status
 
 The recovered split policy is `StratifiedKFold(n_splits=5, shuffle=True, random_state=42)`. This documents the current rerun split behavior and seed, but it is not a duplicate-removal or sequence-similarity-aware split claim.
 
-The current package has not documented an audit for:
+The first leakage audit is documented in:
 
-- exact duplicate sequences
-- near-duplicate sequences
-- sequence-similarity leakage across folds
+- `docs/LEAKAGE_AUDIT_REPORT_V0_1.md`
+- `docs/LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md`
+- `results/audits/leakage_audit_summary.json`
 
-These should be treated as unresolved benchmark risks for preprint readiness. The current documentation does not claim that leakage exists, nor does it claim that the benchmark is leakage-free.
+The audit found:
+
+- exact duplicate sequence groups: 4, all same-label and crossing reconstructed folds
+- normalized exact-sequence label-conflict groups: 0
+- near-duplicate pairs: 73, all same-label; 56 cross reconstructed folds
+- high k-mer Jaccard pairs: 33, all same-label; 29 cross reconstructed folds
+- source/group finding: only one observed source value, `legacy_bbb_import`, spanning all 5 reconstructed folds
+
+These findings create moderate benchmark optimism risk. They do not establish that the dataset is leakage-free, and they do not establish biological validation. Current metrics should be interpreted as random-stratified baseline metrics that may be optimistic under similarity-aware splitting.
+
+The current source field is too coarse for group-aware split control. A future leakage-aware analysis should use duplicate-aware, similarity-aware, or richer metadata-aware grouping if enough metadata can be recovered.
 
 ## Current use boundary
 
@@ -132,7 +142,7 @@ It should therefore be treated as a bounded computational benchmark surface rath
 
 Trusted-review status: sufficient for computational/reproducibility review when paired with the extended review packet and current artifacts.
 
-Preprint-readiness status: not fully closed. Dataset version, attribution, licensing, label-source criteria, and duplicate/similarity leakage status require confirmation, explicit documentation, or careful limitation language before public preprint submission.
+Preprint-readiness status: not fully closed. Dataset version, attribution, licensing, and label-source criteria require confirmation, explicit documentation, or careful limitation language before public preprint submission. Leakage status is now measured by a first audit, but public preprint use still requires conservative leakage reporting and likely leakage-aware follow-up before stronger benchmark claims.
 
 ## Preprint blocker list
 
@@ -143,7 +153,7 @@ Before public preprint submission or public dataset release, the following items
 - source attribution and citation requirements
 - license and redistribution rights
 - original label-source criteria, including positive and negative class definitions
-- duplicate, near-duplicate, and sequence-similarity leakage audit status
+- conservative leakage-audit reporting and any decision on leakage-aware or similarity-aware follow-up
 - final statement of whether the processed dataset can be redistributed or only referenced
 
 See `DATASET_PROVENANCE_AND_LABEL_SOURCE_CHECKLIST_V0_1.md` for the current checklist.

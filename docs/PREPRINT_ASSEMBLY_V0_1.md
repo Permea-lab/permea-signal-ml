@@ -57,14 +57,16 @@ Initial Computational Evidence for Permeability-Related Signal in a BBB-Oriented
 - Results / Baseline comparison → `figures/legacy_vs_rerun_metrics.png`, `results/tables/model_comparison_summary.csv`
 - Results / Model-level feature emphasis → `figures/regenerated_rf_feature_importance.png`, `results/tables/regenerated_rf_feature_importance.csv`
 - Discussion / Evidence boundary → `docs/FIRST_EVIDENCE_SUMMARY.md`, `docs/V0_1_EVIDENCE_PACKAGE.md`
+- Limitations / Leakage audit → `docs/LEAKAGE_AUDIT_REPORT_V0_1.md`, `docs/LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md`, `results/audits/leakage_audit_summary.json`
 
 ## Artifact-to-claim traceability
 
 | Manuscript claim or evidence statement | Supporting artifact or document | Artifact status | Remaining caveat |
 | --- | --- | --- | --- |
 | Dataset size and feature surface | `docs/DATASET.md`; rerun-ready dataset surface | documented current evidence surface | public dataset version remains `pending_confirmation` |
-| Split policy and seed | `docs/DATASET.md`; `results/manifests/*_manifest.json` | recovered benchmark setting | not a duplicate/similarity leakage-control claim |
-| Model comparison metrics | `results/tables/model_comparison_summary.csv`; regenerated metrics JSON files under `results/metrics/` | regenerated current-contract artifacts | metric interpretation remains benchmark-level |
+| Split policy and seed | `docs/DATASET.md`; `results/manifests/*_manifest.json` | recovered benchmark setting | random-stratified policy, not duplicate/similarity-aware split |
+| Leakage audit findings | `docs/LEAKAGE_AUDIT_REPORT_V0_1.md`; `docs/LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md`; `results/audits/leakage_audit_summary.json` | committed audit outputs | same-label cross-fold duplicate and high-similarity pairs indicate moderate optimism risk |
+| Model comparison metrics | `results/tables/model_comparison_summary.csv`; regenerated metrics JSON files under `results/metrics/` | regenerated current-contract artifacts | random-stratified baseline metrics may be optimistic |
 | PR-AUC under imbalance | `model_comparison_summary.csv`; preprint evaluation policy text | regenerated metric summary | class imbalance requires class-prior context |
 | RF feature importance | `results/tables/regenerated_rf_feature_importance.csv`; `figures/regenerated_rf_feature_importance.png` | regenerated model-level artifact | not mechanistic evidence |
 | Imported vs regenerated distinction | `docs/V0_1_EVIDENCE_PACKAGE.md`; summary tables and figures | documented evidence boundary | imported artifacts are continuity material |
@@ -76,7 +78,8 @@ Initial Computational Evidence for Permeability-Related Signal in a BBB-Oriented
 - affiliations not finalized
 - formal references not yet added
 - provenance closure remains incomplete
-- label-source criteria and duplicate/similarity leakage status remain unresolved
+- label-source criteria remain unresolved
+- leakage audit findings require conservative limitations language
 - supplementary appendix not yet drafted in full prose
 - figure set is not yet fully publication-ready
 - regenerated-only comparison figure remains optional / pending

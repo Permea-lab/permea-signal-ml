@@ -64,6 +64,12 @@ Artifact references:
 - `results/predictions/`
 - `results/tables/*_ranking.csv`
 - `results/tables/*_summary.csv`
+- `results/audits/leakage_audit_summary.json`
+
+Optional leakage-audit context for Reviewer A:
+
+- `docs/LEAKAGE_AUDIT_REPORT_V0_1.md`
+- `docs/LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md`
 
 ### Reviewer B — biological/skeptical
 
@@ -116,7 +122,8 @@ Disclose these caveats when relevant:
 - dataset version remains `pending_confirmation`
 - attribution/licensing remain unconfirmed
 - original label-source criteria remain partially unresolved
-- duplicate, near-duplicate, and sequence-similarity leakage status remains unaudited
+- first leakage audit found same-label duplicate and high-similarity sequence pairs crossing reconstructed folds
+- current metrics may be optimistic and should be interpreted as random-stratified baseline metrics
 - no wet-lab validation has been performed
 - public preprint submission is not yet recommended
 

@@ -8,7 +8,7 @@ Permea Signal ML v0.1 is the first reproducible public computational evidence su
 
 The scope of this package is narrow by design. It covers sequence-derived physicochemical features, baseline benchmark models, and benchmark-oriented outputs for BBB-oriented peptide / permeability-related signal analysis. It is intended to support transparent comparison, reproducible reruns, and candidate prioritization workflows before experimental validation.
 
-The current package is sufficient for trusted computational review, but it remains provenance-limited for public preprint submission. Dataset version naming, attribution/licensing status, original label-source criteria, and duplicate or sequence-similarity leakage status are not fully closed.
+The current package is sufficient for trusted computational review, but it remains provenance-limited for public preprint submission. Dataset version naming, attribution/licensing status, original label-source criteria, and leakage-aware generalization status are not fully closed.
 
 ## Included current-contract artifacts
 
@@ -28,13 +28,15 @@ This package supports only initial computational evidence for candidate prioriti
 
 ## Current evidence summary
 
-The current evidence surface shows that baseline models trained on sequence-derived physicochemical features produce non-random benchmark signal on the present BBB-oriented dataset surface. The strongest current use of this package is bounded comparison across baseline methods and transparent generation of artifacts that can be inspected, rerun, and extended; it does not establish biological validation or delivery performance.
+The current evidence surface shows that baseline models trained on sequence-derived physicochemical features produce non-random benchmark signal on the present BBB-oriented dataset surface. These should be read as random-stratified baseline metrics under the recovered evaluation policy. The first leakage audit found same-label duplicate, near-duplicate, and high-similarity sequence pairs crossing reconstructed folds, creating moderate benchmark optimism risk. The strongest current use of this package is bounded comparison across baseline methods and transparent generation of artifacts that can be inspected, rerun, and extended; it does not establish biological validation, delivery performance, or leakage-aware generalization.
 
 Metric summaries should be traced to `results/tables/model_comparison_summary.csv` and regenerated metrics JSON files. Model-level Random Forest feature importance should be traced to `results/tables/regenerated_rf_feature_importance.csv` and `figures/regenerated_rf_feature_importance.png`.
 
+Leakage audit outputs should be traced to `docs/LEAKAGE_AUDIT_REPORT_V0_1.md`, `docs/LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md`, and `results/audits/leakage_audit_summary.json`.
+
 ## Known limitations
 
-Current evidence remains computational and benchmark-oriented. Dataset version, attribution, and licensing are still marked for confirmation in the current workflow. The repository does not yet establish biological truth, assay behavior, or transport performance outside the present benchmark surface.
+Current evidence remains computational and benchmark-oriented. Dataset version, attribution, and licensing are still marked for confirmation in the current workflow. The current audit does not support stronger generalization claims; it instead requires caveated reporting because detected cross-fold sequence similarity may make current random-stratified metrics optimistic. The repository does not yet establish biological truth, assay behavior, or transport performance outside the present benchmark surface.
 
 ## Why this package matters
 

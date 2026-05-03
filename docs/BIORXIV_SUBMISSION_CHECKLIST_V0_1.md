@@ -40,13 +40,16 @@ The repository currently contains a preprint draft, a preprint assembly document
 - split policy — recovered as `StratifiedKFold(n_splits=5, shuffle=True, random_state=42)`
 - random seed — recovered as `42`
 - label-source criteria — not yet fully reconstructed
-- duplicate / near-duplicate / sequence-similarity leakage status — not yet documented as audited
-- leakage audit plan — drafted in `docs/LEAKAGE_AUDIT_PLAN_V0_1.md`; audit not yet run
+- duplicate / near-duplicate / sequence-similarity leakage status — first audit completed and documented
+- leakage audit report — `docs/LEAKAGE_AUDIT_REPORT_V0_1.md`
+- leakage audit investigation — `docs/LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md`
+- leakage audit summary artifact — `results/audits/leakage_audit_summary.json`
+- leakage interpretation — moderate benchmark optimism risk; current metrics may be optimistic and should be treated as random-stratified baseline metrics
 - attribution and licensing — still require confirmation
 
 These items are acceptable for trusted review with the extended packet, but they remain preprint-readiness blockers or explicit-deferral items before public submission.
 
-See `docs/DATASET_PROVENANCE_AND_LABEL_SOURCE_CHECKLIST_V0_1.md` for the current provenance and label-source checklist. The checklist documents current processed paths and fields, but it does not resolve source attribution, licensing, original label criteria, or leakage-audit status.
+See `docs/DATASET_PROVENANCE_AND_LABEL_SOURCE_CHECKLIST_V0_1.md` for the current provenance and label-source checklist. The checklist documents current processed paths and fields, but it does not resolve source attribution, licensing, or original label criteria. See the leakage audit report and investigation memo for current duplicate and sequence-similarity findings.
 
 ## Supplementary status
 
@@ -103,8 +106,8 @@ Supplementary structure now exists as an outline, but not yet as a full drafted 
 - attribution and licensing confirmation are still needed
 - label-source criteria remain partially unresolved
 - raw source dataset availability remains unresolved
-- duplicate, near-duplicate, and sequence-similarity leakage status remain unaudited in current docs
-- leakage audit must be completed or retained as an explicit strong limitation before public benchmark claims are strengthened
+- leakage audit findings must be reflected with conservative language; same-label duplicate and high-similarity pairs cross reconstructed folds
+- leakage-aware or similarity-aware follow-up is likely needed before public benchmark claims are strengthened
 - artifact-to-claim traceability should be checked once more before export
 - one final manuscript consistency pass would still be useful
 

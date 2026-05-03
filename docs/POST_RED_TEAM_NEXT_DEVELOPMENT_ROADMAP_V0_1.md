@@ -25,7 +25,7 @@ Internal development can proceed because no fatal contradiction or blocking P0 i
 
 Trusted review can also proceed if desired, as long as Reviewer A receives the extended packet and all unresolved caveats remain visible.
 
-Public preprint submission must wait. The package still has unresolved provenance, attribution/licensing, label-source, leakage-audit, metadata, reference, supplement, and export-readiness gaps.
+Public preprint submission must wait. The package still has unresolved provenance, attribution/licensing, label-source, metadata, reference, supplement, and export-readiness gaps. The first leakage audit is complete, but it found moderate benchmark optimism risk that requires conservative reporting and likely leakage-aware follow-up before stronger benchmark claims.
 
 Public deck or partner materials must wait until they exist in the repo and are checked against the current evidence boundary. Any public-facing material must avoid turning benchmark metrics into delivery success probabilities or treating computational prioritization as biological validation.
 
@@ -58,7 +58,7 @@ Focus:
 - dataset version remains `pending_confirmation`
 - attribution and licensing remain unconfirmed
 - original label-source criteria remain partially unresolved
-- duplicate, near-duplicate, and sequence-similarity leakage status remains unaudited
+- first leakage audit has been run and reports moderate benchmark optimism risk from same-label duplicate and high-similarity pairs crossing reconstructed folds
 - clearer dataset-card style documentation
 - explicit separation of confirmed facts, recovered benchmark settings, and unresolved items
 
@@ -74,7 +74,7 @@ This track should clarify or audit uncertainty. It must not fill provenance gaps
 
 Track B status after dataset-provenance hardening: partially addressed as documentation clarity. The current checklist documents processed dataset paths, rerun-ready path, row count, file-verified fields, and unresolved attribution/licensing/label-source items. It does not close public preprint blockers.
 
-Track B leakage-audit planning status: drafted as `LEAKAGE_AUDIT_PLAN_V0_1.md`. This defines future duplicate, near-duplicate, sequence-similarity, label-conflict, and source/group leakage checks, but it does not run the audit or claim leakage-free status.
+Track B leakage-audit status: first audit completed and documented in `LEAKAGE_AUDIT_REPORT_V0_1.md` and `LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md`. The audit found 4 same-label exact duplicate groups, 0 normalized exact-sequence label-conflict groups, 73 same-label near-duplicate pairs, 33 same-label high-similarity pairs, and 29 same-label cross-fold high-similarity pairs. Next follow-up is leakage-aware or similarity-aware split/sensitivity planning; the audit does not support stronger generalization claims.
 
 ## Track C - Artifact traceability and export
 
@@ -159,13 +159,15 @@ Do not modify `permea-core` in this task. Promotion candidates should first be c
 | Task 028 — Prepare Preprint Metadata and Reference Gap Checklist | Identify metadata, disclosure, reference, and supplement gaps. | `PREPRINT_DRAFT_V0_1.md`; `BIORXIV_SUBMISSION_CHECKLIST_V0_1.md`; `SUPPLEMENTARY_OUTLINE_V0_1.md` | Preprint gap checklist. | Do not invent authors, affiliations, citations, funding, or disclosures. | Blocks preprint. | P2 |
 | Task 029 — Prepare Public Deck Claim-Alignment Checklist | Define gates for future public/partner materials. | Future deck materials when present; red-team report; packet snapshot | Claim-alignment checklist for public materials. | Do not create or clear a deck unless materials exist. | Blocks public deck/partner use. | P1/P2 |
 | Task 030 — Identify Permea-Core Promotion Candidates | Collect patterns that may belong in the standard layer. | Review ops docs; evidence boundary docs; red-team report | Promotion-candidate memo in `permea-signal-ml`. | Do not modify `permea-core`. | Does not block review or preprint. | P3 |
+| Task 036 — Update Manuscript and Evidence Docs Based on Leakage Findings | Convert committed leakage audit findings into conservative manuscript/evidence language. | `PREPRINT_DRAFT_V0_1.md`; `DATASET.md`; evidence docs; checklist | Docs updated to state random-stratified baseline metrics may be optimistic. | Do not change metric values or claim robust generalization. | Blocks public preprint claim safety. | P1/P2 |
+| Task 037 — Plan Leakage-Aware Split Sensitivity Analysis | Define duplicate-aware or similarity-aware split follow-up. | Leakage audit outputs; audit investigation memo; scripts | Sensitivity-analysis plan without rerunning models unless separately approved. | Do not overwrite current benchmark metrics. | Blocks stronger benchmark claims. | P2 |
 
 ## Priority table
 
 | Track | Priority | Why it matters | Immediate next task | Blocks trusted review? | Blocks public preprint? | Blocks public deck/partner use? | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | A — Preprint-readiness hardening | P2 | Public submission requires metadata, references, supplement, and export closure. | Task 028 | No | Yes | Partly | Keep public preprint status on hold. |
-| B — Provenance and evidence hardening | P2 | Provenance, label-source, licensing, and leakage caveats are the most serious credibility risks. | Task 026, then Task 027 | No | Yes | Yes | Do not over-resolve unknowns. |
+| B — Provenance and evidence hardening | P2 | Provenance, label-source, licensing, and leakage caveats are the most serious credibility risks. | Task 036, then Task 037 | No | Yes | Yes | First leakage audit is complete; do not over-resolve unknowns or overstate generalization. |
 | C — Artifact traceability and export | P2 | A final traceability pass reduces metric, figure, manifest, and export mismatch risk. | Task 025 | No | Yes | Partly | Best immediate technical next step. |
 | D — Public deck / partner material hardening | P1/P2 | Public materials can easily overclaim metrics and platform maturity. | Task 029 after materials exist | No | No | Yes | Deck not present in repo. |
 | E — Future validation and wet-lab planning | P4 | Validation path matters, but it is future evidence, not current support. | Later validation-plan task | No | No | Partly | Planning can proceed with caveats. |
@@ -177,7 +179,7 @@ Do not modify `permea-core` in this task. Promotion candidates should first be c
 | --- | --- | --- |
 | Next internal development | Go with caveats | No fatal blocker; next work is scoped. |
 | Trusted review circulation | Go with caveats | Caveats are explicit and Reviewer A gets extended packet. |
-| Public preprint submission | Hold | Provenance, leakage, references, metadata, supplement, and export checks remain incomplete. |
+| Public preprint submission | Hold | Provenance, references, metadata, supplement, export checks, and conservative leakage reporting remain incomplete. |
 | Public deck/partner circulation | Hold | No deck materials are present and public-claim misuse risk remains high. |
 | Public website/project page | Hold | Public copy must be claim-aligned before launch. |
 | Wet-lab planning | Go with caveats | Planning can proceed as future validation design only. |
@@ -191,7 +193,8 @@ What can proceed now:
 - trusted review circulation, if the human operator chooses to run it in parallel
 - artifact traceability audit planning
 - provenance and label-source documentation hardening
-- leakage audit planning
+- leakage-audit-informed manuscript updates
+- leakage-aware split/sensitivity planning
 - future validation planning as future work
 - Permea-core promotion candidate identification inside `permea-signal-ml`
 
@@ -206,6 +209,7 @@ What must wait:
 What must be fixed before public release:
 
 - provenance, attribution, licensing, label-source, and leakage caveats must be resolved or prominently disclosed
+- current metrics must be described as random-stratified baseline metrics that may be optimistic unless leakage-aware follow-up is completed
 - metrics must remain benchmark metrics, not success probabilities
 - feature importance must remain model-level, not mechanism
 - references, metadata, disclosures, supplement, figure/caption polish, and export checks must be complete
@@ -222,7 +226,7 @@ What can be deferred as future work:
 
 ## Recommended immediate next Codex task
 
-Task 024 — Commit Next Development Roadmap
+Task 037 — Plan Leakage-Aware Split Sensitivity Analysis
 
 ## Human next action
 

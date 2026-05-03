@@ -26,7 +26,8 @@ The current manuscript depends on provenance clarification, benchmark-structure 
 - supplementary table — artifact inventory and output schema summary
 - supplementary table — run/output schema summary for current-contract artifacts
 - supplementary table — artifact-to-claim map for manuscript metrics and feature-importance statements
-- supplementary note — unresolved provenance, label-source criteria, and duplicate/similarity leakage status
+- supplementary table — leakage audit output inventory, including duplicate, label-conflict, near-duplicate, fold-similarity, and source/group summaries
+- supplementary note — unresolved provenance, label-source criteria, and leakage-audit interpretation boundaries
 
 These items are suggested structure only. They should be treated as pending unless a corresponding asset already exists in the repository.
 
@@ -36,9 +37,11 @@ Any supplementary package should explicitly preserve the distinction between imp
 
 ## Provenance and leakage appendix note
 
-The supplement should distinguish confirmed benchmark settings from unresolved provenance items. Confirmed settings include the current feature surface, recovered seed `42`, and recovered `StratifiedKFold(n_splits=5, shuffle=True, random_state=42)` evaluation policy. Unresolved items include public dataset version naming, attribution/licensing status, original label-source criteria, and duplicate/near-duplicate or sequence-similarity leakage status.
+The supplement should distinguish confirmed benchmark settings from unresolved provenance items. Confirmed settings include the current feature surface, recovered seed `42`, and recovered `StratifiedKFold(n_splits=5, shuffle=True, random_state=42)` evaluation policy. Unresolved items include public dataset version naming, attribution/licensing status, and original label-source criteria.
 
-The current package should not claim that the dataset is fully provenance-closed, that labels are independently biologically validated, or that leakage has been ruled out unless a future audit supports those statements.
+The first leakage audit is documented in `docs/LEAKAGE_AUDIT_REPORT_V0_1.md`, `docs/LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md`, and `results/audits/`. Supplementary materials should include tables for exact duplicates, label conflicts, near-duplicates, high-similarity pairs, fold-similarity findings, and source/group distribution. The supplement should state that same-label duplicate and high-similarity pairs cross reconstructed folds and that current metrics may be optimistic.
+
+The current package should not claim that the dataset is fully provenance-closed, that labels are independently biologically validated, or that current metrics are leakage-aware generalization estimates.
 
 ## Suggested repository anchors
 
@@ -58,4 +61,5 @@ The current package should not claim that the dataset is fully provenance-closed
 - prepare a supplementary metric table
 - prepare a supplementary provenance note
 - prepare a label-source and leakage-risk note
+- add the leakage audit outputs as supplement candidates
 - prepare an artifact-to-claim traceability table

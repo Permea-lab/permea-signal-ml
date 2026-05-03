@@ -20,13 +20,15 @@ The current evidence surface includes:
 
 This repository should be read as an initial evidence package rather than as a general delivery platform.
 
-The current evidence surface is sufficient for trusted review, but it is not provenance-closed for public preprint submission. Dataset version, attribution/licensing, original label-source criteria, and duplicate or sequence-similarity leakage status remain explicit benchmark-readiness caveats.
+The current evidence surface is sufficient for trusted review, but it is not provenance-closed for public preprint submission. Dataset version, attribution/licensing, original label-source criteria, and leakage-aware generalization status remain explicit benchmark-readiness caveats.
 
 ## Main findings
 
 - trivial baseline behavior is recovered as expected under strong class imbalance
-- non-trivial baseline models show benchmark signal above trivial behavior on the current computational surface
+- non-trivial baseline models show random-stratified benchmark signal above trivial behavior on the current computational surface
 - regenerated Random Forest and Logistic Regression results support bounded computational prioritization utility under the present contract
+- the first leakage audit found 4 same-label exact duplicate groups, 0 normalized exact-sequence label-conflict groups, 73 same-label near-duplicate pairs, 33 same-label high-similarity pairs, and 29 same-label cross-fold high-similarity pairs
+- overall benchmark optimism risk is moderate, so current metrics may be optimistic and should not be described as leakage-aware generalization estimates
 - the repository now distinguishes imported historical artifacts from regenerated benchmark evidence
 
 ## What this does support
@@ -35,7 +37,13 @@ The current repository supports:
 
 - initial computational evidence for learnable permeability-related signal on the current benchmark surface
 - benchmark-oriented candidate prioritization before wet-lab
-- reproducible comparison of baseline methods under the current contract
+- reproducible comparison of baseline methods under the current random-stratified contract
+
+## Leakage audit interpretation
+
+The current metrics remain useful as baseline evidence for learnable signal under the recovered `StratifiedKFold(n_splits=5, shuffle=True, random_state=42)` policy. They should be interpreted as random-stratified baseline metrics rather than leakage-aware generalization estimates.
+
+The first leakage audit and investigation are documented in `docs/LEAKAGE_AUDIT_REPORT_V0_1.md` and `docs/LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md`. Because same-label duplicate and high-similarity sequence pairs cross reconstructed folds, future leakage-aware or similarity-aware split analysis is required before stronger benchmark generalization claims.
 
 ## What this does not support
 
