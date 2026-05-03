@@ -10,6 +10,9 @@ This log captures internal or trusted external review comments on the current BB
 - separate the reviewer observation from the action decision
 - distinguish wording fixes from structural issues
 - keep claim-boundary issues highly visible
+- use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split incoming trusted-review feedback into atomic items before revision planning
+
+Do not record internal harsh council findings as external trusted-review feedback.
 
 ## Feedback table
 

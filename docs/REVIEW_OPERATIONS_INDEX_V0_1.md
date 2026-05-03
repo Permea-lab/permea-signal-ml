@@ -20,6 +20,7 @@ The package is ready for internal or trusted review. It is not final for public 
 - `FIRST_REVIEW_WAVE_DRY_RUN_V0_1.md` — internal pre-circulation packet dry run
 - `FIRST_REVIEW_WAVE_OUTREACH_PACKET_V0_1.md` — final first-wave outreach routing and send checklist
 - `TRUSTED_REVIEW_CIRCULATION_PACKET_SNAPSHOT_V0_1.md` — current trusted-review dispatch snapshot after P1/P2 review closure
+- `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` — structured intake template for trusted-review feedback after outreach
 - `HARSH_REVIEW_COUNCIL_CHARTER_V0_1.md` — internal harsh review council roles and rules
 - `HARSH_REVIEW_ROUND_0_BASELINE_V0_1.md` — internal Round 0 baseline harsh review memo
 - `HARSH_REVIEW_REVIEWER_A_COMPUTATIONAL_REPRODUCIBILITY_V0_1.md` — internal Reviewer A detailed harsh review
@@ -48,8 +49,9 @@ The package is ready for internal or trusted review. It is not final for public 
 11. Review `HARSH_REVIEW_POST_P1_P2_COUNCIL_CHECK_V0_1.md` for post-revision readiness.
 12. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
 13. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
-14. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
-15. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
+14. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
+15. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
+16. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
 
 ## Minimum first-wave packet
 
@@ -72,7 +74,7 @@ Reviewer A receives the extended packet by default. This is for review usefulnes
 
 ## Feedback intake path
 
-Use `REVIEW_FEEDBACK_LOG_V0_1.md` for one row per substantive comment. Keep reviewer observations separate from action decisions.
+Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to normalize incoming trusted-review feedback before revision planning. Use `REVIEW_FEEDBACK_LOG_V0_1.md` for one row per substantive comment. Keep reviewer observations separate from action decisions.
 
 ## Revision triage path
 

@@ -166,11 +166,13 @@ Customize each message to identify the packet type and ask for claim-boundary fe
 
 Use:
 
+- `docs/TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md`
 - `docs/REVIEW_FEEDBACK_LOG_V0_1.md`
 - `docs/REVISION_PRIORITY_FRAMEWORK_V0_1.md`
 
 Intake rules:
 
+- split incoming feedback into atomic substantive items before revision planning
 - log each substantive feedback point separately
 - assign P0-P4 priority internally
 - do not implement reviewer suggestions immediately
