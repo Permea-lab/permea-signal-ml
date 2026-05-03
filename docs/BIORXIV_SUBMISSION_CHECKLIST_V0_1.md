@@ -21,7 +21,7 @@ The repository currently contains a preprint draft, a preprint assembly document
 - limitations — drafted
 - conclusion — drafted
 - front matter — placeholder sections added; final metadata pending
-- formal references — first and second verified reference packs prepared; draft `references.bib` created; manuscript citation insertion still pending
+- formal references — first and second verified reference packs prepared; draft `references.bib` created; citation placeholders inserted into `docs/PREPRINT_DRAFT_V0_1.md`; final citation consistency check still pending
 
 ## Figure and table status
 
@@ -102,7 +102,7 @@ Supplementary structure now exists as an outline, but not yet as a full drafted 
 ## Remaining blockers before submission
 
 - authorship and affiliation metadata not finalized
-- draft `references.bib` prepared, but manuscript citations, deferred-reference decisions, and final human reference review are not complete
+- draft `references.bib` prepared and citation placeholders inserted, but citation consistency checking, deferred-reference decisions, and final human reference review are not complete
 - supplement not yet drafted in full prose
 - figure polish and publication formatting remain pending
 - provenance closure remains incomplete

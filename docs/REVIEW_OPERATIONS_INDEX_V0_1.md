@@ -43,6 +43,7 @@ The package is ready for internal or trusted review. It is not final for public 
 - `CITATION_PLACEHOLDER_MAP_BIORXIV_V0_2.md` — second placeholder-to-section map for later citation insertion; does not modify manuscript text
 - `REFERENCE_BIBLIOGRAPHY_BUILD_LOG_V0_1.md` — build log for draft `references.bib`, including included and deferred references
 - `../references.bib` — draft bibliography built from verified reference packs only; human review required before public use
+- `CITATION_INSERTION_CHANGELOG_V0_1.md` — record of citation placeholders inserted into the preprint draft from `references.bib`
 - `FINAL_ARTIFACT_TRACEABILITY_EXPORT_CHECK_V0_1.md` — internal artifact traceability and export-readiness check after the post-red-team roadmap
 - `DATASET_PROVENANCE_AND_LABEL_SOURCE_CHECKLIST_V0_1.md` — current dataset provenance, label-source, and licensing-status checklist
 - `LEAKAGE_AUDIT_PLAN_V0_1.md` — future leakage-audit plan; no audit results are claimed by this document
@@ -77,18 +78,19 @@ The package is ready for internal or trusted review. It is not final for public 
 19. Use `CITATION_PLACEHOLDER_MAP_BIORXIV_V0_1.md` before inserting citation placeholders into manuscript text.
 20. Use `VERIFIED_REFERENCE_PACK_BIORXIV_V0_2.md` and `CITATION_PLACEHOLDER_MAP_BIORXIV_V0_2.md` before second-pass bibliography and citation work.
 21. Use `REFERENCE_BIBLIOGRAPHY_BUILD_LOG_V0_1.md` before accepting or expanding draft `references.bib`.
-22. Use `FINAL_ARTIFACT_TRACEABILITY_EXPORT_CHECK_V0_1.md` before public supplement, project-page, or deck export work.
-23. Use `DATASET_PROVENANCE_AND_LABEL_SOURCE_CHECKLIST_V0_1.md` when reviewing dataset provenance or label-source blockers.
-24. Use `LEAKAGE_AUDIT_PLAN_V0_1.md` before implementing or running any leakage audit.
-25. Use `LEAKAGE_AUDIT_UTILITIES_V0_1.md` for dry-run and full-audit command guidance.
-26. Use `LEAKAGE_AUDIT_REPORT_V0_1.md` before updating leakage-related manuscript or evidence wording.
-27. Use `LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md` to decide whether audit outputs need refinement or can be committed as-is.
-28. Use `LEAKAGE_AUDIT_MANUSCRIPT_UPDATE_CHANGELOG_V0_1.md` to review where leakage findings were reflected in manuscript/evidence docs.
-29. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
-30. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
-31. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
-32. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
-33. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
+22. Use `CITATION_INSERTION_CHANGELOG_V0_1.md` to review draft citation-placeholder insertion.
+23. Use `FINAL_ARTIFACT_TRACEABILITY_EXPORT_CHECK_V0_1.md` before public supplement, project-page, or deck export work.
+24. Use `DATASET_PROVENANCE_AND_LABEL_SOURCE_CHECKLIST_V0_1.md` when reviewing dataset provenance or label-source blockers.
+25. Use `LEAKAGE_AUDIT_PLAN_V0_1.md` before implementing or running any leakage audit.
+26. Use `LEAKAGE_AUDIT_UTILITIES_V0_1.md` for dry-run and full-audit command guidance.
+27. Use `LEAKAGE_AUDIT_REPORT_V0_1.md` before updating leakage-related manuscript or evidence wording.
+28. Use `LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md` to decide whether audit outputs need refinement or can be committed as-is.
+29. Use `LEAKAGE_AUDIT_MANUSCRIPT_UPDATE_CHANGELOG_V0_1.md` to review where leakage findings were reflected in manuscript/evidence docs.
+30. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
+31. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
+32. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
+33. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
+34. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
 
 ## Minimum first-wave packet
 
