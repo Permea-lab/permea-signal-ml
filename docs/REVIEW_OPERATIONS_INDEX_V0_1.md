@@ -19,6 +19,7 @@ The package is ready for internal or trusted review. It is not final for public 
 - `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` — operational checklist for sending, intake, triage, and refresh
 - `FIRST_REVIEW_WAVE_DRY_RUN_V0_1.md` — internal pre-circulation packet dry run
 - `FIRST_REVIEW_WAVE_OUTREACH_PACKET_V0_1.md` — final first-wave outreach routing and send checklist
+- `TRUSTED_REVIEW_CIRCULATION_PACKET_SNAPSHOT_V0_1.md` — current trusted-review dispatch snapshot after P1/P2 review closure
 - `HARSH_REVIEW_COUNCIL_CHARTER_V0_1.md` — internal harsh review council roles and rules
 - `HARSH_REVIEW_ROUND_0_BASELINE_V0_1.md` — internal Round 0 baseline harsh review memo
 - `HARSH_REVIEW_REVIEWER_A_COMPUTATIONAL_REPRODUCIBILITY_V0_1.md` — internal Reviewer A detailed harsh review
@@ -38,16 +39,17 @@ The package is ready for internal or trusted review. It is not final for public 
 2. Use `FIRST_REVIEW_WAVE_PLAN_V0_1.md` to assign reviewer types.
 3. Review `FIRST_REVIEW_WAVE_DRY_RUN_V0_1.md` before sending.
 4. Use `FIRST_REVIEW_WAVE_OUTREACH_PACKET_V0_1.md` to confirm reviewer-specific routing.
-5. Use `HARSH_REVIEW_COUNCIL_CHARTER_V0_1.md` and `HARSH_REVIEW_ROUND_0_BASELINE_V0_1.md` for internal skeptical review context.
-6. Review the Reviewer A/B/C detailed harsh review memos and `HARSH_REVIEW_ROUND_1_INTEGRATED_ISSUE_REGISTER_V0_1.md`.
-7. Use `HARSH_REVIEW_ROUND_1_REVISION_PLAN_V0_1.md` to separate trusted-review readiness from preprint-readiness work.
-8. Review `HARSH_REVIEW_ROUND_1_P1_CLAIM_BOUNDARY_CHANGELOG_V0_1.md` for applied P1 claim-boundary tightening.
-9. Review `HARSH_REVIEW_ROUND_1_P2_PROVENANCE_BENCHMARK_CHANGELOG_V0_1.md` for applied P2 provenance and benchmark-clarity revisions.
-10. Review `HARSH_REVIEW_POST_P1_P2_COUNCIL_CHECK_V0_1.md` for post-revision readiness.
-11. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
-12. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
-13. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
-14. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
+5. Use `TRUSTED_REVIEW_CIRCULATION_PACKET_SNAPSHOT_V0_1.md` as the current human dispatch guide.
+6. Use `HARSH_REVIEW_COUNCIL_CHARTER_V0_1.md` and `HARSH_REVIEW_ROUND_0_BASELINE_V0_1.md` for internal skeptical review context.
+7. Review the Reviewer A/B/C detailed harsh review memos and `HARSH_REVIEW_ROUND_1_INTEGRATED_ISSUE_REGISTER_V0_1.md`.
+8. Use `HARSH_REVIEW_ROUND_1_REVISION_PLAN_V0_1.md` to separate trusted-review readiness from preprint-readiness work.
+9. Review `HARSH_REVIEW_ROUND_1_P1_CLAIM_BOUNDARY_CHANGELOG_V0_1.md` for applied P1 claim-boundary tightening.
+10. Review `HARSH_REVIEW_ROUND_1_P2_PROVENANCE_BENCHMARK_CHANGELOG_V0_1.md` for applied P2 provenance and benchmark-clarity revisions.
+11. Review `HARSH_REVIEW_POST_P1_P2_COUNCIL_CHECK_V0_1.md` for post-revision readiness.
+12. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
+13. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
+14. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
+15. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
 
 ## Minimum first-wave packet
 
