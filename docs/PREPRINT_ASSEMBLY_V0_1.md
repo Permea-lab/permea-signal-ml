@@ -50,13 +50,25 @@ Initial Computational Evidence for Permeability-Related Signal in a BBB-Oriented
 
 ## Suggested section-to-asset mapping
 
-- Abstract / Results summary → `results/tables/model_comparison_summary.csv`
-- Methods / Dataset surface → `docs/DATASET.md`
+- Abstract / Results summary → `results/tables/model_comparison_summary.csv`; regenerated metrics JSON files under `results/metrics/`
+- Methods / Dataset surface → `docs/DATASET.md`; run manifests under `results/manifests/`
 - Methods / Workflow structure → `figures/benchmark_workflow_outputs.png`
 - Results / Dataset and class balance → `figures/dataset_distribution.png`
 - Results / Baseline comparison → `figures/legacy_vs_rerun_metrics.png`, `results/tables/model_comparison_summary.csv`
 - Results / Model-level feature emphasis → `figures/regenerated_rf_feature_importance.png`, `results/tables/regenerated_rf_feature_importance.csv`
 - Discussion / Evidence boundary → `docs/FIRST_EVIDENCE_SUMMARY.md`, `docs/V0_1_EVIDENCE_PACKAGE.md`
+
+## Artifact-to-claim traceability
+
+| Manuscript claim or evidence statement | Supporting artifact or document | Artifact status | Remaining caveat |
+| --- | --- | --- | --- |
+| Dataset size and feature surface | `docs/DATASET.md`; rerun-ready dataset surface | documented current evidence surface | public dataset version remains `pending_confirmation` |
+| Split policy and seed | `docs/DATASET.md`; `results/manifests/*_manifest.json` | recovered benchmark setting | not a duplicate/similarity leakage-control claim |
+| Model comparison metrics | `results/tables/model_comparison_summary.csv`; regenerated metrics JSON files under `results/metrics/` | regenerated current-contract artifacts | metric interpretation remains benchmark-level |
+| PR-AUC under imbalance | `model_comparison_summary.csv`; preprint evaluation policy text | regenerated metric summary | class imbalance requires class-prior context |
+| RF feature importance | `results/tables/regenerated_rf_feature_importance.csv`; `figures/regenerated_rf_feature_importance.png` | regenerated model-level artifact | not mechanistic evidence |
+| Imported vs regenerated distinction | `docs/V0_1_EVIDENCE_PACKAGE.md`; summary tables and figures | documented evidence boundary | imported artifacts are continuity material |
+| Candidate-prioritization boundary | `docs/PREPRINT_DRAFT_V0_1.md`; ranking outputs under `results/tables/` | current benchmark-output interpretation | not biological validation |
 
 ## Submission-gap checklist
 
@@ -64,6 +76,7 @@ Initial Computational Evidence for Permeability-Related Signal in a BBB-Oriented
 - affiliations not finalized
 - formal references not yet added
 - provenance closure remains incomplete
+- label-source criteria and duplicate/similarity leakage status remain unresolved
 - supplementary appendix not yet drafted in full prose
 - figure set is not yet fully publication-ready
 - regenerated-only comparison figure remains optional / pending

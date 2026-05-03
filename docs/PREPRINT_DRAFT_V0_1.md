@@ -60,6 +60,8 @@ Accordingly, the main contribution of the present work is a bounded computationa
 
 The current reruns are based on an imported legacy BBB-oriented processed dataset. In its rerun-ready form, the current dataset surface contains 2959 rows. Confirmed benchmark-relevant fields are `sequence`, `label`, `length`, `charge`, `gravy`, `pI`, and `aromaticity`. To support benchmark-contract compatibility, the rerun-ready dataset also includes operational metadata fields `sequence_id` and `source`. These additional fields were introduced to support stable row identity and explicit source labeling during reruns, but they did not alter the underlying labels or the precomputed feature values.
 
+The current dataset surface is sufficient for benchmark-oriented reruns, but it is not provenance-closed. Current manifests retain the dataset version as `pending_confirmation`, and attribution, licensing, source-level metadata, and original label-source criteria remain partially unresolved. The `label` field is therefore used as the current supervised benchmark target, not as independently verified biological truth.
+
 ### Feature representation
 
 The present feature representation is intentionally narrow and sequence-derived. The benchmark surface uses five physicochemical descriptors: length, charge, gravy, pI, and aromaticity. This feature set is not intended to exhaust the possible modeling surface for BBB-related signal. Instead, it provides an interpretable and reproducible starting point for asking whether non-trivial computational signal is detectable under a constrained benchmark framing.
@@ -72,9 +74,13 @@ Three baseline model families were included in the regenerated reruns: a Dummy m
 
 Recovered benchmark-style evaluation uses `StratifiedKFold(n_splits=5, shuffle=True, random_state=42)`. This split policy is important because the current dataset surface is strongly imbalanced, making trivial baseline behavior especially relevant to interpretation. The regenerated reruns report ROC-AUC, PR-AUC, precision, recall, F1, and MCC. Among these, ROC-AUC and PR-AUC help summarize ranking-sensitive behavior under imbalance, while MCC provides an additional bounded summary of binary classification performance.
 
+The current documentation does not establish that duplicate, near-duplicate, or sequence-similarity leakage has been audited or controlled. The recovered split policy should therefore be read as the current rerun policy, not as a leakage-free benchmark guarantee.
+
 ### Output artifacts
 
 The current-contract reruns emit a structured result package rather than isolated summary numbers. Current outputs include machine-readable metrics summaries, row-level prediction files, ranking outputs for candidate prioritization, compact summary tables, and manifest-oriented provenance artifacts. This packaging is intended to make the benchmark surface easier to inspect and compare, and it supports a clearer boundary between exploratory work and current-contract evidence.
+
+The main manuscript metric claims map to `results/tables/model_comparison_summary.csv` and the corresponding regenerated metrics JSON files under `results/metrics/`. The regenerated feature-importance statement maps to `results/tables/regenerated_rf_feature_importance.csv` and `figures/regenerated_rf_feature_importance.png`. The manifest files under `results/manifests/` provide run-level context, including the recovered seed, split policy label, and current `pending_confirmation` dataset-version status.
 
 ### Imported versus regenerated evidence
 
@@ -117,6 +123,8 @@ Within the broader Permea program, this wedge functions as the first concrete ev
 ## Limitations
 
 The present draft is subject to several clear limitations. Dataset provenance is not yet fully closed, and attribution and licensing requirements still require confirmation before the dataset surface can be treated as fully settled for broad public reference. The feature surface is narrow and limited to a small set of sequence-derived physicochemical descriptors, which constrains the representational scope of the analysis. The model family is baseline-oriented rather than exhaustive or heavily optimized, so the results should be read as an initial benchmark comparison rather than a mature modeling frontier. No wet-lab validation is included, which means the work does not establish experimental confirmation of transport behavior. Nor does the present wedge establish mechanistic proof, broad delivery generalization, clinical interpretation, or therapeutic relevance. These limitations define the boundary within which the manuscript should be read.
+
+Additional benchmark-readiness limitations remain. Original label-source criteria are not yet fully reconstructed, and duplicate, near-duplicate, or sequence-similarity leakage has not been documented as audited in the current package. These items are sufficient to flag before preprint submission, but they do not change the current interpretation as a bounded computational benchmark surface for trusted review.
 
 ## Conclusion
 

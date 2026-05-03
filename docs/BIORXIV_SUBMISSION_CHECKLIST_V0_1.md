@@ -30,6 +30,18 @@ The repository currently contains a preprint draft, a preprint assembly document
 - `model_comparison_summary.csv` — available as a main comparison table source
 - regenerated-only comparison figure — pending / optional
 
+## Provenance and benchmark-readiness status
+
+- dataset surface identifier — `legacy_bbb_dataset_with_features`
+- dataset version — still `pending_confirmation` in current manifests
+- split policy — recovered as `StratifiedKFold(n_splits=5, shuffle=True, random_state=42)`
+- random seed — recovered as `42`
+- label-source criteria — not yet fully reconstructed
+- duplicate / near-duplicate / sequence-similarity leakage status — not yet documented as audited
+- attribution and licensing — still require confirmation
+
+These items are acceptable for trusted review with the extended packet, but they remain preprint-readiness blockers or explicit-deferral items before public submission.
+
 ## Supplementary status
 
 Supplementary structure now exists as an outline, but not yet as a full drafted supplement or appendix package.
@@ -83,6 +95,9 @@ Supplementary structure now exists as an outline, but not yet as a full drafted 
 - figure polish and publication formatting remain pending
 - provenance closure remains incomplete
 - attribution and licensing confirmation are still needed
+- label-source criteria remain partially unresolved
+- duplicate, near-duplicate, and sequence-similarity leakage status remain unaudited in current docs
+- artifact-to-claim traceability should be checked once more before export
 - one final manuscript consistency pass would still be useful
 
 ## Immediate next steps

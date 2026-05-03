@@ -20,6 +20,8 @@ The current evidence surface includes:
 
 This repository should be read as an initial evidence package rather than as a general delivery platform.
 
+The current evidence surface is sufficient for trusted review, but it is not provenance-closed for public preprint submission. Dataset version, attribution/licensing, original label-source criteria, and duplicate or sequence-similarity leakage status remain explicit benchmark-readiness caveats.
+
 ## Main findings
 
 - trivial baseline behavior is recovered as expected under strong class imbalance
@@ -55,6 +57,8 @@ The broader Permea standard layer is now defined in:
 - [Permea Core Evidence Ladder](https://github.com/Permea-lab/permea-core/blob/main/docs/EVIDENCE-LADDER.md)
 - [Permea Core Benchmark Contract](https://github.com/Permea-lab/permea-core/blob/main/docs/BENCHMARK-CONTRACT.md)
 - [Permea Core Result Artifact Schema](https://github.com/Permea-lab/permea-core/blob/main/docs/RESULT-ARTIFACT-SCHEMA.md)
+
+That broader standard-layer context should be read as program architecture, not as evidence that the current BBB-oriented wedge generalizes beyond its present computational benchmark surface.
 
 ## Immediate next evidence steps
 

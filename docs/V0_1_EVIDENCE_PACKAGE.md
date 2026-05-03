@@ -8,6 +8,8 @@ Permea Signal ML v0.1 is the first reproducible public computational evidence su
 
 The scope of this package is narrow by design. It covers sequence-derived physicochemical features, baseline benchmark models, and benchmark-oriented outputs for BBB-oriented peptide / permeability-related signal analysis. It is intended to support transparent comparison, reproducible reruns, and candidate prioritization workflows before experimental validation.
 
+The current package is sufficient for trusted computational review, but it remains provenance-limited for public preprint submission. Dataset version naming, attribution/licensing status, original label-source criteria, and duplicate or sequence-similarity leakage status are not fully closed.
+
 ## Included current-contract artifacts
 
 The current-contract evidence surface consists of regenerated artifacts produced under the present repository structure, configs, and output conventions. These artifacts include benchmark metrics JSON files, prediction tables, ranking tables, summary tables, run manifests, and compact comparison tables for the current baseline reruns.
@@ -27,6 +29,8 @@ This package supports only initial computational evidence for candidate prioriti
 ## Current evidence summary
 
 The current evidence surface shows that baseline models trained on sequence-derived physicochemical features produce non-random benchmark signal on the present BBB-oriented dataset surface. The strongest current use of this package is bounded comparison across baseline methods and transparent generation of artifacts that can be inspected, rerun, and extended; it does not establish biological validation or delivery performance.
+
+Metric summaries should be traced to `results/tables/model_comparison_summary.csv` and regenerated metrics JSON files. Model-level Random Forest feature importance should be traced to `results/tables/regenerated_rf_feature_importance.csv` and `figures/regenerated_rf_feature_importance.png`.
 
 ## Known limitations
 

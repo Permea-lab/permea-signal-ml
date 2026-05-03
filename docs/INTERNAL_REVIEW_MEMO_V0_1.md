@@ -22,6 +22,8 @@ For circulation-facing guidance, see [CIRCULATION_GUIDE_V0_1.md](./CIRCULATION_G
 - formal references have not yet been added
 - provenance closure remains incomplete
 - attribution and licensing confirmation are still pending
+- label-source criteria remain partially unresolved
+- duplicate, near-duplicate, and sequence-similarity leakage status have not been documented as audited
 - supplementary text is outlined but not fully drafted
 - figure polish remains limited
 - one final human editorial pass is still desirable
@@ -29,6 +31,8 @@ For circulation-facing guidance, see [CIRCULATION_GUIDE_V0_1.md](./CIRCULATION_G
 ## Current recommendation
 
 The package is near-ready for internal circulation and structured preprint preparation, but it still needs final metadata, references, and a last editorial review before external submission.
+
+For computational/reproducibility review, the extended packet should include `DATASET.md`, `V0_1_EVIDENCE_PACKAGE.md`, `FIRST_EVIDENCE_SUMMARY.md`, `PREPRINT_ASSEMBLY_V0_1.md`, and `SUPPLEMENTARY_OUTLINE_V0_1.md` so reviewers can inspect provenance, artifact, and benchmark-boundary context.
 
 ## Suggested next actions
 
