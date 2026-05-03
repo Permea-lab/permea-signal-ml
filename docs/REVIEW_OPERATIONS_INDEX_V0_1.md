@@ -33,6 +33,7 @@ The package is ready for internal or trusted review. It is not final for public 
 - `HARSH_REVIEW_POST_P1_P2_COUNCIL_CHECK_V0_1.md` — internal post-revision council check after P1/P2 edits
 - `VIRTUAL_EXPERT_RED_TEAM_REVIEW_MAX_HARSH_V0_1.md` — internal maximum-harsh virtual expert red-team review, not external feedback
 - `POST_RED_TEAM_NEXT_DEVELOPMENT_ROADMAP_V0_1.md` — next development roadmap after internal virtual red-team review
+- `PREPRINT_METADATA_AND_REFERENCE_GAP_CHECKLIST_V0_1.md` — preprint metadata, disclosure, reference, dataset/legal, and supplement/export gap checklist
 - `FINAL_ARTIFACT_TRACEABILITY_EXPORT_CHECK_V0_1.md` — internal artifact traceability and export-readiness check after the post-red-team roadmap
 - `DATASET_PROVENANCE_AND_LABEL_SOURCE_CHECKLIST_V0_1.md` — current dataset provenance, label-source, and licensing-status checklist
 - `LEAKAGE_AUDIT_PLAN_V0_1.md` — future leakage-audit plan; no audit results are claimed by this document
@@ -59,18 +60,19 @@ The package is ready for internal or trusted review. It is not final for public 
 11. Review `HARSH_REVIEW_POST_P1_P2_COUNCIL_CHECK_V0_1.md` for post-revision readiness.
 12. Review `VIRTUAL_EXPERT_RED_TEAM_REVIEW_MAX_HARSH_V0_1.md` as an internal simulated stress test only.
 13. Use `POST_RED_TEAM_NEXT_DEVELOPMENT_ROADMAP_V0_1.md` to choose the next internal development track.
-14. Use `FINAL_ARTIFACT_TRACEABILITY_EXPORT_CHECK_V0_1.md` before public supplement, project-page, or deck export work.
-15. Use `DATASET_PROVENANCE_AND_LABEL_SOURCE_CHECKLIST_V0_1.md` when reviewing dataset provenance or label-source blockers.
-16. Use `LEAKAGE_AUDIT_PLAN_V0_1.md` before implementing or running any leakage audit.
-17. Use `LEAKAGE_AUDIT_UTILITIES_V0_1.md` for dry-run and full-audit command guidance.
-18. Use `LEAKAGE_AUDIT_REPORT_V0_1.md` before updating leakage-related manuscript or evidence wording.
-19. Use `LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md` to decide whether audit outputs need refinement or can be committed as-is.
-20. Use `LEAKAGE_AUDIT_MANUSCRIPT_UPDATE_CHANGELOG_V0_1.md` to review where leakage findings were reflected in manuscript/evidence docs.
-21. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
-22. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
-23. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
-24. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
-25. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
+14. Use `PREPRINT_METADATA_AND_REFERENCE_GAP_CHECKLIST_V0_1.md` before metadata, reference, disclosure, or supplement/export closure.
+15. Use `FINAL_ARTIFACT_TRACEABILITY_EXPORT_CHECK_V0_1.md` before public supplement, project-page, or deck export work.
+16. Use `DATASET_PROVENANCE_AND_LABEL_SOURCE_CHECKLIST_V0_1.md` when reviewing dataset provenance or label-source blockers.
+17. Use `LEAKAGE_AUDIT_PLAN_V0_1.md` before implementing or running any leakage audit.
+18. Use `LEAKAGE_AUDIT_UTILITIES_V0_1.md` for dry-run and full-audit command guidance.
+19. Use `LEAKAGE_AUDIT_REPORT_V0_1.md` before updating leakage-related manuscript or evidence wording.
+20. Use `LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md` to decide whether audit outputs need refinement or can be committed as-is.
+21. Use `LEAKAGE_AUDIT_MANUSCRIPT_UPDATE_CHANGELOG_V0_1.md` to review where leakage findings were reflected in manuscript/evidence docs.
+22. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
+23. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
+24. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
+25. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
+26. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
 
 ## Minimum first-wave packet
 
