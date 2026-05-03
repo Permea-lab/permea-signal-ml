@@ -12,6 +12,8 @@ The repository currently contains a preprint draft, a preprint assembly document
 
 Task 052 manuscript candidate file: `docs/PREPRINT_MANUSCRIPT_CANDIDATE_V0_1.md`. Status: candidate prepared for human review; not submission-ready.
 
+Task 053 claim-boundary audit file: `docs/PREPRINT_CLAIM_BOUNDARY_AUDIT_V0_1.md`. Status: pass with caveats; no major claim-boundary violation found.
+
 ## Manuscript file status
 
 - title — provisional
@@ -87,6 +89,8 @@ Supplementary structure now exists as an outline and a prose draft at `docs/SUPP
 - no claim of universal prediction
 - no claim of therapeutic efficacy
 - no claim of broad delivery generalization
+- no leakage-free or robust-generalization claim
+- no SOTA predictor claim
 - BBB-oriented wedge stated explicitly
 - computational evidence only stated explicitly
 - benchmark-oriented candidate prioritization stated explicitly
