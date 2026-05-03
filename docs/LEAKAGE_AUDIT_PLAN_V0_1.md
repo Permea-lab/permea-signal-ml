@@ -21,7 +21,7 @@ This is a plan, not completed audit results. No leakage audit has been performed
 
 Leakage audit utilities are implemented in `src/permea_signal_ml/audits/leakage.py` with a CLI wrapper at `scripts/audit_leakage.py`. Usage and limitations are documented in `docs/LEAKAGE_AUDIT_UTILITIES_V0_1.md`.
 
-This implementation status does not mean the full leakage audit has been run. The current plan remains a future audit plan until output files are generated and reviewed in a separate task.
+The first leakage audit run has now been generated and summarized in `docs/LEAKAGE_AUDIT_REPORT_V0_1.md`, with outputs under `results/audits/`. The report should be used for current audit findings. This plan remains useful as the method definition and as a guide for future parameter tuning or leakage-aware sensitivity work.
 
 ## Leakage risks to assess
 

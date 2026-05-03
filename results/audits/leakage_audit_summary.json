@@ -1,0 +1,20 @@
+{
+  "dry_run": false,
+  "input_path": "data/processed/legacy_bbb_dataset_with_features_rerun_ready.csv",
+  "row_count": 2959,
+  "duplicate_sequence_groups": 4,
+  "label_conflict_groups": 0,
+  "near_duplicate_pairs": 73,
+  "high_jaccard_pairs": 33,
+  "cross_fold_high_similarity_pairs": 29,
+  "source_group_rows": 5,
+  "outputs_written": [
+    "results/audits/sequence_duplicate_audit.csv",
+    "results/audits/label_conflict_audit.csv",
+    "results/audits/near_duplicate_pairs.csv",
+    "results/audits/sequence_similarity_summary.csv",
+    "results/audits/fold_similarity_leakage_summary.csv",
+    "results/audits/source_group_leakage_summary.csv",
+    "results/audits/leakage_audit_summary.json"
+  ]
+}

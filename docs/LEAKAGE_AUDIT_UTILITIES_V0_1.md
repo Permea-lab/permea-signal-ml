@@ -82,6 +82,12 @@ When the full audit is explicitly run, the utility writes:
 
 These files are not created by utility implementation alone.
 
+## First audit run status
+
+A first approved audit run has generated outputs under `results/audits/` and a conservative report at `docs/LEAKAGE_AUDIT_REPORT_V0_1.md`.
+
+The existence of these outputs does not establish that the dataset is leakage-free and does not change benchmark metric values. The report should be read before making manuscript, preprint-readiness, or benchmark-interpretation updates.
+
 ## Limitations
 
 - Edit-distance and k-mer Jaccard checks are heuristic sequence-similarity screens.
@@ -93,4 +99,3 @@ These files are not created by utility implementation alone.
 ## Claim boundary
 
 These utilities are infrastructure for future audit work. They are not completed audit results, not biological validation, not a new benchmark result, and not evidence that leakage has been ruled out.
-
