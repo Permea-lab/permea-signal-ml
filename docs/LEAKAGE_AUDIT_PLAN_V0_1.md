@@ -17,6 +17,12 @@ This is a plan, not completed audit results. No leakage audit has been performed
 - Attribution/licensing: unconfirmed
 - Current split policy: recovered random stratified folds using `StratifiedKFold(n_splits=5, shuffle=True, random_state=42)`
 
+## Utility implementation status
+
+Leakage audit utilities are implemented in `src/permea_signal_ml/audits/leakage.py` with a CLI wrapper at `scripts/audit_leakage.py`. Usage and limitations are documented in `docs/LEAKAGE_AUDIT_UTILITIES_V0_1.md`.
+
+This implementation status does not mean the full leakage audit has been run. The current plan remains a future audit plan until output files are generated and reviewed in a separate task.
+
 ## Leakage risks to assess
 
 ### A. Exact duplicate sequence risk
@@ -167,4 +173,3 @@ This plan is not:
 - a completed leakage audit
 - a public preprint submission package
 - evidence that the dataset is leakage-free
-
