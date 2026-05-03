@@ -6,6 +6,13 @@ This plan defines the reference search and verification workflow for the bioRxiv
 
 This document does not add references, does not fabricate citations, does not finalize the bibliography, and does not make the public preprint ready. Public preprint status remains **Not yet** until references, metadata, disclosure, dataset/legal, supplement/export, and claim-boundary gaps are closed or explicitly caveated.
 
+The deep-research survey has been converted into planning artifacts only:
+
+- `docs/LITERATURE_SURVEY_SOURCE_LANDSCAPE_V0_1.md`
+- `docs/REFERENCE_VERIFICATION_QUEUE_BIORXIV_V0_1.md`
+
+These artifacts list candidate literature themes and verification priorities. They do not verify references or add final citation metadata.
+
 ## Reference principles
 
 - Every citation must be verified before insertion.
@@ -89,4 +96,4 @@ Reference insertion should happen after verified search, dataset/source attribut
 
 ## Recommended next Codex task
 
-Task 041 — Commit Reference Search Plan
+Task 043 — Commit Literature Survey Landscape and Reference Queue

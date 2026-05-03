@@ -14,6 +14,8 @@ The scientific manuscript draft exists, the v0.1 evidence package exists, the ar
 
 Reference search and verification planning is tracked in `docs/REFERENCE_SEARCH_PLAN_BIORXIV_V0_1.md`. That plan defines search categories, query candidates, and verification criteria; it does not add final citations.
 
+The current literature-survey-derived candidate landscape is tracked in `docs/LITERATURE_SURVEY_SOURCE_LANDSCAPE_V0_1.md`, and the unverified candidate queue is tracked in `docs/REFERENCE_VERIFICATION_QUEUE_BIORXIV_V0_1.md`.
+
 ## Metadata checklist
 
 | Item | Current status | Evidence/source | Required before bioRxiv? | Owner placeholder | Action required | Status |
@@ -112,4 +114,4 @@ No formal bibliography file, `CITATION.cff`, `.bib`, or final reference list was
 
 ## Recommended next Codex task
 
-Task 041 — Commit Reference Search Plan
+Task 043 — Commit Literature Survey Landscape and Reference Queue
