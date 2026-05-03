@@ -13,6 +13,13 @@ The deep-research survey has been converted into planning artifacts only:
 
 These artifacts list candidate literature themes and verification priorities. They do not verify references or add final citation metadata.
 
+The first verified reference pack and placeholder insertion map are tracked in:
+
+- `docs/VERIFIED_REFERENCE_PACK_BIORXIV_V0_1.md`
+- `docs/CITATION_PLACEHOLDER_MAP_BIORXIV_V0_1.md`
+
+These documents support bibliography preparation and later citation insertion. They do not create a final bibliography and do not modify manuscript text.
+
 ## Reference principles
 
 - Every citation must be verified before insertion.
@@ -96,4 +103,4 @@ Reference insertion should happen after verified search, dataset/source attribut
 
 ## Recommended next Codex task
 
-Task 043 — Commit Literature Survey Landscape and Reference Queue
+Task 045 — Create Draft references.bib from Verified Reference Pack

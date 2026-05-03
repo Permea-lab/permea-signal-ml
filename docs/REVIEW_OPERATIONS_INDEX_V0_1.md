@@ -37,6 +37,8 @@ The package is ready for internal or trusted review. It is not final for public 
 - `REFERENCE_SEARCH_PLAN_BIORXIV_V0_1.md` — reference search categories, query candidates, and citation verification workflow for bioRxiv v0.1 planning
 - `LITERATURE_SURVEY_SOURCE_LANDSCAPE_V0_1.md` — literature-survey-derived landscape memo for reference planning; not manuscript text or a final bibliography
 - `REFERENCE_VERIFICATION_QUEUE_BIORXIV_V0_1.md` — unverified candidate reference queue for later verification before bibliography creation
+- `VERIFIED_REFERENCE_PACK_BIORXIV_V0_1.md` — first externally verified reference pack for bibliography preparation; not a final bibliography
+- `CITATION_PLACEHOLDER_MAP_BIORXIV_V0_1.md` — placeholder-to-section map for later citation insertion; does not modify manuscript text
 - `FINAL_ARTIFACT_TRACEABILITY_EXPORT_CHECK_V0_1.md` — internal artifact traceability and export-readiness check after the post-red-team roadmap
 - `DATASET_PROVENANCE_AND_LABEL_SOURCE_CHECKLIST_V0_1.md` — current dataset provenance, label-source, and licensing-status checklist
 - `LEAKAGE_AUDIT_PLAN_V0_1.md` — future leakage-audit plan; no audit results are claimed by this document
@@ -67,18 +69,20 @@ The package is ready for internal or trusted review. It is not final for public 
 15. Use `REFERENCE_SEARCH_PLAN_BIORXIV_V0_1.md` before searching for, selecting, or inserting formal references.
 16. Use `LITERATURE_SURVEY_SOURCE_LANDSCAPE_V0_1.md` to understand survey-derived reference themes without treating them as verified citations.
 17. Use `REFERENCE_VERIFICATION_QUEUE_BIORXIV_V0_1.md` to track candidate references before creating any bibliography.
-18. Use `FINAL_ARTIFACT_TRACEABILITY_EXPORT_CHECK_V0_1.md` before public supplement, project-page, or deck export work.
-19. Use `DATASET_PROVENANCE_AND_LABEL_SOURCE_CHECKLIST_V0_1.md` when reviewing dataset provenance or label-source blockers.
-20. Use `LEAKAGE_AUDIT_PLAN_V0_1.md` before implementing or running any leakage audit.
-21. Use `LEAKAGE_AUDIT_UTILITIES_V0_1.md` for dry-run and full-audit command guidance.
-22. Use `LEAKAGE_AUDIT_REPORT_V0_1.md` before updating leakage-related manuscript or evidence wording.
-23. Use `LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md` to decide whether audit outputs need refinement or can be committed as-is.
-24. Use `LEAKAGE_AUDIT_MANUSCRIPT_UPDATE_CHANGELOG_V0_1.md` to review where leakage findings were reflected in manuscript/evidence docs.
-25. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
-26. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
-27. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
-28. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
-29. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
+18. Use `VERIFIED_REFERENCE_PACK_BIORXIV_V0_1.md` before drafting `references.bib`.
+19. Use `CITATION_PLACEHOLDER_MAP_BIORXIV_V0_1.md` before inserting citation placeholders into manuscript text.
+20. Use `FINAL_ARTIFACT_TRACEABILITY_EXPORT_CHECK_V0_1.md` before public supplement, project-page, or deck export work.
+21. Use `DATASET_PROVENANCE_AND_LABEL_SOURCE_CHECKLIST_V0_1.md` when reviewing dataset provenance or label-source blockers.
+22. Use `LEAKAGE_AUDIT_PLAN_V0_1.md` before implementing or running any leakage audit.
+23. Use `LEAKAGE_AUDIT_UTILITIES_V0_1.md` for dry-run and full-audit command guidance.
+24. Use `LEAKAGE_AUDIT_REPORT_V0_1.md` before updating leakage-related manuscript or evidence wording.
+25. Use `LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md` to decide whether audit outputs need refinement or can be committed as-is.
+26. Use `LEAKAGE_AUDIT_MANUSCRIPT_UPDATE_CHANGELOG_V0_1.md` to review where leakage findings were reflected in manuscript/evidence docs.
+27. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
+28. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
+29. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
+30. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
+31. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
 
 ## Minimum first-wave packet
 

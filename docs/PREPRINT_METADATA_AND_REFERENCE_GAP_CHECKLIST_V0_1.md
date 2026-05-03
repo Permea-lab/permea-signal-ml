@@ -16,6 +16,8 @@ Reference search and verification planning is tracked in `docs/REFERENCE_SEARCH_
 
 The current literature-survey-derived candidate landscape is tracked in `docs/LITERATURE_SURVEY_SOURCE_LANDSCAPE_V0_1.md`, and the unverified candidate queue is tracked in `docs/REFERENCE_VERIFICATION_QUEUE_BIORXIV_V0_1.md`.
 
+The first verified reference pack has been prepared in `docs/VERIFIED_REFERENCE_PACK_BIORXIV_V0_1.md`, with insertion planning in `docs/CITATION_PLACEHOLDER_MAP_BIORXIV_V0_1.md`. A final `references.bib` file has not been created, and public preprint status remains **Not yet**.
+
 ## Metadata checklist
 
 | Item | Current status | Evidence/source | Required before bioRxiv? | Owner placeholder | Action required | Status |
@@ -95,7 +97,7 @@ No formal bibliography file, `CITATION.cff`, `.bib`, or final reference list was
 |---|---|---|
 | Final author list, order, affiliations, corresponding author, email | Blocker before bioRxiv | Required submission metadata and cannot be invented. |
 | Funding, competing interests, author contributions, acknowledgements | Blocker before bioRxiv | Must be provided or approved by human operator. |
-| Formal references | Blocker before bioRxiv | Manuscript currently has source anchors but no formal reference list. |
+| Formal references | Blocker before bioRxiv | First verified reference pack exists, but manuscript citations and `references.bib` are not yet created. |
 | Dataset attribution and license / redistribution status | Blocker before bioRxiv | Public data/source handling must be accurate. |
 | Data/code availability statements | Blocker before bioRxiv | Must match actual repository and dataset-release policy. |
 | Supplement/export bundle | Strongly recommended before bioRxiv | Needed for coherent artifact and leakage-audit support. |
@@ -114,4 +116,4 @@ No formal bibliography file, `CITATION.cff`, `.bib`, or final reference list was
 
 ## Recommended next Codex task
 
-Task 043 — Commit Literature Survey Landscape and Reference Queue
+Task 045 — Create Draft references.bib from Verified Reference Pack

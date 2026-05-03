@@ -4,7 +4,7 @@
 
 This document tracks the current readiness of the BBB-oriented Permea manuscript package for a potential bioRxiv submission. It is intended as a practical readiness layer that separates what is already assembled from what remains placeholder or incomplete.
 
-Detailed metadata, disclosure, reference, dataset/legal, and supplement/export gaps are tracked in `docs/PREPRINT_METADATA_AND_REFERENCE_GAP_CHECKLIST_V0_1.md`. Reference search and verification planning is tracked in `docs/REFERENCE_SEARCH_PLAN_BIORXIV_V0_1.md`.
+Detailed metadata, disclosure, reference, dataset/legal, and supplement/export gaps are tracked in `docs/PREPRINT_METADATA_AND_REFERENCE_GAP_CHECKLIST_V0_1.md`. Reference search and verification planning is tracked in `docs/REFERENCE_SEARCH_PLAN_BIORXIV_V0_1.md`. The first verified reference pack is tracked in `docs/VERIFIED_REFERENCE_PACK_BIORXIV_V0_1.md`, but the final bibliography is still pending.
 
 ## Current submission package status
 
@@ -21,7 +21,7 @@ The repository currently contains a preprint draft, a preprint assembly document
 - limitations — drafted
 - conclusion — drafted
 - front matter — placeholder sections added; final metadata pending
-- formal references — pending
+- formal references — first verified reference pack prepared; `references.bib` and manuscript citation insertion still pending
 
 ## Figure and table status
 
@@ -102,7 +102,7 @@ Supplementary structure now exists as an outline, but not yet as a full drafted 
 ## Remaining blockers before submission
 
 - authorship and affiliation metadata not finalized
-- formal references not yet added
+- verified reference pack prepared, but final bibliography and manuscript citations not yet added
 - supplement not yet drafted in full prose
 - figure polish and publication formatting remain pending
 - provenance closure remains incomplete
