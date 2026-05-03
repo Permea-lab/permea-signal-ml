@@ -76,7 +76,7 @@ Track B status after dataset-provenance hardening: partially addressed as docume
 
 Track B leakage-audit status: first audit completed and documented in `LEAKAGE_AUDIT_REPORT_V0_1.md` and `LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md`. The audit found 4 same-label exact duplicate groups, 0 normalized exact-sequence label-conflict groups, 73 same-label near-duplicate pairs, 33 same-label high-similarity pairs, and 29 same-label cross-fold high-similarity pairs. Next follow-up is leakage-aware or similarity-aware split/sensitivity planning; the audit does not support stronger generalization claims.
 
-Track A metadata/reference status: gap checklist drafted as `PREPRINT_METADATA_AND_REFERENCE_GAP_CHECKLIST_V0_1.md`. It identifies missing author metadata, disclosures, formal references, dataset/legal statements, and supplement/export items without inventing final values.
+Track A metadata/reference status: gap checklist drafted as `PREPRINT_METADATA_AND_REFERENCE_GAP_CHECKLIST_V0_1.md`. It identifies missing author metadata, disclosures, formal references, dataset/legal statements, and supplement/export items without inventing final values. Reference search planning is drafted as `REFERENCE_SEARCH_PLAN_BIORXIV_V0_1.md`; it defines query categories and verification rules without adding citations.
 
 ## Track C - Artifact traceability and export
 
@@ -164,12 +164,13 @@ Do not modify `permea-core` in this task. Promotion candidates should first be c
 | Task 036 — Update Manuscript and Evidence Docs Based on Leakage Findings | Convert committed leakage audit findings into conservative manuscript/evidence language. | `PREPRINT_DRAFT_V0_1.md`; `DATASET.md`; evidence docs; checklist | Docs updated to state random-stratified baseline metrics may be optimistic. | Do not change metric values or claim robust generalization. | Blocks public preprint claim safety. | P1/P2 |
 | Task 037 — Plan Leakage-Aware Split Sensitivity Analysis | Define duplicate-aware or similarity-aware split follow-up. | Leakage audit outputs; audit investigation memo; scripts | Sensitivity-analysis plan without rerunning models unless separately approved. | Do not overwrite current benchmark metrics. | Blocks stronger benchmark claims. | P2 |
 | Task 038 — Prepare Preprint Metadata and Reference Gap Checklist | Identify missing metadata, disclosures, references, dataset/legal statements, and export gaps. | Preprint draft, assembly, checklist, dataset docs | Gap checklist with placeholder keys only. | Do not invent authors, affiliations, funders, conflicts, citations, or DOIs. | Blocks public preprint. | P1 |
+| Task 040 — Draft Reference Search Plan for bioRxiv v0.1 | Define reference search categories, query candidates, and verification rules. | Metadata/reference gap checklist; preprint draft; assembly docs | Reference search plan with placeholders only. | Do not add fabricated references, guessed DOIs, or memory-only citations. | Blocks public preprint. | P1 |
 
 ## Priority table
 
 | Track | Priority | Why it matters | Immediate next task | Blocks trusted review? | Blocks public preprint? | Blocks public deck/partner use? | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| A — Preprint-readiness hardening | P1/P2 | Public submission requires metadata, references, supplement, and export closure. | Task 038, then metadata/reference closure tasks | No | Yes | Partly | Gap checklist drafted; keep public preprint status on hold. |
+| A — Preprint-readiness hardening | P1/P2 | Public submission requires metadata, references, supplement, and export closure. | Task 041, then verified reference search/insertion tasks | No | Yes | Partly | Gap checklist and reference search plan drafted; keep public preprint status on hold. |
 | B — Provenance and evidence hardening | P2 | Provenance, label-source, licensing, and leakage caveats are the most serious credibility risks. | Task 036, then Task 037 | No | Yes | Yes | First leakage audit is complete; do not over-resolve unknowns or overstate generalization. |
 | C — Artifact traceability and export | P2 | A final traceability pass reduces metric, figure, manifest, and export mismatch risk. | Task 025 | No | Yes | Partly | Best immediate technical next step. |
 | D — Public deck / partner material hardening | P1/P2 | Public materials can easily overclaim metrics and platform maturity. | Task 029 after materials exist | No | No | Yes | Deck not present in repo. |
@@ -229,7 +230,7 @@ What can be deferred as future work:
 
 ## Recommended immediate next Codex task
 
-Task 039 — Commit Preprint Metadata and Reference Gap Checklist
+Task 041 — Commit Reference Search Plan
 
 ## Human next action
 

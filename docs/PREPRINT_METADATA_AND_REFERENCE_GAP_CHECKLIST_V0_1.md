@@ -12,6 +12,8 @@ Status: **Not yet**
 
 The scientific manuscript draft exists, the v0.1 evidence package exists, the artifact traceability package exists, and the first leakage audit has been reflected in the manuscript and evidence documentation. However, metadata, formal references, disclosure statements, dataset/legal status, and supplement/export packaging remain incomplete.
 
+Reference search and verification planning is tracked in `docs/REFERENCE_SEARCH_PLAN_BIORXIV_V0_1.md`. That plan defines search categories, query candidates, and verification criteria; it does not add final citations.
+
 ## Metadata checklist
 
 | Item | Current status | Evidence/source | Required before bioRxiv? | Owner placeholder | Action required | Status |
@@ -110,4 +112,4 @@ No formal bibliography file, `CITATION.cff`, `.bib`, or final reference list was
 
 ## Recommended next Codex task
 
-Task 039 — Commit Preprint Metadata and Reference Gap Checklist
+Task 041 — Commit Reference Search Plan
