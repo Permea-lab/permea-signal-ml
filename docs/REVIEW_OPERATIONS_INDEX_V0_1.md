@@ -21,6 +21,10 @@ The package is ready for internal or trusted review. It is not final for public 
 - `FIRST_REVIEW_WAVE_OUTREACH_PACKET_V0_1.md` — final first-wave outreach routing and send checklist
 - `HARSH_REVIEW_COUNCIL_CHARTER_V0_1.md` — internal harsh review council roles and rules
 - `HARSH_REVIEW_ROUND_0_BASELINE_V0_1.md` — internal Round 0 baseline harsh review memo
+- `HARSH_REVIEW_REVIEWER_A_COMPUTATIONAL_REPRODUCIBILITY_V0_1.md` — internal Reviewer A detailed harsh review
+- `HARSH_REVIEW_REVIEWER_B_BIOLOGICAL_SKEPTICAL_V0_1.md` — internal Reviewer B detailed harsh review
+- `HARSH_REVIEW_REVIEWER_C_TECHNICAL_CLARITY_V0_1.md` — internal Reviewer C detailed harsh review
+- `HARSH_REVIEW_ROUND_1_INTEGRATED_ISSUE_REGISTER_V0_1.md` — integrated internal Round 1 issue register
 - `REVIEW_FEEDBACK_LOG_V0_1.md` — structured feedback log
 - `REVISION_PRIORITY_FRAMEWORK_V0_1.md` — P0-P4 triage and revision rules
 
@@ -31,10 +35,11 @@ The package is ready for internal or trusted review. It is not final for public 
 3. Review `FIRST_REVIEW_WAVE_DRY_RUN_V0_1.md` before sending.
 4. Use `FIRST_REVIEW_WAVE_OUTREACH_PACKET_V0_1.md` to confirm reviewer-specific routing.
 5. Use `HARSH_REVIEW_COUNCIL_CHARTER_V0_1.md` and `HARSH_REVIEW_ROUND_0_BASELINE_V0_1.md` for internal skeptical review context.
-6. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
-7. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
-8. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
-9. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
+6. Review the Reviewer A/B/C detailed harsh review memos and `HARSH_REVIEW_ROUND_1_INTEGRATED_ISSUE_REGISTER_V0_1.md`.
+7. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
+8. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
+9. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
+10. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
 
 ## Minimum first-wave packet
 
