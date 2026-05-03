@@ -10,7 +10,7 @@ Circulation-facing review guidance is documented in [CIRCULATION_GUIDE_V0_1.md](
 
 ## Current manuscript status
 
-The repository now contains a v0.1 evidence package, a paper package planning document, a preprint skeleton, a full prose preprint draft, a polished and restructured preprint draft, a draft bibliography, and a bioRxiv submission-readiness checklist. Together, these assets define the current BBB-oriented manuscript-candidate surface for internal review and later refinement.
+The repository now contains a v0.1 evidence package, a paper package planning document, a preprint skeleton, a full prose preprint draft, a polished and restructured preprint draft, a single manuscript candidate at `docs/PREPRINT_MANUSCRIPT_CANDIDATE_V0_1.md`, a draft bibliography, and a bioRxiv submission-readiness checklist. Together, these assets define the current BBB-oriented manuscript-candidate surface for internal review and later refinement.
 
 ## Provisional title
 
@@ -38,6 +38,7 @@ Initial Computational Evidence for Permeability-Related Signal in a BBB-Oriented
   - reproducible evidence package
 - abstract status: draft prose available
 - manuscript status: draft v0.1 with citation placeholders, bioRxiv-style section flow, and front-matter placeholders added
+- manuscript candidate status: `docs/PREPRINT_MANUSCRIPT_CANDIDATE_V0_1.md` prepared for human review; not submission-ready
 - metadata/disclosure block status: draft placeholder blocks available in `docs/PREPRINT_METADATA_BLOCKS_DRAFT_V0_1.md`
 - evidence status: bounded computational evidence package
 - validation status: no experimental validation included

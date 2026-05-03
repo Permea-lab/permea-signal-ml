@@ -10,6 +10,8 @@ Detailed metadata, disclosure, reference, dataset/legal, and supplement/export g
 
 The repository currently contains a preprint draft, a preprint assembly document, a supplementary outline, a paper package planning document, an evidence package definition, current figures and tables, and repo-linked benchmark artifacts. Together, these components form a credible internal submission candidate, but not yet a finalized upload package.
 
+Task 052 manuscript candidate file: `docs/PREPRINT_MANUSCRIPT_CANDIDATE_V0_1.md`. Status: candidate prepared for human review; not submission-ready.
+
 ## Manuscript file status
 
 - title — provisional
@@ -94,6 +96,7 @@ Supplementary structure now exists as an outline and a prose draft at `docs/SUPP
 ## Repository and asset links
 
 - `docs/PREPRINT_DRAFT_V0_1.md`
+- `docs/PREPRINT_MANUSCRIPT_CANDIDATE_V0_1.md`
 - `docs/PREPRINT_ASSEMBLY_V0_1.md`
 - `docs/SUPPLEMENTARY_OUTLINE_V0_1.md`
 - `docs/PREPRINT_METADATA_AND_REFERENCE_GAP_CHECKLIST_V0_1.md`
