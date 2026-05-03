@@ -39,12 +39,14 @@ Use the extended packet when the reviewer is likely to inspect benchmark structu
 - `PREPRINT_DRAFT_V0_1.md`
 - `CIRCULATION_GUIDE_V0_1.md`
 - `REVIEWER_NOTE_V0_1.md`
-- `INTERNAL_REVIEW_MEMO_V0_1.md`
-- `BIORXIV_SUBMISSION_CHECKLIST_V0_1.md`
+- `DATASET.md`
+- `FIRST_EVIDENCE_SUMMARY.md`
+- `V0_1_EVIDENCE_PACKAGE.md`
 - `PREPRINT_ASSEMBLY_V0_1.md`
 - `SUPPLEMENTARY_OUTLINE_V0_1.md`
 
 Use `REVIEWER_PACKET_V0_1.md` as the canonical packet definition.
+Reviewer A should receive this extended packet by default. The extended packet provides provenance, artifact, benchmark, and evidence-boundary context; it does not imply stronger biological validation.
 
 ## Reviewer selection criteria
 
@@ -83,7 +85,7 @@ Reviewers should not be asked to judge the package as:
 2. Select reviewer type and packet.
 3. Customize one short message from `REVIEW_OUTREACH_TEMPLATES_V0_1.md`.
 4. Send the minimum packet to Reviewer B and Reviewer C, if used.
-5. Send the extended packet to Reviewer A.
+5. Send the extended packet to Reviewer A by default.
 6. Ask all reviewers to flag any sentence that sounds stronger than the current evidence supports.
 7. Record each substantive comment in `REVIEW_FEEDBACK_LOG_V0_1.md`.
 8. Assign P0-P4 priority using `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.

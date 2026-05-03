@@ -15,6 +15,7 @@ Use it with `FIRST_REVIEW_WAVE_PLAN_V0_1.md`, `REVIEWER_PACKET_V0_1.md`, `REVIEW
 - [ ] Confirm unresolved provenance, attribution, and licensing items remain visible limitations.
 - [ ] Confirm the imported-versus-regenerated distinction is preserved.
 - [ ] Confirm `PREPRINT_DRAFT_V0_1.md` is the current manuscript draft to send.
+- [ ] Review `FIRST_REVIEW_WAVE_OUTREACH_PACKET_V0_1.md` for reviewer-specific routing.
 
 ## Packet assembly
 
@@ -26,11 +27,13 @@ Use it with `FIRST_REVIEW_WAVE_PLAN_V0_1.md`, `REVIEWER_PACKET_V0_1.md`, `REVIEW
   - [ ] `PREPRINT_DRAFT_V0_1.md`
   - [ ] `CIRCULATION_GUIDE_V0_1.md`
   - [ ] `REVIEWER_NOTE_V0_1.md`
-  - [ ] `INTERNAL_REVIEW_MEMO_V0_1.md`
-  - [ ] `BIORXIV_SUBMISSION_CHECKLIST_V0_1.md`
+  - [ ] `DATASET.md`
+  - [ ] `FIRST_EVIDENCE_SUMMARY.md`
+  - [ ] `V0_1_EVIDENCE_PACKAGE.md`
   - [ ] `PREPRINT_ASSEMBLY_V0_1.md`
   - [ ] `SUPPLEMENTARY_OUTLINE_V0_1.md`
 - [ ] Confirm packet choices against `REVIEWER_PACKET_V0_1.md`.
+- [ ] Confirm Reviewer A receives the extended packet by default.
 
 ## Reviewer assignment
 
@@ -43,6 +46,7 @@ Use it with `FIRST_REVIEW_WAVE_PLAN_V0_1.md`, `REVIEWER_PACKET_V0_1.md`, `REVIEW
 ## Outreach
 
 - [ ] Select the relevant template from `REVIEW_OUTREACH_TEMPLATES_V0_1.md`.
+- [ ] Use `FIRST_REVIEW_WAVE_OUTREACH_PACKET_V0_1.md` to confirm reviewer-specific packet routing.
 - [ ] Customize the message to specify minimum or extended packet.
 - [ ] Ask explicitly for claim-boundary feedback.
 - [ ] Ask reviewers to flag wording that implies stronger evidence than the package supports.

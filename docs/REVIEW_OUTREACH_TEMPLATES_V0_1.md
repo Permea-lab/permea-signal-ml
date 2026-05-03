@@ -6,7 +6,7 @@ These are short outreach templates for sharing the current BBB-oriented manuscri
 
 ## Template A — Computational reviewer
 
-I’m sharing a bounded BBB-oriented computational manuscript package for review. The main things I’d value your feedback on are the benchmark framing, artifact structure, reproducibility/evidence packaging, and whether the claim boundary stays sufficiently tight. I can send either a minimum packet or a fuller review packet depending on how much detail you want.
+I’m sharing a bounded BBB-oriented computational manuscript package for review. I’m sending the fuller packet because the most useful feedback would be on benchmark framing, artifact structure, reproducibility/evidence packaging, provenance clarity, and whether the claim boundary stays sufficiently tight.
 
 ## Template B — Biologically literate reviewer
 

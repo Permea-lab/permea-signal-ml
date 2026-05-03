@@ -18,6 +18,7 @@ The package is ready for internal or trusted review. It is not final for public 
 - `FIRST_REVIEW_WAVE_PLAN_V0_1.md` — reviewer mix, sequence, expected outputs, and completion criteria
 - `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` — operational checklist for sending, intake, triage, and refresh
 - `FIRST_REVIEW_WAVE_DRY_RUN_V0_1.md` — internal pre-circulation packet dry run
+- `FIRST_REVIEW_WAVE_OUTREACH_PACKET_V0_1.md` — final first-wave outreach routing and send checklist
 - `REVIEW_FEEDBACK_LOG_V0_1.md` — structured feedback log
 - `REVISION_PRIORITY_FRAMEWORK_V0_1.md` — P0-P4 triage and revision rules
 
@@ -26,10 +27,11 @@ The package is ready for internal or trusted review. It is not final for public 
 1. Read `REVIEWER_PACKET_V0_1.md`.
 2. Use `FIRST_REVIEW_WAVE_PLAN_V0_1.md` to assign reviewer types.
 3. Review `FIRST_REVIEW_WAVE_DRY_RUN_V0_1.md` before sending.
-4. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
-5. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
-6. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
-7. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
+4. Use `FIRST_REVIEW_WAVE_OUTREACH_PACKET_V0_1.md` to confirm reviewer-specific routing.
+5. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
+6. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
+7. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
+8. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
 
 ## Minimum first-wave packet
 
@@ -42,10 +44,13 @@ The package is ready for internal or trusted review. It is not final for public 
 - `PREPRINT_DRAFT_V0_1.md`
 - `CIRCULATION_GUIDE_V0_1.md`
 - `REVIEWER_NOTE_V0_1.md`
-- `INTERNAL_REVIEW_MEMO_V0_1.md`
-- `BIORXIV_SUBMISSION_CHECKLIST_V0_1.md`
+- `DATASET.md`
+- `FIRST_EVIDENCE_SUMMARY.md`
+- `V0_1_EVIDENCE_PACKAGE.md`
 - `PREPRINT_ASSEMBLY_V0_1.md`
 - `SUPPLEMENTARY_OUTLINE_V0_1.md`
+
+Reviewer A receives the extended packet by default. This is for review usefulness and does not imply stronger biological validation.
 
 ## Feedback intake path
 
