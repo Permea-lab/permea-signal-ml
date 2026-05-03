@@ -57,7 +57,7 @@ See `docs/DATASET_PROVENANCE_AND_LABEL_SOURCE_CHECKLIST_V0_1.md` for the current
 
 ## Supplementary status
 
-Supplementary structure now exists as an outline, but not yet as a full drafted supplement or appendix package.
+Supplementary structure now exists as an outline and a prose draft at `docs/SUPPLEMENTARY_MATERIALS_DRAFT_V0_1.md`. The supplement is not final, not export-formatted, and not submission-ready.
 
 ## Metadata placeholders
 
@@ -105,7 +105,7 @@ Supplementary structure now exists as an outline, but not yet as a full drafted 
 
 - authorship and affiliation metadata not finalized
 - draft `references.bib` prepared and citation placeholders inserted, but citation consistency checking, deferred-reference decisions, and final human reference review are not complete
-- supplement not yet drafted in full prose
+- supplement drafted in prose, but final formatting, captions, and human review remain pending
 - figure polish and publication formatting remain pending
 - provenance closure remains incomplete
 - attribution and licensing confirmation are still needed

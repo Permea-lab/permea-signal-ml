@@ -94,7 +94,8 @@ This is an internal artifact audit. It does not add new scientific evidence, add
 | `docs/FIRST_EVIDENCE_SUMMARY.md` | Evidence summary document | Current documentation | Documentation source | Trusted review packet | Ready with caveats | Not final | Summarizes current computational evidence surface. |
 | `docs/V0_1_EVIDENCE_PACKAGE.md` | Evidence package document | Current documentation | Documentation source | Trusted review packet | Ready with caveats | Not final | Needs final public supplement/export closure. |
 | `docs/PREPRINT_ASSEMBLY_V0_1.md` | Preprint assembly document | Current documentation | Documentation source | Preprint assembly and artifact map | Ready with caveats | Not final | Provides traceability map but is not final submission packaging. |
-| `docs/SUPPLEMENTARY_OUTLINE_V0_1.md` | Supplement outline | Current documentation | Documentation source | Preprint support | Ready with caveats | Not yet | Outline only; final supplement/export package still missing. |
+| `docs/SUPPLEMENTARY_OUTLINE_V0_1.md` | Supplement outline | Current documentation | Documentation source | Preprint support | Ready with caveats | Not yet | Outline now has a prose supplement draft, but final export package still missing. |
+| `docs/SUPPLEMENTARY_MATERIALS_DRAFT_V0_1.md` | Supplementary materials draft | Current documentation | Documentation source | Manuscript-candidate support | Ready with caveats | Not yet | Draft only; not final or submission-ready. |
 
 ## Claim-to-artifact map
 
@@ -131,7 +132,7 @@ This is an internal artifact audit. It does not add new scientific evidence, add
 - Original label-source criteria remain partially unresolved; current labels are usable for the recovered benchmark setting but are not independently verified biological truth.
 - Leakage audit outputs are now present under `results/audits/`, but no leakage-aware split or sensitivity-analysis artifact is present.
 - `docs/LEAKAGE_AUDIT_REPORT_V0_1.md` and `docs/LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md` document moderate benchmark optimism risk.
-- No standalone public supplement/export bundle currently packages all tables, figures, manifests, and caveats in one reviewer-readable directory or index.
+- A standalone draft supplement now packages tables, figures, manifests, audit outputs, and caveats in one document, but no final public supplement/export bundle exists.
 - Figure/caption polish and final export naming are not complete for public preprint use.
 - Deck, pitch, and partner-facing materials are absent from `permea-signal-ml`, so public deck/partner traceability cannot be cleared.
 

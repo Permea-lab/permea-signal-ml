@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document defines the likely supplementary structure for the current BBB-oriented manuscript draft. It is intended as a compact planning layer for appendix and supplementary materials rather than as the supplement itself.
+This document defines the likely supplementary structure for the current BBB-oriented manuscript draft. It is intended as a compact planning layer for appendix and supplementary materials. A prose draft now exists at `docs/SUPPLEMENTARY_MATERIALS_DRAFT_V0_1.md`, but it is not final or submission-ready.
 
 ## Why supplementary structure is needed
 
@@ -63,3 +63,7 @@ The current package should not claim that the dataset is fully provenance-closed
 - prepare a label-source and leakage-risk note
 - add the leakage audit outputs as supplement candidates
 - prepare an artifact-to-claim traceability table
+
+## Task 050 draft status
+
+`docs/SUPPLEMENTARY_MATERIALS_DRAFT_V0_1.md` converts this outline into a draft supplement covering dataset fields, feature definitions, model/evaluation summary, metric artifact references, leakage audit summary, artifact inventory, provenance caveats, reproducibility command anchors, and no-wet-lab boundaries. It does not add new results or modify artifacts.

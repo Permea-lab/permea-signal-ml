@@ -81,7 +81,7 @@ Initial Computational Evidence for Permeability-Related Signal in a BBB-Oriented
 - provenance closure remains incomplete
 - label-source criteria remain unresolved
 - leakage audit findings require conservative limitations language
-- supplementary appendix not yet drafted in full prose
+- supplementary appendix draft exists at `docs/SUPPLEMENTARY_MATERIALS_DRAFT_V0_1.md`; final supplement/export formatting remains pending
 - figure set is not yet fully publication-ready
 - regenerated-only comparison figure remains optional / pending
 - manuscript export format is not yet prepared
