@@ -180,6 +180,10 @@ Dataset legal and availability statement options have been prepared as `docs/DAT
 
 The final references human cleanup checklist has been prepared as `docs/FINAL_REFERENCES_HUMAN_CLEANUP_CHECKLIST_V0_1.md`. It inventories the draft `references.bib`, flags human cleanup needs, and preserves final bibliography approval as a blocker. It does not modify `references.bib`, add references, or mark references as final.
 
+## Task 074 Status Note
+
+The leakage-aware sensitivity analysis plan has been prepared as `docs/LEAKAGE_AWARE_SENSITIVITY_ANALYSIS_PLAN_V0_1.md`. It defines future duplicate-aware, near-duplicate-aware, k-mer, combined, source/group, and holdout strategies without running splits, rerunning models, changing metrics, or claiming leakage-aware performance.
+
 ## No-Change Confirmation
 
 - Manuscript content was not modified by this plan.

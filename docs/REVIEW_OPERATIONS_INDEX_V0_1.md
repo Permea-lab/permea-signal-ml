@@ -68,6 +68,7 @@ The package is ready for internal or trusted review. It is not final for public 
 - `LEAKAGE_AUDIT_REPORT_V0_1.md` — first leakage audit output summary and conservative interpretation; not a leakage-free claim
 - `LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md` — deeper investigation of first audit findings before manuscript/evidence updates
 - `LEAKAGE_AUDIT_MANUSCRIPT_UPDATE_CHANGELOG_V0_1.md` — changelog for manuscript/evidence updates based on leakage audit findings
+- `LEAKAGE_AWARE_SENSITIVITY_ANALYSIS_PLAN_V0_1.md` — future leakage-aware sensitivity analysis plan; no split or metric has been generated
 - `results/audits/leakage_audit_summary.json` — machine-readable leakage audit summary counts
 - `REVIEW_FEEDBACK_LOG_V0_1.md` — structured feedback log
 - `REVISION_PRIORITY_FRAMEWORK_V0_1.md` — P0-P4 triage and revision rules
@@ -120,11 +121,12 @@ The package is ready for internal or trusted review. It is not final for public 
 44. Use `LEAKAGE_AUDIT_REPORT_V0_1.md` before updating leakage-related manuscript or evidence wording.
 45. Use `LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md` to decide whether audit outputs need refinement or can be committed as-is.
 46. Use `LEAKAGE_AUDIT_MANUSCRIPT_UPDATE_CHANGELOG_V0_1.md` to review where leakage findings were reflected in manuscript/evidence docs.
-47. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
-48. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
-49. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
-50. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
-51. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
+47. Use `LEAKAGE_AWARE_SENSITIVITY_ANALYSIS_PLAN_V0_1.md` before implementing duplicate-aware or similarity-aware split utilities.
+48. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
+49. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
+50. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
+51. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
+52. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
 
 ## Minimum first-wave packet
 

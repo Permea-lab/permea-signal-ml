@@ -14,6 +14,8 @@ Dataset legal, data availability, code availability, and license-statement wordi
 
 Final human cleanup requirements for draft `references.bib` are tracked in `docs/FINAL_REFERENCES_HUMAN_CLEANUP_CHECKLIST_V0_1.md`. That checklist does not finalize references or make the bibliography public-ready.
 
+Leakage-aware sensitivity planning is tracked in `docs/LEAKAGE_AWARE_SENSITIVITY_ANALYSIS_PLAN_V0_1.md`. That plan does not run leakage-aware splits, generate leakage-aware metrics, or make current metrics robust-generalization estimates.
+
 ## Current submission package status
 
 The repository currently contains a preprint draft, manuscript candidate, supplement draft, draft bibliography, preprint assembly document, supplementary outline, paper package planning document, evidence package definition, current figures and tables, and repo-linked benchmark artifacts. Together, these components form a credible internal manuscript candidate package, but not a finalized upload package.
@@ -149,6 +151,7 @@ Supplement/export formatting checklist: `docs/SUPPLEMENT_EXPORT_FORMATTING_CHECK
 - leakage audit findings must be reflected with conservative language; same-label duplicate and high-similarity pairs cross reconstructed folds
 - abstract and metric caveats have been tightened, but public posting still requires final human review and blocker closure
 - leakage-aware or similarity-aware follow-up is likely needed before public benchmark claims are strengthened
+- leakage-aware sensitivity analysis plan has been prepared, but no leakage-aware split or metric exists yet
 - artifact-to-claim traceability should be checked once more before export
 - one final manuscript consistency pass would still be useful
 

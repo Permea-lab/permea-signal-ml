@@ -76,6 +76,8 @@ Track B status after dataset-provenance hardening: partially addressed as docume
 
 Track B leakage-audit status: first audit completed and documented in `LEAKAGE_AUDIT_REPORT_V0_1.md` and `LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md`. The audit found 4 same-label exact duplicate groups, 0 normalized exact-sequence label-conflict groups, 73 same-label near-duplicate pairs, 33 same-label high-similarity pairs, and 29 same-label cross-fold high-similarity pairs. Next follow-up is leakage-aware or similarity-aware split/sensitivity planning; the audit does not support stronger generalization claims.
 
+Track B leakage-sensitivity planning status: leakage-aware sensitivity planning is prepared in `LEAKAGE_AWARE_SENSITIVITY_ANALYSIS_PLAN_V0_1.md`. The plan scopes future duplicate-aware, near-duplicate-aware, k-mer, combined, source/group, and holdout strategies, but it does not run splits, rerun models, generate metrics, or establish robust generalization.
+
 Track A metadata/reference status: gap checklist drafted as `PREPRINT_METADATA_AND_REFERENCE_GAP_CHECKLIST_V0_1.md`. It identifies missing author metadata, disclosures, formal references, dataset/legal statements, and supplement/export items without inventing final values. Reference search planning is drafted as `REFERENCE_SEARCH_PLAN_BIORXIV_V0_1.md`; it defines query categories and verification rules without adding citations. Literature-survey leads are organized as a source-landscape memo and verification queue. The first and second verified reference packs and citation placeholder maps are prepared, but `references.bib` and manuscript citation insertion are still pending.
 
 ## Track C - Artifact traceability and export
