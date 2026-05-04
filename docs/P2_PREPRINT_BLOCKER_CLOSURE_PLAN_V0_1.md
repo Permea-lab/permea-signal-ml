@@ -168,6 +168,10 @@ The next practical step is to collect human metadata/legal inputs, not to expand
 
 The human metadata and disclosure input form has been prepared as `docs/HUMAN_METADATA_AND_DISCLOSURE_INPUT_FORM_V0_1.md`. It is a collection template only and does not fill, approve, or resolve any author, disclosure, dataset/legal, code/data availability, bibliography, leakage-sensitivity, or public-posting decision.
 
+## Task 068 Status Note
+
+The supplement and export formatting checklist has been prepared as `docs/SUPPLEMENT_EXPORT_FORMATTING_CHECKLIST_V0_1.md`. It is a formatting and packaging checklist only. It does not create final PDF, DOCX, submission-bundle, website, or archive files, and it does not resolve metadata, legal, bibliography, caption, or public-approval blockers.
+
 ## No-Change Confirmation
 
 - Manuscript content was not modified by this plan.

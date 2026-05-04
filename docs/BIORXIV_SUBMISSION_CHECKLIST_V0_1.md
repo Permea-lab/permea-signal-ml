@@ -8,6 +8,8 @@ Detailed metadata, disclosure, reference, dataset/legal, and supplement/export g
 
 Human-provided metadata, disclosure, legal, availability, bibliography, and public-posting decisions should be collected with `docs/HUMAN_METADATA_AND_DISCLOSURE_INPUT_FORM_V0_1.md`. That form is not complete by default and does not make the public preprint ready.
 
+Supplement and export formatting checks are tracked in `docs/SUPPLEMENT_EXPORT_FORMATTING_CHECKLIST_V0_1.md`. That checklist inventories current materials and required formatting checks, but it does not create final export files or make the package submission-ready.
+
 ## Current submission package status
 
 The repository currently contains a preprint draft, manuscript candidate, supplement draft, draft bibliography, preprint assembly document, supplementary outline, paper package planning document, evidence package definition, current figures and tables, and repo-linked benchmark artifacts. Together, these components form a credible internal manuscript candidate package, but not a finalized upload package.
@@ -73,6 +75,8 @@ See `docs/DATASET_PROVENANCE_AND_LABEL_SOURCE_CHECKLIST_V0_1.md` for the current
 ## Supplementary status
 
 Supplementary structure now exists as an outline and a prose draft at `docs/SUPPLEMENTARY_MATERIALS_DRAFT_V0_1.md`. The supplement is not final, not export-formatted, and not submission-ready.
+
+Supplement/export formatting checklist: `docs/SUPPLEMENT_EXPORT_FORMATTING_CHECKLIST_V0_1.md`. Status: prepared for internal formatting review; public export remains blocked pending human metadata, legal, reference, caption, formatting, and approval closure.
 
 ## Metadata placeholders
 

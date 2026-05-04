@@ -4,6 +4,8 @@
 
 Draft export manifest only. Not a final submission package. Not export-ready. Do not submit or post publicly from this manifest without human approval.
 
+Supplement and export formatting requirements are tracked in `docs/SUPPLEMENT_EXPORT_FORMATTING_CHECKLIST_V0_1.md`. That checklist is a planning artifact only and does not create final export files.
+
 ## Core package paths
 
 | Item | Path | Status |
