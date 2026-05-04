@@ -78,6 +78,7 @@ The package is ready for internal or trusted review. It is not final for public 
 - `LEAKAGE_AWARE_BASELINE_RERUN_FINDINGS_INVESTIGATION_V0_1.md` — conservative findings investigation before manuscript updates; not validation or public-posting approval
 - `LEAKAGE_AWARE_MANUSCRIPT_UPDATE_CHANGELOG_V0_1.md` — changelog for conservative manuscript, draft, and supplement updates based on leakage-aware sensitivity findings
 - `FINAL_POST_SENSITIVITY_CLAIM_AND_CITATION_AUDIT_V0_1.md` — final internal post-sensitivity claim and citation audit; not external review, peer review, or public approval
+- `POST_SENSITIVITY_FOUNDER_DECISION_BRIEF_V0_1.md` — post-sensitivity founder/manual decision brief; recommends caveated bioRxiv v0.1 only after cleanup and approval
 - `results/audits/leakage_audit_summary.json` — machine-readable leakage audit summary counts
 - `REVIEW_FEEDBACK_LOG_V0_1.md` — structured feedback log
 - `REVISION_PRIORITY_FRAMEWORK_V0_1.md` — P0-P4 triage and revision rules
@@ -140,11 +141,12 @@ The package is ready for internal or trusted review. It is not final for public 
 54. Use `LEAKAGE_AWARE_BASELINE_RERUN_FINDINGS_INVESTIGATION_V0_1.md` before updating manuscript language from leakage-aware sensitivity results.
 55. Use `LEAKAGE_AWARE_MANUSCRIPT_UPDATE_CHANGELOG_V0_1.md` to inspect where sensitivity findings were incorporated and which limitations remain.
 56. Use `FINAL_POST_SENSITIVITY_CLAIM_AND_CITATION_AUDIT_V0_1.md` before the next internal closure task or any public-readiness decision.
-57. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
-58. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
-59. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
-60. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
-61. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
+57. Use `POST_SENSITIVITY_FOUNDER_DECISION_BRIEF_V0_1.md` before founder/manual approval decisions after leakage-aware sensitivity integration.
+58. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
+59. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
+60. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
+61. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
+62. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
 
 ## Minimum first-wave packet
 

@@ -20,6 +20,7 @@ This reassessment does not submit to bioRxiv, does not clear public posting, and
 | Citation consistency check | `docs/CITATION_CONSISTENCY_CHECK_V0_1.md` | Pass |
 | Metadata placeholder blocks | `docs/PREPRINT_METADATA_BLOCKS_DRAFT_V0_1.md` | Exists; not completed |
 | Human metadata/disclosure input form | `docs/HUMAN_METADATA_AND_DISCLOSURE_INPUT_FORM_V0_1.md` | Exists; requires human completion |
+| Post-sensitivity founder decision brief | `docs/POST_SENSITIVITY_FOUNDER_DECISION_BRIEF_V0_1.md` | Exists; recommends caveated bioRxiv v0.1 path only after cleanup |
 
 ## Unresolved blockers
 
@@ -46,6 +47,7 @@ This reassessment does not submit to bioRxiv, does not clear public posting, and
 - leakage-aware baseline rerun outputs now exist in `docs/LEAKAGE_AWARE_BASELINE_RERUN_REPORT_V0_1.md` and `results/sensitivity/`
 - leakage-aware rerun findings investigation exists in `docs/LEAKAGE_AWARE_BASELINE_RERUN_FINDINGS_INVESTIGATION_V0_1.md`
 - manuscript, draft, and supplement now include leakage-aware sensitivity findings, but final human approval and public-posting decisions remain pending
+- post-sensitivity founder/manual decision brief exists in `docs/POST_SENSITIVITY_FOUNDER_DECISION_BRIEF_V0_1.md`, but it does not approve public posting or make the preprint submission-ready
 
 ## Scientific boundary retained
 

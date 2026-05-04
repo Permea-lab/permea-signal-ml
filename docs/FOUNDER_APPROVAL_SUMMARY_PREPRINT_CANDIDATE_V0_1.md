@@ -17,6 +17,7 @@ This is not external expert review, not peer review, not public approval, and no
 - Post-fix review found no P0/P1 blockers for the next internal draft stage.
 - P2 blocker closure plan, metadata/disclosure form, dataset legal/availability options, references cleanup checklist, supplement/export checklist, final status report, and leakage-aware sensitivity plan exist.
 - Leakage-aware sensitivity findings have been incorporated into the manuscript candidate, preprint draft, and supplement with conservative claim boundaries.
+- Post-sensitivity founder/manual decision brief prepared: `docs/POST_SENSITIVITY_FOUNDER_DECISION_BRIEF_V0_1.md`.
 - Public preprint remains **Hold / not submission-ready**.
 
 ## Evidence and Data Status
@@ -100,6 +101,7 @@ Conservative recommendation:
 - Close metadata, disclosure, dataset legal, data/code availability, reference, supplement/export, and founder/manual approval blockers.
 - Decide whether the current leakage-aware sensitivity update is sufficient before public posting.
 - If speed matters, choose the Fast caveated bioRxiv path only after metadata/legal/reference cleanup and final claim-boundary review.
+- For the post-sensitivity decision state, use `docs/POST_SENSITIVITY_FOUNDER_DECISION_BRIEF_V0_1.md`.
 
 ## Founder Approval Checklist
 

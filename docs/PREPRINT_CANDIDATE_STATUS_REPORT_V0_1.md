@@ -24,6 +24,7 @@ This is not a submission package, does not approve public posting, does not add 
 | Supplement/export checklist | `docs/SUPPLEMENT_EXPORT_FORMATTING_CHECKLIST_V0_1.md` | Checklist prepared | Yes | No | Defines formatting checks; does not create final export files. |
 | Leakage-aware sensitivity plan | `docs/LEAKAGE_AWARE_SENSITIVITY_ANALYSIS_PLAN_V0_1.md` | Plan prepared; outputs generated | Yes | No | Sensitivity metrics exist but remain bounded estimates, not validation. |
 | Leakage-aware manuscript update changelog | `docs/LEAKAGE_AWARE_MANUSCRIPT_UPDATE_CHANGELOG_V0_1.md` | Changelog prepared | Yes | No | Tracks manuscript/supplement integration of sensitivity findings. |
+| Post-sensitivity founder decision brief | `docs/POST_SENSITIVITY_FOUNDER_DECISION_BRIEF_V0_1.md` | Prepared decision brief | Yes | No | Recommends proceeding toward caveated bioRxiv v0.1 only after metadata/legal/reference/supplement cleanup. |
 
 ## Scientific Readiness Summary
 
@@ -134,7 +135,7 @@ This may support transparent public communication, but it still requires separat
 
 ## Recommended Immediate Next Action
 
-The next practical action is for the human operator to complete `docs/HUMAN_METADATA_AND_DISCLOSURE_INPUT_FORM_V0_1.md` and review whether the current leakage-aware sensitivity update is sufficient before bioRxiv v0.1.
+The next practical action is for the human operator to review `docs/POST_SENSITIVITY_FOUNDER_DECISION_BRIEF_V0_1.md`, complete `docs/HUMAN_METADATA_AND_DISCLOSURE_INPUT_FORM_V0_1.md`, and close the metadata, legal, reference, supplement/export, and approval blockers before bioRxiv v0.1.
 
 If Codex should continue before human inputs are available, the next useful Codex task is to prepare a one-page human-input summary sheet that condenses metadata, legal, bibliography, supplement/export, and leakage-sensitivity decisions into a shorter decision form.
 
