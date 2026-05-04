@@ -51,6 +51,7 @@ The package is ready for internal or trusted review. It is not final for public 
 - `PREPRINT_MANUSCRIPT_CANDIDATE_MAX_HARSH_REVIEW_V0_1.md` — internal maximum-harsh virtual review of the manuscript candidate package; not external review, peer review, or public validation
 - `PREPRINT_MANUSCRIPT_CANDIDATE_FIX_CHANGELOG_V0_1.md` — changelog for abstract and claim-boundary fixes applied after the maximum-harsh review
 - `PREPRINT_MANUSCRIPT_CANDIDATE_POST_FIX_REVIEW_V0_1.md` — internal post-fix harsh review after Task 060/061 claim-boundary fixes; not external review, peer review, or public validation
+- `P2_PREPRINT_BLOCKER_CLOSURE_PLAN_V0_1.md` — closure plan for remaining P2 bioRxiv-readiness blockers; preserves Hold / not submission-ready status
 - `PREPRINT_CLAIM_BOUNDARY_AUDIT_V0_1.md` — internal audit confirming the candidate package stays within computational, non-validation claim boundaries
 - `CITATION_CONSISTENCY_CHECK_V0_1.md` — citation-placeholder check against `references.bib`
 - `BIORXIV_V0_1_READINESS_REASSESSMENT_V0_1.md` — readiness reassessment after manuscript candidate, supplement draft, bibliography, claim audit, and citation check
@@ -98,23 +99,24 @@ The package is ready for internal or trusted review. It is not final for public 
 27. Use `PREPRINT_MANUSCRIPT_CANDIDATE_MAX_HARSH_REVIEW_V0_1.md` to review internal maximum-harsh issues before public-facing revisions.
 28. Use `PREPRINT_MANUSCRIPT_CANDIDATE_FIX_CHANGELOG_V0_1.md` to inspect applied abstract and claim-boundary fixes.
 29. Use `PREPRINT_MANUSCRIPT_CANDIDATE_POST_FIX_REVIEW_V0_1.md` to review remaining post-fix blockers before next internal draft or preprint-preparation tasks.
-30. Use `PREPRINT_CLAIM_BOUNDARY_AUDIT_V0_1.md` before claiming the package is safe for human review.
-31. Use `CITATION_CONSISTENCY_CHECK_V0_1.md` before final bibliography review or manuscript export.
-32. Use `BIORXIV_V0_1_READINESS_REASSESSMENT_V0_1.md` for current candidate package readiness status.
-33. Use `BIORXIV_EXPORT_PACKAGE_DRAFT_V0_1.md` to review the draft export manifest.
-34. Use `OVERNIGHT_BATCH_046_057_REPORT_V0_1.md` for a batch-level status and blocker summary.
-35. Use `FINAL_ARTIFACT_TRACEABILITY_EXPORT_CHECK_V0_1.md` before public supplement, project-page, or deck export work.
-36. Use `DATASET_PROVENANCE_AND_LABEL_SOURCE_CHECKLIST_V0_1.md` when reviewing dataset provenance or label-source blockers.
-37. Use `LEAKAGE_AUDIT_PLAN_V0_1.md` before implementing or running any leakage audit.
-38. Use `LEAKAGE_AUDIT_UTILITIES_V0_1.md` for dry-run and full-audit command guidance.
-39. Use `LEAKAGE_AUDIT_REPORT_V0_1.md` before updating leakage-related manuscript or evidence wording.
-40. Use `LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md` to decide whether audit outputs need refinement or can be committed as-is.
-41. Use `LEAKAGE_AUDIT_MANUSCRIPT_UPDATE_CHANGELOG_V0_1.md` to review where leakage findings were reflected in manuscript/evidence docs.
-42. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
-43. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
-44. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
-45. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
-46. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
+30. Use `P2_PREPRINT_BLOCKER_CLOSURE_PLAN_V0_1.md` to classify remaining preprint blockers before metadata, legal, reference, supplement, export, or sensitivity-planning work.
+31. Use `PREPRINT_CLAIM_BOUNDARY_AUDIT_V0_1.md` before claiming the package is safe for human review.
+32. Use `CITATION_CONSISTENCY_CHECK_V0_1.md` before final bibliography review or manuscript export.
+33. Use `BIORXIV_V0_1_READINESS_REASSESSMENT_V0_1.md` for current candidate package readiness status.
+34. Use `BIORXIV_EXPORT_PACKAGE_DRAFT_V0_1.md` to review the draft export manifest.
+35. Use `OVERNIGHT_BATCH_046_057_REPORT_V0_1.md` for a batch-level status and blocker summary.
+36. Use `FINAL_ARTIFACT_TRACEABILITY_EXPORT_CHECK_V0_1.md` before public supplement, project-page, or deck export work.
+37. Use `DATASET_PROVENANCE_AND_LABEL_SOURCE_CHECKLIST_V0_1.md` when reviewing dataset provenance or label-source blockers.
+38. Use `LEAKAGE_AUDIT_PLAN_V0_1.md` before implementing or running any leakage audit.
+39. Use `LEAKAGE_AUDIT_UTILITIES_V0_1.md` for dry-run and full-audit command guidance.
+40. Use `LEAKAGE_AUDIT_REPORT_V0_1.md` before updating leakage-related manuscript or evidence wording.
+41. Use `LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md` to decide whether audit outputs need refinement or can be committed as-is.
+42. Use `LEAKAGE_AUDIT_MANUSCRIPT_UPDATE_CHANGELOG_V0_1.md` to review where leakage findings were reflected in manuscript/evidence docs.
+43. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
+44. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
+45. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
+46. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
+47. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
 
 ## Minimum first-wave packet
 
