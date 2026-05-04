@@ -176,6 +176,10 @@ The supplement and export formatting checklist has been prepared as `docs/SUPPLE
 
 Dataset legal and availability statement options have been prepared as `docs/DATASET_LEGAL_AND_AVAILABILITY_STATEMENT_OPTIONS_V0_1.md`. The document provides conservative wording options and human decision checklists only. It does not confirm source attribution, licensing, redistribution permission, public dataset release, complete provenance, or public posting readiness.
 
+## Task 072 Status Note
+
+The final references human cleanup checklist has been prepared as `docs/FINAL_REFERENCES_HUMAN_CLEANUP_CHECKLIST_V0_1.md`. It inventories the draft `references.bib`, flags human cleanup needs, and preserves final bibliography approval as a blocker. It does not modify `references.bib`, add references, or mark references as final.
+
 ## No-Change Confirmation
 
 - Manuscript content was not modified by this plan.

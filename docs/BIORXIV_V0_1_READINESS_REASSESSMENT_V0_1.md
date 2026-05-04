@@ -40,6 +40,7 @@ This reassessment does not submit to bioRxiv, does not clear public posting, and
 - final data availability statement
 - final code availability statement with public URL/tag/archive policy
 - final reference human review, including author-list expansion and deferred references
+- final references cleanup checklist exists in `docs/FINAL_REFERENCES_HUMAN_CLEANUP_CHECKLIST_V0_1.md`, but final human bibliography approval remains incomplete
 - final export formatting
 - human approval for public posting
 - leakage-aware or similarity-aware sensitivity follow-up before stronger benchmark claims

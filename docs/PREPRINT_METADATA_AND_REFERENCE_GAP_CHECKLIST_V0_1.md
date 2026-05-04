@@ -18,6 +18,8 @@ The current literature-survey-derived candidate landscape is tracked in `docs/LI
 
 The first verified reference pack has been prepared in `docs/VERIFIED_REFERENCE_PACK_BIORXIV_V0_1.md`, with insertion planning in `docs/CITATION_PLACEHOLDER_MAP_BIORXIV_V0_1.md`. The second verified reference pack has been prepared in `docs/VERIFIED_REFERENCE_PACK_BIORXIV_V0_2.md`, with insertion planning in `docs/CITATION_PLACEHOLDER_MAP_BIORXIV_V0_2.md`. A draft `references.bib` and build log now exist, but final human bibliography review and manuscript citation consistency review remain open. Draft metadata/disclosure placeholder blocks are available in `docs/PREPRINT_METADATA_BLOCKS_DRAFT_V0_1.md`. Public preprint status remains **Not yet**.
 
+Final human cleanup requirements for the draft bibliography are tracked in `docs/FINAL_REFERENCES_HUMAN_CLEANUP_CHECKLIST_V0_1.md`. That checklist does not finalize references or modify `references.bib`.
+
 ## Metadata checklist
 
 | Item | Current status | Evidence/source | Required before bioRxiv? | Owner placeholder | Action required | Status |

@@ -12,6 +12,8 @@ Supplement and export formatting checks are tracked in `docs/SUPPLEMENT_EXPORT_F
 
 Dataset legal, data availability, code availability, and license-statement wording options are tracked in `docs/DATASET_LEGAL_AND_AVAILABILITY_STATEMENT_OPTIONS_V0_1.md`. Those options require human/legal review and do not authorize dataset redistribution.
 
+Final human cleanup requirements for draft `references.bib` are tracked in `docs/FINAL_REFERENCES_HUMAN_CLEANUP_CHECKLIST_V0_1.md`. That checklist does not finalize references or make the bibliography public-ready.
+
 ## Current submission package status
 
 The repository currently contains a preprint draft, manuscript candidate, supplement draft, draft bibliography, preprint assembly document, supplementary outline, paper package planning document, evidence package definition, current figures and tables, and repo-linked benchmark artifacts. Together, these components form a credible internal manuscript candidate package, but not a finalized upload package.
@@ -133,6 +135,7 @@ Supplement/export formatting checklist: `docs/SUPPLEMENT_EXPORT_FORMATTING_CHECK
 - dataset licensing/redistribution and source-chain attribution remain unresolved
 - dataset legal and availability options have been drafted, but no final source, license, redistribution, public-release, or availability decision has been made
 - final reference human review remains required
+- final references cleanup checklist has been prepared, but no final bibliography approval has been completed
 - final export formatting remains pending
 - draft export package manifest exists, but no final PDF/DOCX/submission bundle was created
 - explicit human approval is required before public posting
