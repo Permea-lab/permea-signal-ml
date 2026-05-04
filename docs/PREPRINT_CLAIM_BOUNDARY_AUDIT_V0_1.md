@@ -17,7 +17,21 @@ This audit checks the bioRxiv v0.1 manuscript candidate package for claim-bounda
 
 Status: **Pass with caveats**
 
-No major claim-boundary violation was found. No manuscript wording fix was required in this task.
+No major claim-boundary violation was found in the original candidate audit. Task 060 later applied focused wording fixes from the maximum-harsh review to make abstract, metric, leakage, prioritization, and feature-importance boundaries harder to overread.
+
+## Post-Task-060 note
+
+Focused abstract and claim-boundary fixes are documented in `docs/PREPRINT_MANUSCRIPT_CANDIDATE_FIX_CHANGELOG_V0_1.md`.
+
+The fixes strengthened:
+
+- random-stratified baseline wording around metrics
+- same-label cross-fold similarity and moderate optimism-risk caveats
+- computational/pre-experimental candidate-prioritization language
+- non-mechanistic feature-importance framing
+- Hold / not submission-ready public preprint status
+
+Remaining caveats still include metadata, disclosure, dataset/legal, reference, supplement/export, human approval, and leakage-aware sensitivity blockers. Public preprint status remains **Hold / not submission-ready**.
 
 ## Required boundary checks
 

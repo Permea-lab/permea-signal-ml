@@ -4,7 +4,7 @@
 
 Draft supplementary materials for a bioRxiv v0.1 manuscript candidate. Not final, not submission-ready, and not a public supplement.
 
-This supplement is a computational evidence appendix. It does not add new results, modify artifacts, rerun models, or claim biological or wet-lab validation.
+This supplement is a computational evidence appendix. It does not add new results, modify artifacts, rerun models, or claim biological or wet-lab validation. Metric references in this supplement are random-stratified baseline references and should not be read as leakage-aware generalization estimates.
 
 ## Appendix A - Dataset Surface and Field Definitions
 
@@ -24,7 +24,7 @@ The current rerun-ready BBB-oriented processed dataset surface is documented as 
 
 ## Appendix B - Feature Definitions
 
-The current feature surface is intentionally narrow and sequence-derived: length, charge, gravy, pI, and aromaticity. It is used as an interpretable baseline surface, not as a complete representation of BBB transport chemistry, structure, or mechanism.
+The current feature surface is intentionally narrow and sequence-derived: length, charge, gravy, pI, and aromaticity. It is used as an interpretable baseline surface, not as a complete representation of BBB transport chemistry, structure, or mechanism. No listed feature should be interpreted from this package as causal or as determining BBB transport.
 
 No additional feature families, structural encodings, protein-language-model embeddings, assay-derived features, or model families are introduced by this supplement.
 
@@ -38,7 +38,7 @@ The regenerated baseline reruns include:
 
 The recovered evaluation policy is `StratifiedKFold(n_splits=5, shuffle=True, random_state=42)`. This is a random-stratified split policy, not a duplicate-aware or similarity-aware policy.
 
-Reported metrics are ROC-AUC, PR-AUC, precision, recall, F1, and MCC. These metrics remain random-stratified baseline metrics and may be optimistic because the leakage audit found same-label duplicate and high-similarity pairs crossing reconstructed folds.
+Reported metrics are ROC-AUC, PR-AUC, precision, recall, F1, and MCC. These metrics remain random-stratified baseline metrics and may be optimistic because the leakage audit found same-label duplicate and high-similarity pairs crossing reconstructed folds. They support benchmark-signal interpretation under the current split only, not leakage-aware or robust generalization.
 
 ## Appendix D - Metrics Table References
 
@@ -53,6 +53,8 @@ Feature-importance statements should be traced to:
 
 - `results/tables/regenerated_rf_feature_importance.csv`
 - `figures/regenerated_rf_feature_importance.png`
+
+Feature-importance statements are model-level summaries only. They should not be used as mechanistic proof, biological explanation, or evidence that any descriptor causally controls BBB transport.
 
 This supplement does not restate or alter metric values.
 

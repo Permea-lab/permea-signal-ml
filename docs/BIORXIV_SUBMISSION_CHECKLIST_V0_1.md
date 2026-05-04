@@ -20,6 +20,8 @@ Task 055 readiness reassessment file: `docs/BIORXIV_V0_1_READINESS_REASSESSMENT_
 
 Task 056 export package draft file: `docs/BIORXIV_EXPORT_PACKAGE_DRAFT_V0_1.md`. Status: draft manifest only; not final export-ready.
 
+Task 060 manuscript candidate fix changelog: `docs/PREPRINT_MANUSCRIPT_CANDIDATE_FIX_CHANGELOG_V0_1.md`. Status: abstract and claim-boundary wording fixes applied after maximum-harsh review; public preprint remains Hold / not submission-ready.
+
 ## Manuscript file status
 
 - title — provisional
@@ -59,6 +61,7 @@ Task 056 export package draft file: `docs/BIORXIV_EXPORT_PACKAGE_DRAFT_V0_1.md`.
 - leakage audit investigation — `docs/LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md`
 - leakage audit summary artifact — `results/audits/leakage_audit_summary.json`
 - leakage interpretation — moderate benchmark optimism risk; current metrics may be optimistic and should be treated as random-stratified baseline metrics
+- Task 060 claim-boundary update — manuscript candidate and draft now bind metric interpretation more tightly to the random-stratified split and same-label cross-fold similarity caveats
 - attribution and licensing — still require confirmation
 
 These items are acceptable for trusted review with the extended packet, but they remain preprint-readiness blockers or explicit-deferral items before public submission.
@@ -132,6 +135,7 @@ Supplementary structure now exists as an outline and a prose draft at `docs/SUPP
 - label-source criteria remain partially unresolved
 - raw source dataset availability remains unresolved
 - leakage audit findings must be reflected with conservative language; same-label duplicate and high-similarity pairs cross reconstructed folds
+- abstract and metric caveats have been tightened, but public posting still requires final human review and blocker closure
 - leakage-aware or similarity-aware follow-up is likely needed before public benchmark claims are strengthened
 - artifact-to-claim traceability should be checked once more before export
 - one final manuscript consistency pass would still be useful
