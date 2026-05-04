@@ -172,6 +172,10 @@ The human metadata and disclosure input form has been prepared as `docs/HUMAN_ME
 
 The supplement and export formatting checklist has been prepared as `docs/SUPPLEMENT_EXPORT_FORMATTING_CHECKLIST_V0_1.md`. It is a formatting and packaging checklist only. It does not create final PDF, DOCX, submission-bundle, website, or archive files, and it does not resolve metadata, legal, bibliography, caption, or public-approval blockers.
 
+## Task 070 Status Note
+
+Dataset legal and availability statement options have been prepared as `docs/DATASET_LEGAL_AND_AVAILABILITY_STATEMENT_OPTIONS_V0_1.md`. The document provides conservative wording options and human decision checklists only. It does not confirm source attribution, licensing, redistribution permission, public dataset release, complete provenance, or public posting readiness.
+
 ## No-Change Confirmation
 
 - Manuscript content was not modified by this plan.

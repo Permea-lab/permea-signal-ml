@@ -89,6 +89,8 @@ Known repository context:
 - Public/preprint dataset version remains `pending_confirmation`.
 - Dataset attribution and licensing are unconfirmed.
 
+Draft dataset legal, data availability, code availability, and license-statement options for human review are tracked in `docs/DATASET_LEGAL_AND_AVAILABILITY_STATEMENT_OPTIONS_V0_1.md`. That options document does not confirm licensing, authorize redistribution, or approve public dataset release.
+
 | Field | Required for bioRxiv? | Human-provided value / decision | Notes |
 |---|---:|---|---|
 | Data availability statement | Yes | `[HUMAN TO PROVIDE]` | Must match legal and redistribution decision. |

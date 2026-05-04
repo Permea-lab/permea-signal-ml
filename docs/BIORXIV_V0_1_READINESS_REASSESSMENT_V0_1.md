@@ -36,6 +36,7 @@ This reassessment does not submit to bioRxiv, does not clear public posting, and
 - ethics statement final wording
 - dataset licensing / redistribution
 - dataset attribution and source-chain closure
+- dataset legal and availability statement options exist in `docs/DATASET_LEGAL_AND_AVAILABILITY_STATEMENT_OPTIONS_V0_1.md`, but human/legal decisions remain unresolved
 - final data availability statement
 - final code availability statement with public URL/tag/archive policy
 - final reference human review, including author-list expansion and deferred references
