@@ -44,7 +44,7 @@ This reassessment does not submit to bioRxiv, does not clear public posting, and
 - final export formatting
 - human approval for public posting
 - leakage-aware or similarity-aware sensitivity follow-up before stronger benchmark claims
-- leakage-aware sensitivity planning exists in `docs/LEAKAGE_AWARE_SENSITIVITY_ANALYSIS_PLAN_V0_1.md`, but no leakage-aware split or metric has been generated
+- leakage-aware baseline rerun outputs now exist in `docs/LEAKAGE_AWARE_BASELINE_RERUN_REPORT_V0_1.md` and `results/sensitivity/`, but manuscript update, final interpretation, and human approval remain pending
 
 ## Scientific boundary retained
 

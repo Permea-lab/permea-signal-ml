@@ -10,7 +10,9 @@ Implementation pointer: `docs/LEAKAGE_AWARE_GROUPING_UTILITIES_V0_1.md` describe
 
 Output pointer: `docs/LEAKAGE_AWARE_GROUP_ASSIGNMENT_OUTPUTS_V0_1.md` summarizes the first combined group assignment outputs generated under `results/sensitivity/`.
 
-Split-manifest pointer: `docs/LEAKAGE_AWARE_SPLIT_MANIFEST_REPORT_V0_1.md` summarizes generated `leakage_aware_group_stratified` split manifest outputs under `results/sensitivity/`. Baseline model reruns and leakage-aware metrics have still not been generated.
+Split-manifest pointer: `docs/LEAKAGE_AWARE_SPLIT_MANIFEST_REPORT_V0_1.md` summarizes generated `leakage_aware_group_stratified` split manifest outputs under `results/sensitivity/`.
+
+Baseline-rerun pointer: `docs/LEAKAGE_AWARE_BASELINE_RERUN_REPORT_V0_1.md` summarizes generated baseline rerun outputs under the committed leakage-aware split manifest. These are sensitivity estimates for review, not manuscript-ready claims or biological validation.
 
 ## Current Leakage Evidence Summary
 

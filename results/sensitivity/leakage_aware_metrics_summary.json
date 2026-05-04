@@ -1,0 +1,98 @@
+{
+  "input_path": "data/processed/legacy_bbb_dataset_with_features_rerun_ready.csv",
+  "split_manifest_path": "results/sensitivity/combined_group_stratified_split_manifest.csv",
+  "split_policy": "leakage_aware_group_stratified",
+  "feature_columns": [
+    "length",
+    "charge",
+    "gravy",
+    "pI",
+    "aromaticity"
+  ],
+  "model_families": [
+    "dummy",
+    "logistic_regression",
+    "random_forest"
+  ],
+  "metrics": [
+    "roc_auc",
+    "pr_auc",
+    "precision",
+    "recall",
+    "f1",
+    "mcc"
+  ],
+  "summary": [
+    {
+      "model": "dummy",
+      "split_policy": "leakage_aware_group_stratified",
+      "folds": 5,
+      "roc_auc": 0.5,
+      "roc_auc_std": 0.0,
+      "pr_auc": 0.09090867517263457,
+      "pr_auc_std": 0.0006876826793197999,
+      "precision": 0.0,
+      "precision_std": 0.0,
+      "recall": 0.0,
+      "recall_std": 0.0,
+      "f1": 0.0,
+      "f1_std": 0.0,
+      "mcc": 0.0,
+      "mcc_std": 0.0,
+      "test_rows_total": 2959,
+      "test_positive_total": 269,
+      "test_negative_total": 2690
+    },
+    {
+      "model": "logistic_regression",
+      "split_policy": "leakage_aware_group_stratified",
+      "folds": 5,
+      "roc_auc": 0.8587118998075021,
+      "roc_auc_std": 0.013027900331782085,
+      "pr_auc": 0.5024344329503113,
+      "pr_auc_std": 0.07160546318920888,
+      "precision": 0.2756778315072416,
+      "precision_std": 0.009735162154231208,
+      "recall": 0.7693221523410203,
+      "recall_std": 0.046050996305261244,
+      "f1": 0.4057333987430015,
+      "f1_std": 0.014939528356725225,
+      "mcc": 0.374715120242186,
+      "mcc_std": 0.02245896076574004,
+      "test_rows_total": 2959,
+      "test_positive_total": 269,
+      "test_negative_total": 2690
+    },
+    {
+      "model": "random_forest",
+      "split_policy": "leakage_aware_group_stratified",
+      "folds": 5,
+      "roc_auc": 0.8717668903384691,
+      "roc_auc_std": 0.02478968600238505,
+      "pr_auc": 0.5807054539133437,
+      "pr_auc_std": 0.08127575728919677,
+      "precision": 0.7388445391162783,
+      "precision_std": 0.15097429223274522,
+      "recall": 0.3976939203354298,
+      "recall_std": 0.04167419250011246,
+      "f1": 0.51347995729091,
+      "f1_std": 0.05947838085569848,
+      "mcc": 0.5084459767436929,
+      "mcc_std": 0.07882818102229847,
+      "test_rows_total": 2959,
+      "test_positive_total": 269,
+      "test_negative_total": 2690
+    }
+  ],
+  "outputs_written": [
+    "results/sensitivity/leakage_aware_model_comparison_summary.csv",
+    "results/sensitivity/leakage_aware_model_comparison_per_fold.csv",
+    "results/sensitivity/leakage_aware_predictions.csv",
+    "results/sensitivity/leakage_aware_metrics_summary.json"
+  ],
+  "caveats": [
+    "Sensitivity rerun only; not biological validation or wet-lab validation.",
+    "Uses committed leakage-aware group-stratified split manifest.",
+    "Does not update manuscript claims or canonical random-stratified metrics."
+  ]
+}

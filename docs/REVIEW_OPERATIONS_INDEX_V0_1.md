@@ -74,6 +74,7 @@ The package is ready for internal or trusted review. It is not final for public 
 - `LEAKAGE_AWARE_GROUPING_UTILITIES_V0_1.md` — implemented grouping utility documentation for future sensitivity analysis; no model metric has been generated
 - `LEAKAGE_AWARE_GROUP_ASSIGNMENT_OUTPUTS_V0_1.md` — report for generated group assignment outputs under `results/sensitivity/`; not split manifests or metrics
 - `LEAKAGE_AWARE_SPLIT_MANIFEST_REPORT_V0_1.md` — report for generated leakage-aware split manifests; not model metrics or performance evidence
+- `LEAKAGE_AWARE_BASELINE_RERUN_REPORT_V0_1.md` — report for existing baseline reruns under the leakage-aware split manifest; sensitivity estimates only
 - `results/audits/leakage_audit_summary.json` — machine-readable leakage audit summary counts
 - `REVIEW_FEEDBACK_LOG_V0_1.md` — structured feedback log
 - `REVISION_PRIORITY_FRAMEWORK_V0_1.md` — P0-P4 triage and revision rules
@@ -132,11 +133,12 @@ The package is ready for internal or trusted review. It is not final for public 
 50. Use `LEAKAGE_AWARE_GROUPING_UTILITIES_V0_1.md` before generating group assignments or split manifests for leakage-aware sensitivity work.
 51. Use `LEAKAGE_AWARE_GROUP_ASSIGNMENT_OUTPUTS_V0_1.md` before generating split manifests from group assignments.
 52. Use `LEAKAGE_AWARE_SPLIT_MANIFEST_REPORT_V0_1.md` before rerunning baseline models under leakage-aware split manifests.
-53. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
-54. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
-55. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
-56. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
-57. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
+53. Use `LEAKAGE_AWARE_BASELINE_RERUN_REPORT_V0_1.md` before comparing random-stratified and leakage-aware sensitivity results.
+54. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
+55. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
+56. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
+57. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
+58. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
 
 ## Minimum first-wave packet
 
