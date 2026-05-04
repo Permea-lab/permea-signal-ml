@@ -70,9 +70,10 @@ The package is ready for internal or trusted review. It is not final for public 
 - `LEAKAGE_AUDIT_REPORT_V0_1.md` — first leakage audit output summary and conservative interpretation; not a leakage-free claim
 - `LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md` — deeper investigation of first audit findings before manuscript/evidence updates
 - `LEAKAGE_AUDIT_MANUSCRIPT_UPDATE_CHANGELOG_V0_1.md` — changelog for manuscript/evidence updates based on leakage audit findings
-- `LEAKAGE_AWARE_SENSITIVITY_ANALYSIS_PLAN_V0_1.md` — future leakage-aware sensitivity analysis plan; no split or metric has been generated
-- `LEAKAGE_AWARE_GROUPING_UTILITIES_V0_1.md` — implemented grouping utility documentation for future sensitivity analysis; no split or metric has been generated
+- `LEAKAGE_AWARE_SENSITIVITY_ANALYSIS_PLAN_V0_1.md` — leakage-aware sensitivity analysis plan; split manifests now exist, but no model metric has been generated
+- `LEAKAGE_AWARE_GROUPING_UTILITIES_V0_1.md` — implemented grouping utility documentation for future sensitivity analysis; no model metric has been generated
 - `LEAKAGE_AWARE_GROUP_ASSIGNMENT_OUTPUTS_V0_1.md` — report for generated group assignment outputs under `results/sensitivity/`; not split manifests or metrics
+- `LEAKAGE_AWARE_SPLIT_MANIFEST_REPORT_V0_1.md` — report for generated leakage-aware split manifests; not model metrics or performance evidence
 - `results/audits/leakage_audit_summary.json` — machine-readable leakage audit summary counts
 - `REVIEW_FEEDBACK_LOG_V0_1.md` — structured feedback log
 - `REVISION_PRIORITY_FRAMEWORK_V0_1.md` — P0-P4 triage and revision rules
@@ -130,11 +131,12 @@ The package is ready for internal or trusted review. It is not final for public 
 49. Use `LEAKAGE_AWARE_SENSITIVITY_ANALYSIS_PLAN_V0_1.md` before implementing duplicate-aware or similarity-aware split utilities.
 50. Use `LEAKAGE_AWARE_GROUPING_UTILITIES_V0_1.md` before generating group assignments or split manifests for leakage-aware sensitivity work.
 51. Use `LEAKAGE_AWARE_GROUP_ASSIGNMENT_OUTPUTS_V0_1.md` before generating split manifests from group assignments.
-52. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
-53. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
-54. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
-55. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
-56. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
+52. Use `LEAKAGE_AWARE_SPLIT_MANIFEST_REPORT_V0_1.md` before rerunning baseline models under leakage-aware split manifests.
+53. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
+54. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
+55. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
+56. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
+57. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
 
 ## Minimum first-wave packet
 

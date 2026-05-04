@@ -1,0 +1,74 @@
+{
+  "number_of_rows": 2959,
+  "number_of_groups": 2958,
+  "n_splits": 5,
+  "fold_counts": {
+    "1": 592,
+    "2": 592,
+    "3": 592,
+    "4": 592,
+    "5": 591
+  },
+  "fold_label_counts": {
+    "1": {
+      "0": 538,
+      "1": 54
+    },
+    "2": {
+      "0": 538,
+      "1": 54
+    },
+    "3": {
+      "0": 538,
+      "1": 54
+    },
+    "4": {
+      "0": 538,
+      "1": 54
+    },
+    "5": {
+      "0": 538,
+      "1": 53
+    }
+  },
+  "positive_rate_by_fold": {
+    "1": 0.09121621621621621,
+    "2": 0.09121621621621621,
+    "3": 0.09121621621621621,
+    "4": 0.09121621621621621,
+    "5": 0.08967851099830795
+  },
+  "group_counts_by_fold": {
+    "1": 591,
+    "2": 592,
+    "3": 592,
+    "4": 592,
+    "5": 591
+  },
+  "largest_group_size_by_fold": {
+    "1": 2,
+    "2": 1,
+    "3": 1,
+    "4": 1,
+    "5": 1
+  },
+  "groups_crossing_folds": 0,
+  "crossing_group_ids": [],
+  "caveats": [
+    "At least one non-singleton group is kept within one fold."
+  ],
+  "dry_run": false,
+  "input_path": "data/processed/legacy_bbb_dataset_with_features_rerun_ready.csv",
+  "group_assignment_path": "results/sensitivity/group_assignments_combined.csv",
+  "split_policy": "leakage_aware_group_stratified",
+  "n_splits_requested": 5,
+  "random_state": 42,
+  "planned_outputs": [
+    "results/sensitivity/combined_group_stratified_split_manifest.csv",
+    "results/sensitivity/combined_group_stratified_split_summary.json"
+  ],
+  "outputs_written": [
+    "results/sensitivity/combined_group_stratified_split_manifest.csv",
+    "results/sensitivity/combined_group_stratified_split_summary.json"
+  ]
+}

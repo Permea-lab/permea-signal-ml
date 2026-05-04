@@ -63,6 +63,8 @@ The generated grouping outputs support future leakage-aware split-manifest gener
 
 The next technical step is to generate leakage-aware split manifests from these group assignments, with explicit checks for class balance, fold feasibility, and grouping caveats.
 
+Split-manifest update: `docs/LEAKAGE_AWARE_SPLIT_MANIFEST_REPORT_V0_1.md` now summarizes generated split manifest outputs based on these group assignments. Those outputs are still not model metrics and do not change current random-stratified benchmark results.
+
 ## Recommended Next Task
 
-Task 085 - Commit Leakage-Aware Group Assignment Outputs
+See `docs/LEAKAGE_AWARE_SPLIT_MANIFEST_REPORT_V0_1.md` for the next split-manifest stage.

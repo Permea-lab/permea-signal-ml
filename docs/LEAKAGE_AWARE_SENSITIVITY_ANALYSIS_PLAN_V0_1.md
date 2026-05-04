@@ -4,11 +4,13 @@
 
 This plan defines possible leakage-aware sensitivity analyses for future benchmark robustness assessment of the current BBB-oriented Permea Signal ML benchmark.
 
-This is a plan only. No leakage-aware split has been run, no leakage-aware metric has been generated, no baseline model has been rerun, and no metric value is changed by this document. Current metrics remain random-stratified baseline metrics under the reconstructed `StratifiedKFold(n_splits=5, shuffle=True, random_state=42)` policy. Public preprint status remains **Hold / not submission-ready** unless the human operator chooses an explicit caveat path after reviewing the remaining metadata, legal, bibliography, export, and leakage-sensitivity blockers.
+This is a plan document. Leakage-aware group assignments and split manifests now exist under `results/sensitivity/`, but no baseline model has been rerun with those manifests, no leakage-aware metric has been generated, and no metric value is changed by this document. Current metrics remain random-stratified baseline metrics under the reconstructed `StratifiedKFold(n_splits=5, shuffle=True, random_state=42)` policy. Public preprint status remains **Hold / not submission-ready** unless the human operator chooses an explicit caveat path after reviewing the remaining metadata, legal, bibliography, export, and leakage-sensitivity blockers.
 
 Implementation pointer: `docs/LEAKAGE_AWARE_GROUPING_UTILITIES_V0_1.md` describes grouping utilities now available for future sensitivity work. Those utilities support in-memory exact duplicate, near-duplicate, k-mer Jaccard, combined similarity, and source-feasibility grouping. They do not generate split manifests, rerun models, or produce leakage-aware metrics.
 
-Output pointer: `docs/LEAKAGE_AWARE_GROUP_ASSIGNMENT_OUTPUTS_V0_1.md` summarizes the first combined group assignment outputs generated under `results/sensitivity/`. Split manifests, baseline model reruns, and leakage-aware metrics have still not been generated.
+Output pointer: `docs/LEAKAGE_AWARE_GROUP_ASSIGNMENT_OUTPUTS_V0_1.md` summarizes the first combined group assignment outputs generated under `results/sensitivity/`.
+
+Split-manifest pointer: `docs/LEAKAGE_AWARE_SPLIT_MANIFEST_REPORT_V0_1.md` summarizes generated `leakage_aware_group_stratified` split manifest outputs under `results/sensitivity/`. Baseline model reruns and leakage-aware metrics have still not been generated.
 
 ## Current Leakage Evidence Summary
 
