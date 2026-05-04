@@ -18,6 +18,8 @@ Task 054 citation consistency check file: `docs/CITATION_CONSISTENCY_CHECK_V0_1.
 
 Task 055 readiness reassessment file: `docs/BIORXIV_V0_1_READINESS_REASSESSMENT_V0_1.md`. Status: candidate package prepared; not submission-ready until human metadata/legal/reference review is complete.
 
+Task 056 export package draft file: `docs/BIORXIV_EXPORT_PACKAGE_DRAFT_V0_1.md`. Status: draft manifest only; not final export-ready.
+
 ## Manuscript file status
 
 - title — provisional
@@ -120,6 +122,7 @@ Supplementary structure now exists as an outline and a prose draft at `docs/SUPP
 - dataset licensing/redistribution and source-chain attribution remain unresolved
 - final reference human review remains required
 - final export formatting remains pending
+- draft export package manifest exists, but no final PDF/DOCX/submission bundle was created
 - explicit human approval is required before public posting
 - draft `references.bib` prepared and citation placeholders inserted, but citation consistency checking, deferred-reference decisions, and final human reference review are not complete
 - supplement drafted in prose, but final formatting, captions, and human review remain pending

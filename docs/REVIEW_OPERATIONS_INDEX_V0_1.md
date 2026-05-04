@@ -51,6 +51,7 @@ The package is ready for internal or trusted review. It is not final for public 
 - `PREPRINT_CLAIM_BOUNDARY_AUDIT_V0_1.md` — internal audit confirming the candidate package stays within computational, non-validation claim boundaries
 - `CITATION_CONSISTENCY_CHECK_V0_1.md` — citation-placeholder check against `references.bib`
 - `BIORXIV_V0_1_READINESS_REASSESSMENT_V0_1.md` — readiness reassessment after manuscript candidate, supplement draft, bibliography, claim audit, and citation check
+- `BIORXIV_EXPORT_PACKAGE_DRAFT_V0_1.md` — draft export package manifest; not final export-ready
 - `FINAL_ARTIFACT_TRACEABILITY_EXPORT_CHECK_V0_1.md` — internal artifact traceability and export-readiness check after the post-red-team roadmap
 - `DATASET_PROVENANCE_AND_LABEL_SOURCE_CHECKLIST_V0_1.md` — current dataset provenance, label-source, and licensing-status checklist
 - `LEAKAGE_AUDIT_PLAN_V0_1.md` — future leakage-audit plan; no audit results are claimed by this document
@@ -93,18 +94,19 @@ The package is ready for internal or trusted review. It is not final for public 
 27. Use `PREPRINT_CLAIM_BOUNDARY_AUDIT_V0_1.md` before claiming the package is safe for human review.
 28. Use `CITATION_CONSISTENCY_CHECK_V0_1.md` before final bibliography review or manuscript export.
 29. Use `BIORXIV_V0_1_READINESS_REASSESSMENT_V0_1.md` for current candidate package readiness status.
-30. Use `FINAL_ARTIFACT_TRACEABILITY_EXPORT_CHECK_V0_1.md` before public supplement, project-page, or deck export work.
-31. Use `DATASET_PROVENANCE_AND_LABEL_SOURCE_CHECKLIST_V0_1.md` when reviewing dataset provenance or label-source blockers.
-32. Use `LEAKAGE_AUDIT_PLAN_V0_1.md` before implementing or running any leakage audit.
-33. Use `LEAKAGE_AUDIT_UTILITIES_V0_1.md` for dry-run and full-audit command guidance.
-34. Use `LEAKAGE_AUDIT_REPORT_V0_1.md` before updating leakage-related manuscript or evidence wording.
-35. Use `LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md` to decide whether audit outputs need refinement or can be committed as-is.
-36. Use `LEAKAGE_AUDIT_MANUSCRIPT_UPDATE_CHANGELOG_V0_1.md` to review where leakage findings were reflected in manuscript/evidence docs.
-37. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
-38. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
-39. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
-40. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
-41. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
+30. Use `BIORXIV_EXPORT_PACKAGE_DRAFT_V0_1.md` to review the draft export manifest.
+31. Use `FINAL_ARTIFACT_TRACEABILITY_EXPORT_CHECK_V0_1.md` before public supplement, project-page, or deck export work.
+32. Use `DATASET_PROVENANCE_AND_LABEL_SOURCE_CHECKLIST_V0_1.md` when reviewing dataset provenance or label-source blockers.
+33. Use `LEAKAGE_AUDIT_PLAN_V0_1.md` before implementing or running any leakage audit.
+34. Use `LEAKAGE_AUDIT_UTILITIES_V0_1.md` for dry-run and full-audit command guidance.
+35. Use `LEAKAGE_AUDIT_REPORT_V0_1.md` before updating leakage-related manuscript or evidence wording.
+36. Use `LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md` to decide whether audit outputs need refinement or can be committed as-is.
+37. Use `LEAKAGE_AUDIT_MANUSCRIPT_UPDATE_CHANGELOG_V0_1.md` to review where leakage findings were reflected in manuscript/evidence docs.
+38. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
+39. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
+40. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
+41. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
+42. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
 
 ## Minimum first-wave packet
 
