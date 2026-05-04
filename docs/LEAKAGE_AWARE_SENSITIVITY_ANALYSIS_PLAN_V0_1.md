@@ -6,6 +6,8 @@ This plan defines possible leakage-aware sensitivity analyses for future benchma
 
 This is a plan only. No leakage-aware split has been run, no leakage-aware metric has been generated, no baseline model has been rerun, and no metric value is changed by this document. Current metrics remain random-stratified baseline metrics under the reconstructed `StratifiedKFold(n_splits=5, shuffle=True, random_state=42)` policy. Public preprint status remains **Hold / not submission-ready** unless the human operator chooses an explicit caveat path after reviewing the remaining metadata, legal, bibliography, export, and leakage-sensitivity blockers.
 
+Implementation pointer: `docs/LEAKAGE_AWARE_GROUPING_UTILITIES_V0_1.md` describes grouping utilities now available for future sensitivity work. Those utilities support in-memory exact duplicate, near-duplicate, k-mer Jaccard, combined similarity, and source-feasibility grouping. They do not generate split manifests, rerun models, or produce leakage-aware metrics.
+
 ## Current Leakage Evidence Summary
 
 Current leakage evidence comes from `docs/LEAKAGE_AUDIT_REPORT_V0_1.md`, `docs/LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md`, and the committed audit outputs in `results/audits/`.
