@@ -16,15 +16,18 @@ This is not external expert review, not peer review, not public approval, and no
 - Internal virtual harsh-review council completed; this was internal stress testing only.
 - Post-fix review found no P0/P1 blockers for the next internal draft stage.
 - P2 blocker closure plan, metadata/disclosure form, dataset legal/availability options, references cleanup checklist, supplement/export checklist, final status report, and leakage-aware sensitivity plan exist.
+- Leakage-aware sensitivity findings have been incorporated into the manuscript candidate, preprint draft, and supplement with conservative claim boundaries.
 - Public preprint remains **Hold / not submission-ready**.
 
 ## Evidence and Data Status
 
 - A computational evidence package exists.
 - Baseline metrics exist for Dummy most-frequent, Logistic Regression, and Random Forest.
-- Metrics are random-stratified baseline metrics under `StratifiedKFold(n_splits=5, shuffle=True, random_state=42)`.
-- Metrics may be optimistic because the leakage audit found same-label duplicate and high-similarity sequence structure crossing reconstructed folds.
-- No leakage-aware metrics have been generated.
+- Primary benchmark metrics are random-stratified baseline metrics under `StratifiedKFold(n_splits=5, shuffle=True, random_state=42)`.
+- Random-stratified metrics may be optimistic because the leakage audit found same-label duplicate and high-similarity sequence structure crossing reconstructed folds.
+- Leakage-aware sensitivity metrics have been generated under one committed group-stratified manifest and incorporated into the candidate package.
+- The leakage-aware sensitivity rerun did not collapse the baseline signal under this specific grouping strategy; Logistic Regression remained broadly similar and Random Forest was comparable/higher under the manifest.
+- The leakage-aware sensitivity result is not leakage-free status, robust-generalization evidence, biological validation, or wet-lab validation.
 - Leakage audit completed and found moderate benchmark optimism risk.
 - Dataset provenance, attribution, licensing, redistribution, public data availability, and label-source criteria blockers remain.
 - No wet-lab validation exists.
@@ -39,6 +42,7 @@ This is not external expert review, not peer review, not public approval, and no
 - Candidate prioritization as computational hypothesis generation before experimental validation.
 - Artifact-to-claim traceability across manuscript, supplement, metrics, figures, tables, audit outputs, and readiness docs.
 - Explicit leakage, provenance, label-source, dataset legal, and validation caveats.
+- Leakage-aware sensitivity findings as bounded computational sensitivity estimates.
 
 ## What the Manuscript Cannot Claim
 
@@ -64,20 +68,20 @@ This is not external expert review, not peer review, not public approval, and no
 - `references.bib` founder/manual cleanup and approval.
 - Final citation/source-claim review.
 - Final supplement and export formatting.
-- Decision on whether leakage-aware sensitivity analysis is required before posting.
+- Decision on whether the current leakage-aware sensitivity update is sufficient before posting or whether additional grouping/provenance work is required.
 - Founder/manual approval for public posting.
 
 ## Founder Decision Options
 
 ### Option A - Fast Caveated bioRxiv Path
 
-Accept explicit leakage and provenance limitations for v0.1, finalize metadata/legal/references/supplement/export, and keep leakage-aware sensitivity as v0.2 work.
+Accept explicit leakage and provenance limitations for v0.1, use the current leakage-aware sensitivity update as a bounded sensitivity result, and finalize metadata/legal/references/supplement/export.
 
 This is the fastest path, but it requires strict caveat discipline and cannot support leakage-free, robust-generalization, biological-validation, or delivery-performance claims.
 
 ### Option B - Stronger Scientific Package Path
 
-Implement leakage-aware sensitivity analysis first, rerun existing baseline models under stricter split policies, compare random-stratified versus leakage-aware metrics, and update the manuscript before bioRxiv.
+Extend the current leakage-aware sensitivity work with additional grouping thresholds, richer source metadata if available, or additional provenance closure before bioRxiv.
 
 This path is slower, but it directly addresses the moderate benchmark optimism risk before public posting.
 
@@ -94,7 +98,7 @@ Conservative recommendation:
 - Do not post to bioRxiv yet.
 - Use the current package as an internal manuscript candidate.
 - Close metadata, disclosure, dataset legal, data/code availability, reference, supplement/export, and founder/manual approval blockers.
-- Decide whether leakage-aware sensitivity analysis is required before public posting.
+- Decide whether the current leakage-aware sensitivity update is sufficient before public posting.
 - If speed matters, choose the Fast caveated bioRxiv path only after metadata/legal/reference cleanup and final claim-boundary review.
 
 ## Founder Approval Checklist
@@ -107,7 +111,7 @@ Conservative recommendation:
 - [ ] I confirmed author metadata.
 - [ ] I confirmed disclosure statements.
 - [ ] I approved data/code availability language.
-- [ ] I decided whether leakage-aware sensitivity is required before bioRxiv.
+- [ ] I decided whether the current leakage-aware sensitivity update is sufficient before bioRxiv.
 - [ ] I approve public bioRxiv posting.
 - [ ] I do not approve public bioRxiv posting.
 

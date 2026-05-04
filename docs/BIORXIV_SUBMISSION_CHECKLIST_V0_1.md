@@ -14,7 +14,7 @@ Dataset legal, data availability, code availability, and license-statement wordi
 
 Final human cleanup requirements for draft `references.bib` are tracked in `docs/FINAL_REFERENCES_HUMAN_CLEANUP_CHECKLIST_V0_1.md`. That checklist does not finalize references or make the bibliography public-ready.
 
-Leakage-aware sensitivity planning is tracked in `docs/LEAKAGE_AWARE_SENSITIVITY_ANALYSIS_PLAN_V0_1.md`. Baseline rerun outputs under the committed leakage-aware split manifest are summarized in `docs/LEAKAGE_AWARE_BASELINE_RERUN_REPORT_V0_1.md`, with conservative pre-manuscript interpretation in `docs/LEAKAGE_AWARE_BASELINE_RERUN_FINDINGS_INVESTIGATION_V0_1.md`; these remain sensitivity estimates and do not make current metrics robust-generalization estimates.
+Leakage-aware sensitivity planning is tracked in `docs/LEAKAGE_AWARE_SENSITIVITY_ANALYSIS_PLAN_V0_1.md`. Baseline rerun outputs under the committed leakage-aware split manifest are summarized in `docs/LEAKAGE_AWARE_BASELINE_RERUN_REPORT_V0_1.md`, with conservative interpretation in `docs/LEAKAGE_AWARE_BASELINE_RERUN_FINDINGS_INVESTIGATION_V0_1.md`. Manuscript integration is tracked in `docs/LEAKAGE_AWARE_MANUSCRIPT_UPDATE_CHANGELOG_V0_1.md`; these remain sensitivity estimates and do not make current metrics robust-generalization estimates.
 
 ## Current submission package status
 
@@ -41,7 +41,7 @@ Task 060 manuscript candidate fix changelog: `docs/PREPRINT_MANUSCRIPT_CANDIDATE
 - methods — drafted
 - results — drafted
 - discussion — drafted
-- leakage audit and benchmark interpretation — drafted with conservative caveat
+- leakage audit and benchmark interpretation — drafted with conservative caveat and leakage-aware sensitivity findings
 - limitations — drafted and placed before discussion in the candidate flow
 - conclusion — drafted
 - front matter — placeholder sections added; final metadata pending
@@ -69,6 +69,8 @@ Task 060 manuscript candidate fix changelog: `docs/PREPRINT_MANUSCRIPT_CANDIDATE
 - duplicate / near-duplicate / sequence-similarity leakage status — first audit completed and documented
 - leakage audit report — `docs/LEAKAGE_AUDIT_REPORT_V0_1.md`
 - leakage audit investigation — `docs/LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md`
+- leakage-aware baseline rerun report — `docs/LEAKAGE_AWARE_BASELINE_RERUN_REPORT_V0_1.md`
+- leakage-aware manuscript update changelog — `docs/LEAKAGE_AWARE_MANUSCRIPT_UPDATE_CHANGELOG_V0_1.md`
 - leakage audit summary artifact — `results/audits/leakage_audit_summary.json`
 - leakage interpretation — moderate benchmark optimism risk; current metrics may be optimistic and should be treated as random-stratified baseline metrics
 - Task 060 claim-boundary update — manuscript candidate and draft now bind metric interpretation more tightly to the random-stratified split and same-label cross-fold similarity caveats
@@ -151,8 +153,7 @@ Supplement/export formatting checklist: `docs/SUPPLEMENT_EXPORT_FORMATTING_CHECK
 - leakage audit findings must be reflected with conservative language; same-label duplicate and high-similarity pairs cross reconstructed folds
 - abstract and metric caveats have been tightened, but public posting still requires final human review and blocker closure
 - leakage-aware or similarity-aware follow-up is likely needed before public benchmark claims are strengthened
-- leakage-aware baseline rerun report has been prepared, but manuscript update, final interpretation, and human approval remain pending
-- leakage-aware rerun findings investigation has been prepared, but manuscript claim-boundary integration remains pending
+- leakage-aware sensitivity findings have been incorporated into the manuscript candidate, preprint draft, and supplement, but final human review and approval remain pending
 - artifact-to-claim traceability should be checked once more before export
 - one final manuscript consistency pass would still be useful
 

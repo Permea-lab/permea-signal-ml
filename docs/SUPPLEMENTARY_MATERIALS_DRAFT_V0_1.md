@@ -4,7 +4,7 @@
 
 Draft supplementary materials for a bioRxiv v0.1 manuscript candidate. Not final, not submission-ready, and not a public supplement.
 
-This supplement is a computational evidence appendix. It does not add new results, modify artifacts, rerun models, or claim biological or wet-lab validation. Metric references in this supplement are random-stratified baseline references and should not be read as leakage-aware generalization estimates.
+This supplement is a computational evidence appendix. It records committed artifacts but does not itself modify artifacts, rerun models, or claim biological or wet-lab validation. Metric references include random-stratified baseline metrics and committed leakage-aware sensitivity outputs; neither should be read as leakage-free or robust-generalization estimates.
 
 ## Appendix A - Dataset Surface and Field Definitions
 
@@ -38,7 +38,7 @@ The regenerated baseline reruns include:
 
 The recovered evaluation policy is `StratifiedKFold(n_splits=5, shuffle=True, random_state=42)`. This is a random-stratified split policy, not a duplicate-aware or similarity-aware policy.
 
-Reported metrics are ROC-AUC, PR-AUC, precision, recall, F1, and MCC. These metrics remain random-stratified baseline metrics and may be optimistic because the leakage audit found same-label duplicate and high-similarity pairs crossing reconstructed folds. They support benchmark-signal interpretation under the current split only, not leakage-aware or robust generalization.
+Reported metrics are ROC-AUC, PR-AUC, precision, recall, F1, and MCC. The primary baseline metrics remain random-stratified baseline metrics and may be optimistic because the leakage audit found same-label duplicate and high-similarity pairs crossing reconstructed folds. The leakage-aware rerun metrics are bounded sensitivity estimates under one committed group-stratified manifest. Together, they support benchmark-signal interpretation under the documented split policies only, not leakage-free or robust generalization.
 
 ## Appendix D - Metrics Table References
 
@@ -56,7 +56,48 @@ Feature-importance statements should be traced to:
 
 Feature-importance statements are model-level summaries only. They should not be used as mechanistic proof, biological explanation, or evidence that any descriptor causally controls BBB transport.
 
-This supplement does not restate or alter metric values.
+Values below are copied from committed sensitivity outputs for manuscript traceability; this supplement does not alter metric values.
+
+## Appendix D2 - Leakage-Aware Sensitivity Metrics
+
+Leakage-aware sensitivity outputs are documented in:
+
+- `docs/LEAKAGE_AWARE_BASELINE_RERUN_REPORT_V0_1.md`
+- `docs/LEAKAGE_AWARE_BASELINE_RERUN_FINDINGS_INVESTIGATION_V0_1.md`
+- `results/sensitivity/combined_group_stratified_split_manifest.csv`
+- `results/sensitivity/leakage_aware_model_comparison_summary.csv`
+- `results/sensitivity/leakage_aware_model_comparison_per_fold.csv`
+- `results/sensitivity/leakage_aware_metrics_summary.json`
+
+The split manifest uses `leakage_aware_group_stratified` policy with 2,959 rows, 2,958 groups, and 5 folds. Group identifiers are kept together across folds. This is a sensitivity manifest, not model validation or proof that leakage is fully controlled.
+
+### Leakage-aware rerun metrics
+
+| Model | ROC-AUC | PR-AUC | MCC | Interpretation boundary |
+| --- | ---: | ---: | ---: | --- |
+| Dummy most-frequent | 0.5000 | 0.0909 | 0.0000 | Class-prior sanity baseline. |
+| Logistic Regression | 0.8587 | 0.5024 | 0.3747 | Broadly similar to random-stratified baseline under this manifest. |
+| Random Forest | 0.8718 | 0.5807 | 0.5084 | Comparable to or higher than random-stratified baseline under this manifest. |
+
+### Random-stratified versus leakage-aware comparison
+
+| Model | Random ROC-AUC | Leakage-aware ROC-AUC | Delta | Random PR-AUC | Leakage-aware PR-AUC | Delta | Random MCC | Leakage-aware MCC | Delta |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Dummy most-frequent | 0.5000 | 0.5000 | 0.0000 | 0.0909 | 0.0909 | 0.0000 | 0.0000 | 0.0000 | 0.0000 |
+| Logistic Regression | 0.8605 | 0.8587 | -0.0018 | 0.4903 | 0.5024 | +0.0121 | 0.3618 | 0.3747 | +0.0130 |
+| Random Forest | 0.8489 | 0.8718 | +0.0229 | 0.5002 | 0.5807 | +0.0805 | 0.4331 | 0.5084 | +0.0753 |
+
+Conservative interpretation: the leakage-aware sensitivity rerun did not collapse the baseline signal under this specific grouping strategy. Logistic Regression remained broadly similar, and Random Forest was comparable to or higher than its random-stratified baseline under this manifest. These results increase confidence relative to the initial leakage concern, but they do not establish leakage-free status, robust generalization, biological validation, wet-lab validation, or true BBB performance.
+
+Remaining sensitivity limitations:
+
+- The combined grouping retained the `max_pairs=10000` caveat, so grouping may be incomplete.
+- Only one non-singleton group appears under the current combined grouping output.
+- The `source` field remains too coarse for source-aware grouping or split control.
+- Raw source path, provenance, attribution, licensing, redistribution, and source-chain status remain unresolved.
+- Original positive/negative label-source criteria remain unresolved.
+- Feature inputs remain limited to sequence-derived physicochemical descriptors.
+- No external validation, wet-lab validation, or biological validation was performed.
 
 ## Appendix E - Leakage Audit Summary
 
@@ -105,6 +146,12 @@ Interpretation boundary: these findings require conservative reporting. They do 
 - `results/manifests/legacy_bbb_dummy_v01_manifest.json`
 - `results/manifests/legacy_bbb_lr_v01_manifest.json`
 - `results/manifests/legacy_bbb_rf_v01_manifest.json`
+- `results/sensitivity/combined_group_stratified_split_manifest.csv`
+- `results/sensitivity/combined_group_stratified_split_summary.json`
+- `results/sensitivity/leakage_aware_model_comparison_summary.csv`
+- `results/sensitivity/leakage_aware_model_comparison_per_fold.csv`
+- `results/sensitivity/leakage_aware_predictions.csv`
+- `results/sensitivity/leakage_aware_metrics_summary.json`
 
 ### Figures
 
@@ -155,6 +202,6 @@ These commands are listed as repository anchors only. This supplement draft did 
 
 The current package is computational. It does not include biological validation, wet-lab validation, therapeutic efficacy evidence, clinical interpretation, or mechanism proof.
 
-The current model family is baseline-oriented. The present package does not introduce new model families, does not rerun baselines, and does not add new benchmark results.
+The current model family is baseline-oriented. The leakage-aware rerun uses only the same existing baseline model families and does not add new model families.
 
 The public preprint remains not submission-ready until human metadata, legal, reference, disclosure, formatting, and approval blockers are resolved.

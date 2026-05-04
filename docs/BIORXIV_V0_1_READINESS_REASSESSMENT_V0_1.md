@@ -10,9 +10,9 @@ This reassessment does not submit to bioRxiv, does not clear public posting, and
 
 | Component | Path | Status |
 | --- | --- | --- |
-| Manuscript candidate | `docs/PREPRINT_MANUSCRIPT_CANDIDATE_V0_1.md` | Exists; candidate for human review |
-| Restructured preprint draft | `docs/PREPRINT_DRAFT_V0_1.md` | Exists; citation placeholders inserted |
-| Supplement draft | `docs/SUPPLEMENTARY_MATERIALS_DRAFT_V0_1.md` | Exists; not final/export-formatted |
+| Manuscript candidate | `docs/PREPRINT_MANUSCRIPT_CANDIDATE_V0_1.md` | Exists; candidate for human review; leakage-aware sensitivity findings incorporated |
+| Restructured preprint draft | `docs/PREPRINT_DRAFT_V0_1.md` | Exists; citation placeholders inserted; leakage-aware sensitivity findings incorporated |
+| Supplement draft | `docs/SUPPLEMENTARY_MATERIALS_DRAFT_V0_1.md` | Exists; sensitivity tables added; not final/export-formatted |
 | Draft bibliography | `references.bib` | Exists; human bibliography review required |
 | Bibliography build log | `docs/REFERENCE_BIBLIOGRAPHY_BUILD_LOG_V0_1.md` | Exists |
 | Claim-boundary audit | `docs/PREPRINT_CLAIM_BOUNDARY_AUDIT_V0_1.md` | Pass with caveats |
@@ -43,14 +43,15 @@ This reassessment does not submit to bioRxiv, does not clear public posting, and
 - final references cleanup checklist exists in `docs/FINAL_REFERENCES_HUMAN_CLEANUP_CHECKLIST_V0_1.md`, but final human bibliography approval remains incomplete
 - final export formatting
 - human approval for public posting
-- leakage-aware or similarity-aware sensitivity follow-up before stronger benchmark claims
-- leakage-aware baseline rerun outputs now exist in `docs/LEAKAGE_AWARE_BASELINE_RERUN_REPORT_V0_1.md` and `results/sensitivity/`, but manuscript update, final interpretation, and human approval remain pending
-- leakage-aware rerun findings investigation exists in `docs/LEAKAGE_AWARE_BASELINE_RERUN_FINDINGS_INVESTIGATION_V0_1.md`; manuscript update and final claim-boundary integration remain pending
+- leakage-aware baseline rerun outputs now exist in `docs/LEAKAGE_AWARE_BASELINE_RERUN_REPORT_V0_1.md` and `results/sensitivity/`
+- leakage-aware rerun findings investigation exists in `docs/LEAKAGE_AWARE_BASELINE_RERUN_FINDINGS_INVESTIGATION_V0_1.md`
+- manuscript, draft, and supplement now include leakage-aware sensitivity findings, but final human approval and public-posting decisions remain pending
 
 ## Scientific boundary retained
 
 - Computational evidence only.
-- Current metrics are random-stratified baseline metrics.
+- Primary baseline metrics are random-stratified baseline metrics.
+- Leakage-aware rerun metrics are bounded sensitivity estimates under one committed group-stratified manifest.
 - Current metrics may be optimistic because of measured duplicate and sequence-similarity leakage risk.
 - Abstract and claim-boundary wording has been tightened after internal maximum-harsh review, but this does not make the package submission-ready.
 - No biological validation, wet-lab validation, leakage-free status, robust generalization, therapeutic efficacy, clinical interpretation, or SOTA predictor claim is made.

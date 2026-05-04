@@ -33,6 +33,12 @@ The fixes strengthened:
 
 Remaining caveats still include metadata, disclosure, dataset/legal, reference, supplement/export, human approval, and leakage-aware sensitivity blockers. Public preprint status remains **Hold / not submission-ready**.
 
+## Post-Task-092 note
+
+Leakage-aware sensitivity findings have been added to `docs/PREPRINT_MANUSCRIPT_CANDIDATE_V0_1.md`, `docs/PREPRINT_DRAFT_V0_1.md`, and `docs/SUPPLEMENTARY_MATERIALS_DRAFT_V0_1.md`. The update is documented in `docs/LEAKAGE_AWARE_MANUSCRIPT_UPDATE_CHANGELOG_V0_1.md`.
+
+The added language states that the leakage-aware group-stratified rerun did not collapse the baseline signal under this specific grouping strategy, while preserving explicit boundaries: no leakage-free status, no robust generalization, no biological validation, no wet-lab validation, no therapeutic or clinical efficacy, and no public-posting approval. Public preprint status remains **Hold / not submission-ready**.
+
 ## Required boundary checks
 
 | Check | Result | Evidence / note |
@@ -45,6 +51,7 @@ Remaining caveats still include metadata, disclosure, dataset/legal, reference, 
 | No therapeutic/clinical claim | Pass | Therapeutic and clinical terms appear only as excluded claim categories. |
 | Feature importance non-mechanistic | Pass | Candidate and draft describe RF feature importance as model-level behavior, not mechanism. |
 | Metrics random-stratified and potentially optimistic | Pass | Candidate, draft, supplement, and leakage docs preserve random-stratified baseline caveat. |
+| Leakage-aware sensitivity wording bounded | Pass | Candidate, draft, and supplement describe leakage-aware rerun metrics as sensitivity estimates under one committed manifest, not validation or proof of robust generalization. |
 | Preprint candidate not submission-ready | Pass | Candidate, draft, supplement, and checklist state not submission-ready / human review required. |
 | No fabricated reference claims | Pass | `references.bib` contains draft entries from verified packs only; partial/deferred references are documented outside BibTeX. |
 
