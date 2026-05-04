@@ -89,6 +89,7 @@ The current rerun-ready dataset includes a `source` column, but the known value 
 - Leakage-aware grouping utilities are implemented.
 - Unit tests cover in-memory fixtures only.
 - CLI dry-run is available.
+- First combined group assignment outputs have been generated under `results/sensitivity/` and summarized in `docs/LEAKAGE_AWARE_GROUP_ASSIGNMENT_OUTPUTS_V0_1.md`.
 - No leakage-aware split manifest has been generated.
 - No leakage-aware metric has been generated.
 - Baseline models have not been rerun.

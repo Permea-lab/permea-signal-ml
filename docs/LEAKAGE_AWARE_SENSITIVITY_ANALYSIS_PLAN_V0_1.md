@@ -8,6 +8,8 @@ This is a plan only. No leakage-aware split has been run, no leakage-aware metri
 
 Implementation pointer: `docs/LEAKAGE_AWARE_GROUPING_UTILITIES_V0_1.md` describes grouping utilities now available for future sensitivity work. Those utilities support in-memory exact duplicate, near-duplicate, k-mer Jaccard, combined similarity, and source-feasibility grouping. They do not generate split manifests, rerun models, or produce leakage-aware metrics.
 
+Output pointer: `docs/LEAKAGE_AWARE_GROUP_ASSIGNMENT_OUTPUTS_V0_1.md` summarizes the first combined group assignment outputs generated under `results/sensitivity/`. Split manifests, baseline model reruns, and leakage-aware metrics have still not been generated.
+
 ## Current Leakage Evidence Summary
 
 Current leakage evidence comes from `docs/LEAKAGE_AUDIT_REPORT_V0_1.md`, `docs/LEAKAGE_AUDIT_FINDINGS_INVESTIGATION_V0_1.md`, and the committed audit outputs in `results/audits/`.
