@@ -8,13 +8,15 @@ Detailed metadata, disclosure, reference, dataset/legal, and supplement/export g
 
 ## Current submission package status
 
-The repository currently contains a preprint draft, a preprint assembly document, a supplementary outline, a paper package planning document, an evidence package definition, current figures and tables, and repo-linked benchmark artifacts. Together, these components form a credible internal submission candidate, but not yet a finalized upload package.
+The repository currently contains a preprint draft, manuscript candidate, supplement draft, draft bibliography, preprint assembly document, supplementary outline, paper package planning document, evidence package definition, current figures and tables, and repo-linked benchmark artifacts. Together, these components form a credible internal manuscript candidate package, but not a finalized upload package.
 
 Task 052 manuscript candidate file: `docs/PREPRINT_MANUSCRIPT_CANDIDATE_V0_1.md`. Status: candidate prepared for human review; not submission-ready.
 
 Task 053 claim-boundary audit file: `docs/PREPRINT_CLAIM_BOUNDARY_AUDIT_V0_1.md`. Status: pass with caveats; no major claim-boundary violation found.
 
 Task 054 citation consistency check file: `docs/CITATION_CONSISTENCY_CHECK_V0_1.md`. Status: pass; all citation keys used in the draft and candidate exist in `references.bib`.
+
+Task 055 readiness reassessment file: `docs/BIORXIV_V0_1_READINESS_REASSESSMENT_V0_1.md`. Status: candidate package prepared; not submission-ready until human metadata/legal/reference review is complete.
 
 ## Manuscript file status
 
@@ -113,7 +115,12 @@ Supplementary structure now exists as an outline and a prose draft at `docs/SUPP
 
 ## Remaining blockers before submission
 
-- authorship and affiliation metadata not finalized; placeholder blocks exist but require human completion
+- final author metadata, author order, affiliations, corresponding author, and email not finalized; placeholder blocks exist but require human completion
+- funding, conflicts, acknowledgements, author contributions, ethics, data availability, and code availability require human-approved wording
+- dataset licensing/redistribution and source-chain attribution remain unresolved
+- final reference human review remains required
+- final export formatting remains pending
+- explicit human approval is required before public posting
 - draft `references.bib` prepared and citation placeholders inserted, but citation consistency checking, deferred-reference decisions, and final human reference review are not complete
 - supplement drafted in prose, but final formatting, captions, and human review remain pending
 - figure polish and publication formatting remain pending
