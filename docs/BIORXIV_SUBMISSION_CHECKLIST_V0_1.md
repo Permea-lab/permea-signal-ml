@@ -6,6 +6,8 @@ This document tracks the current readiness of the BBB-oriented Permea manuscript
 
 Detailed metadata, disclosure, reference, dataset/legal, and supplement/export gaps are tracked in `docs/PREPRINT_METADATA_AND_REFERENCE_GAP_CHECKLIST_V0_1.md`. Reference search and verification planning is tracked in `docs/REFERENCE_SEARCH_PLAN_BIORXIV_V0_1.md`. The first and second verified reference packs are tracked in `docs/VERIFIED_REFERENCE_PACK_BIORXIV_V0_1.md` and `docs/VERIFIED_REFERENCE_PACK_BIORXIV_V0_2.md`. A draft `references.bib` now exists, but final human reference review and manuscript citation consistency review are still pending.
 
+Human-provided metadata, disclosure, legal, availability, bibliography, and public-posting decisions should be collected with `docs/HUMAN_METADATA_AND_DISCLOSURE_INPUT_FORM_V0_1.md`. That form is not complete by default and does not make the public preprint ready.
+
 ## Current submission package status
 
 The repository currently contains a preprint draft, manuscript candidate, supplement draft, draft bibliography, preprint assembly document, supplementary outline, paper package planning document, evidence package definition, current figures and tables, and repo-linked benchmark artifacts. Together, these components form a credible internal manuscript candidate package, but not a finalized upload package.
@@ -149,3 +151,4 @@ Supplementary structure now exists as an outline and a prose draft at `docs/SUPP
 - prepare one final formatting pass
 - verify asset completeness before any submission upload
 - prepare placeholder disclosure blocks for later completion
+- complete `docs/HUMAN_METADATA_AND_DISCLOSURE_INPUT_FORM_V0_1.md` with human-provided values before replacing metadata or disclosure placeholders

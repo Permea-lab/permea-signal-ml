@@ -164,6 +164,10 @@ Codex can continue preparing forms, checklists, statement options, and formattin
 
 The next practical step is to collect human metadata/legal inputs, not to expand scientific claims or add new model results.
 
+## Task 066 Status Note
+
+The human metadata and disclosure input form has been prepared as `docs/HUMAN_METADATA_AND_DISCLOSURE_INPUT_FORM_V0_1.md`. It is a collection template only and does not fill, approve, or resolve any author, disclosure, dataset/legal, code/data availability, bibliography, leakage-sensitivity, or public-posting decision.
+
 ## No-Change Confirmation
 
 - Manuscript content was not modified by this plan.

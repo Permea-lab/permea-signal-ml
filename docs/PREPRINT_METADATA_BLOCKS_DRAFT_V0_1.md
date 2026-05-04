@@ -6,6 +6,8 @@ Draft placeholder blocks for a bioRxiv v0.1 manuscript candidate. These blocks a
 
 No author names, affiliations, emails, ORCIDs, funders, competing interests, acknowledgements, licenses, or availability URLs are invented here.
 
+Structured collection form: `docs/HUMAN_METADATA_AND_DISCLOSURE_INPUT_FORM_V0_1.md`. Use that form to collect human-provided values before replacing any placeholder below.
+
 ## Author List Placeholder
 
 `[AUTHOR LIST PLACEHOLDER - human operator must provide final author names and order]`

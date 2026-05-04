@@ -19,6 +19,7 @@ This reassessment does not submit to bioRxiv, does not clear public posting, and
 | Manuscript candidate fix changelog | `docs/PREPRINT_MANUSCRIPT_CANDIDATE_FIX_CHANGELOG_V0_1.md` | Exists; abstract and claim-boundary fixes applied after maximum-harsh review |
 | Citation consistency check | `docs/CITATION_CONSISTENCY_CHECK_V0_1.md` | Pass |
 | Metadata placeholder blocks | `docs/PREPRINT_METADATA_BLOCKS_DRAFT_V0_1.md` | Exists; not completed |
+| Human metadata/disclosure input form | `docs/HUMAN_METADATA_AND_DISCLOSURE_INPUT_FORM_V0_1.md` | Exists; requires human completion |
 
 ## Unresolved blockers
 
@@ -27,6 +28,7 @@ This reassessment does not submit to bioRxiv, does not clear public posting, and
 - affiliations
 - corresponding author and email
 - optional ORCIDs
+- completion of `docs/HUMAN_METADATA_AND_DISCLOSURE_INPUT_FORM_V0_1.md` with human-provided values and decisions
 - funding statement
 - competing-interest statement
 - acknowledgements
