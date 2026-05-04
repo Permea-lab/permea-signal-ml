@@ -45,6 +45,7 @@ This reassessment does not submit to bioRxiv, does not clear public posting, and
 - human approval for public posting
 - leakage-aware or similarity-aware sensitivity follow-up before stronger benchmark claims
 - leakage-aware baseline rerun outputs now exist in `docs/LEAKAGE_AWARE_BASELINE_RERUN_REPORT_V0_1.md` and `results/sensitivity/`, but manuscript update, final interpretation, and human approval remain pending
+- leakage-aware rerun findings investigation exists in `docs/LEAKAGE_AWARE_BASELINE_RERUN_FINDINGS_INVESTIGATION_V0_1.md`; manuscript update and final claim-boundary integration remain pending
 
 ## Scientific boundary retained
 

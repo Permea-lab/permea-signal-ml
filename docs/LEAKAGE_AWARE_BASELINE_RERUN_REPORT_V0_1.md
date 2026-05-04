@@ -60,6 +60,8 @@ Result category: performance broadly stable under this grouping strategy, with R
 
 This improves confidence that the current benchmark signal is not solely an artifact of the original random-stratified fold reconstruction under this specific grouping strategy. It does not establish robust generalization, leakage-free status, biological validation, wet-lab validation, or delivery performance. The current manuscript should not be updated until the sensitivity results are reviewed and claim-boundary language is prepared.
 
+Follow-up investigation: `docs/LEAKAGE_AWARE_BASELINE_RERUN_FINDINGS_INVESTIGATION_V0_1.md` reviews random-vs-leakage-aware deltas, fold-level stability, allowed manuscript wording, forbidden wording, and remaining limitations before any manuscript update.
+
 ## Remaining Limitations
 
 - The upstream combined group assignment retained the `max_pairs=10000` caveat, so grouping may be incomplete.

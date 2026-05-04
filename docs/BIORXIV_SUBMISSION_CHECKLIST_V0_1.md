@@ -14,7 +14,7 @@ Dataset legal, data availability, code availability, and license-statement wordi
 
 Final human cleanup requirements for draft `references.bib` are tracked in `docs/FINAL_REFERENCES_HUMAN_CLEANUP_CHECKLIST_V0_1.md`. That checklist does not finalize references or make the bibliography public-ready.
 
-Leakage-aware sensitivity planning is tracked in `docs/LEAKAGE_AWARE_SENSITIVITY_ANALYSIS_PLAN_V0_1.md`. Baseline rerun outputs under the committed leakage-aware split manifest are summarized in `docs/LEAKAGE_AWARE_BASELINE_RERUN_REPORT_V0_1.md`; these remain sensitivity estimates and do not make current metrics robust-generalization estimates.
+Leakage-aware sensitivity planning is tracked in `docs/LEAKAGE_AWARE_SENSITIVITY_ANALYSIS_PLAN_V0_1.md`. Baseline rerun outputs under the committed leakage-aware split manifest are summarized in `docs/LEAKAGE_AWARE_BASELINE_RERUN_REPORT_V0_1.md`, with conservative pre-manuscript interpretation in `docs/LEAKAGE_AWARE_BASELINE_RERUN_FINDINGS_INVESTIGATION_V0_1.md`; these remain sensitivity estimates and do not make current metrics robust-generalization estimates.
 
 ## Current submission package status
 
@@ -152,6 +152,7 @@ Supplement/export formatting checklist: `docs/SUPPLEMENT_EXPORT_FORMATTING_CHECK
 - abstract and metric caveats have been tightened, but public posting still requires final human review and blocker closure
 - leakage-aware or similarity-aware follow-up is likely needed before public benchmark claims are strengthened
 - leakage-aware baseline rerun report has been prepared, but manuscript update, final interpretation, and human approval remain pending
+- leakage-aware rerun findings investigation has been prepared, but manuscript claim-boundary integration remains pending
 - artifact-to-claim traceability should be checked once more before export
 - one final manuscript consistency pass would still be useful
 
