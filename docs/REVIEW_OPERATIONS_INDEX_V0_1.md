@@ -79,6 +79,11 @@ The package is ready for internal or trusted review. It is not final for public 
 - `LEAKAGE_AWARE_MANUSCRIPT_UPDATE_CHANGELOG_V0_1.md` — changelog for conservative manuscript, draft, and supplement updates based on leakage-aware sensitivity findings
 - `FINAL_POST_SENSITIVITY_CLAIM_AND_CITATION_AUDIT_V0_1.md` — final internal post-sensitivity claim and citation audit; not external review, peer review, or public approval
 - `POST_SENSITIVITY_FOUNDER_DECISION_BRIEF_V0_1.md` — post-sensitivity founder/manual decision brief; recommends caveated bioRxiv v0.1 only after cleanup and approval
+- `reports/2026-05-04-permea-eod-report.md` — EOD report for the completed 2026-05-04 post-sensitivity manuscript package work
+- `reports/2026-05-05-permea-sod-handoff.md` — SOD handoff for continuing the package from a new ChatGPT/Codex conversation
+- `reports/2026-05-05-permea-chatgpt-sod-prompt.md` — copy-paste ChatGPT prompt for restoring the 2026-05-05 SOD context
+- `reports/2026-05-05-permea-codex-sod-prompt.md` — copy-paste Codex prompt for read-only SOD context restoration
+- `reports/SOD_EOD_PROCESS_NOTE.md` — lightweight process note for creating EOD reports and next-day SOD handoffs
 - `results/audits/leakage_audit_summary.json` — machine-readable leakage audit summary counts
 - `REVIEW_FEEDBACK_LOG_V0_1.md` — structured feedback log
 - `REVISION_PRIORITY_FRAMEWORK_V0_1.md` — P0-P4 triage and revision rules
@@ -142,11 +147,16 @@ The package is ready for internal or trusted review. It is not final for public 
 55. Use `LEAKAGE_AWARE_MANUSCRIPT_UPDATE_CHANGELOG_V0_1.md` to inspect where sensitivity findings were incorporated and which limitations remain.
 56. Use `FINAL_POST_SENSITIVITY_CLAIM_AND_CITATION_AUDIT_V0_1.md` before the next internal closure task or any public-readiness decision.
 57. Use `POST_SENSITIVITY_FOUNDER_DECISION_BRIEF_V0_1.md` before founder/manual approval decisions after leakage-aware sensitivity integration.
-58. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
-59. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
-60. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
-61. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
-62. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
+58. Use `reports/2026-05-04-permea-eod-report.md` for the final 2026-05-04 package state and next-task context.
+59. Use `reports/2026-05-05-permea-sod-handoff.md` when starting 2026-05-05 work or a new ChatGPT/Codex conversation.
+60. Use `reports/2026-05-05-permea-chatgpt-sod-prompt.md` to start a new ChatGPT SOD conversation.
+61. Use `reports/2026-05-05-permea-codex-sod-prompt.md` to start a read-only Codex SOD context restore.
+62. Use `reports/SOD_EOD_PROCESS_NOTE.md` when preparing future EOD/SOD handoff documents.
+63. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
+64. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.
+65. Use `TRUSTED_REVIEW_FEEDBACK_INTAKE_TEMPLATE_V0_1.md` to split feedback into atomic items.
+66. Record comments in `REVIEW_FEEDBACK_LOG_V0_1.md`.
+67. Triage comments with `REVISION_PRIORITY_FRAMEWORK_V0_1.md`.
 
 ## Minimum first-wave packet
 
