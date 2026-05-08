@@ -255,7 +255,7 @@ Pass with severe caveats
 | Partner/deck use | Hold | Deck materials are absent and would need separate claim-boundary review before use. |
 | Trusted external reviewer circulation | Go with caveats | A carefully labeled human-review packet can be circulated if it states this is a computational candidate, not a public-ready submission. |
 
-## Recommended Next Codex Task
+## Recommended Next Maintainer Task
 
 Task 059 - Commit Maximum-Harsh Manuscript Candidate Review
 

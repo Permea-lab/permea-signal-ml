@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document is the start-of-day handoff for continuing Permea work on 2026-05-06 in a new ChatGPT or Codex conversation.
+This document is the start-of-day handoff for continuing Permea work on 2026-05-06 in a new operator planning or operator session.
 
 Read this file first when the user says "SOD 진행하자".
 

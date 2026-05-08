@@ -228,7 +228,7 @@ No P0 or P1 blockers were identified for the next internal draft stage. This doe
 | Partner/deck use | Hold | Nontechnical reuse could overread metrics, candidate prioritization, or delivery language. |
 | Trusted external reviewer circulation | Go with caveats | Suitable if framed as an internal candidate and not as public validation or submission clearance. |
 
-## Recommended Next Codex Task
+## Recommended Next Maintainer Task
 
 Task 063 - Commit Post-Fix Manuscript Candidate Re-Review
 

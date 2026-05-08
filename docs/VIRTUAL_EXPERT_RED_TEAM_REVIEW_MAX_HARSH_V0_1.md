@@ -302,7 +302,7 @@ Yes, proceed to next development with caveats.
 
 The virtual council does not require waiting for real external reviewer feedback before continuing internal development. It does require that the next development task respect the unresolved P1/P2 public-readiness risks and avoid public submission or partner-facing circulation until the listed preprint and deck gates are handled.
 
-## Recommended next Codex task
+## Recommended next maintainer task
 
 Task 022 — Commit Maximum-Harsh Virtual Red-Team Review
 

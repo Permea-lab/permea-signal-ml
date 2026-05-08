@@ -141,7 +141,7 @@ Recommended claim boundary:
 - Avoid presenting current random-stratified metrics as robust generalization.
 - Keep public material aligned with leakage-risk caveats and no-wet-lab-validation boundaries.
 
-## Recommended next Codex task
+## Recommended next maintainer task
 
 Task 035 — Commit Leakage Audit Outputs and Investigation Report
 

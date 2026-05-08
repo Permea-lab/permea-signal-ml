@@ -4,7 +4,7 @@
 
 This form collects human-provided metadata, disclosure statements, legal decisions, availability decisions, and final approval inputs needed before any public bioRxiv v0.1 posting.
 
-This form must be completed by the human operator. Codex must not invent values. Completing this form does not by itself make the preprint ready. Public preprint status remains **Hold / not submission-ready** until all required fields are filled, reviewed, checked against claim boundaries, and approved by the human operator.
+This form must be completed by the human operator. Maintainers must not invent values. Completing this form does not by itself make the preprint ready. Public preprint status remains **Hold / not submission-ready** until all required fields are filled, reviewed, checked against claim boundaries, and approved by the human operator.
 
 ## Completion Instructions
 

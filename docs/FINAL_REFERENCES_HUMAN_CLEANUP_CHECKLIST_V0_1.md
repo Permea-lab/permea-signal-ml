@@ -145,7 +145,7 @@ References remain a blocker until human cleanup and final approval are complete.
 
 This checklist does not approve the bibliography, does not finalize reference metadata, and does not make the public preprint ready. Public preprint status remains **Hold / not submission-ready**.
 
-## Recommended Next Codex Task
+## Recommended Next Maintainer Task
 
 Recommended next task: Task 073 - Commit Final References Human Cleanup Checklist.
 

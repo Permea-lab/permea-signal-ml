@@ -25,7 +25,7 @@ Current review status from `docs/PREPRINT_MANUSCRIPT_CANDIDATE_POST_FIX_REVIEW_V
 
 ## Blocker Inventory
 
-| Blocker ID | Blocker area | Description | Current status | Blocking level | Can Codex close? | Requires human input? | Can remain caveated in v0.1? | Recommended action | Target task |
+| Blocker ID | Blocker area | Description | Current status | Blocking level | Can maintainers close? | Requires human input? | Can remain caveated in v0.1? | Recommended action | Target task |
 |---|---|---|---|---|---|---|---|---|---|
 | P2-001 | Metadata/disclosures | Metadata and disclosure placeholders remain incomplete. | Placeholder blocks exist in `PREPRINT_METADATA_BLOCKS_DRAFT_V0_1.md`. | Blocks bioRxiv | Partly | Yes | No for required fields | Prepare structured input form; human supplies final values. | Task 066 |
 | P2-002 | Author/affiliation/corresponding author info | Final author list, order, affiliations, corresponding author, email, and optional ORCIDs are missing. | Placeholder only. | Blocks bioRxiv | No | Yes | No | Collect exact author metadata from human operator. | Task 066 |
@@ -42,9 +42,9 @@ Current review status from `docs/PREPRINT_MANUSCRIPT_CANDIDATE_POST_FIX_REVIEW_V
 
 ## Closure Categories
 
-### A. Codex-closable now
+### A. Maintainer-closable now
 
-Codex can prepare these without inventing values or changing scientific claims:
+Maintainers can prepare these without inventing values or changing scientific claims:
 
 - supplement/export formatting checklist
 - figure/table/caption checklist
@@ -124,7 +124,7 @@ If the human operator does not want to post publicly while legal, metadata, and 
 4. Continue v0.2 leakage-aware sensitivity planning before public benchmark-strength claims.
 5. Defer public dataset release until licensing and redistribution rights are confirmed.
 
-## Recommended Next Codex Tasks
+## Recommended Next Maintainer Tasks
 
 | Task | Purpose | Primary output |
 |---|---|---|
@@ -160,7 +160,7 @@ Exact human-provided information needed before final public posting:
 
 ## Decision Recommendation
 
-Codex can continue preparing forms, checklists, statement options, and formatting plans. Codex cannot finalize the public preprint without human metadata, disclosure, legal, dataset, bibliography, and approval decisions.
+Maintainers can continue preparing forms, checklists, statement options, and formatting plans. Maintainers cannot finalize the public preprint without human metadata, disclosure, legal, dataset, bibliography, and approval decisions.
 
 The next practical step is to collect human metadata/legal inputs, not to expand scientific claims or add new model results.
 

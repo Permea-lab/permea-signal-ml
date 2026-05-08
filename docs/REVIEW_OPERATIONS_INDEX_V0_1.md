@@ -50,7 +50,7 @@ The package is ready for internal or trusted review. It is not final for public 
 - `SUPPLEMENT_EXPORT_FORMATTING_CHECKLIST_V0_1.md` — supplement and export formatting checklist for public-posting preparation; planning only, no final export created
 - `DATASET_LEGAL_AND_AVAILABILITY_STATEMENT_OPTIONS_V0_1.md` — conservative data/code availability and dataset legal wording options for human review; not legal advice and not redistribution approval
 - `PREPRINT_METADATA_BLOCKS_DRAFT_V0_1.md` — draft author, affiliation, disclosure, availability, and license placeholder blocks; human completion required
-- `HUMAN_METADATA_AND_DISCLOSURE_INPUT_FORM_V0_1.md` — human input form for author metadata, disclosures, availability, dataset/legal decisions, bibliography approval, and posting approval; not completed by Codex
+- `HUMAN_METADATA_AND_DISCLOSURE_INPUT_FORM_V0_1.md` — human input form for author metadata, disclosures, availability, dataset/legal decisions, bibliography approval, and posting approval; not completed without human approval
 - `PREPRINT_MANUSCRIPT_CANDIDATE_V0_1.md` — single bioRxiv v0.1 manuscript candidate assembled from the draft, citation placeholders, metadata placeholders, leakage caveats, references pointer, and supplement pointer
 - `PREPRINT_MANUSCRIPT_CANDIDATE_MAX_HARSH_REVIEW_V0_1.md` — internal maximum-harsh virtual review of the manuscript candidate package; not external review, peer review, or public validation
 - `PREPRINT_MANUSCRIPT_CANDIDATE_FIX_CHANGELOG_V0_1.md` — changelog for abstract and claim-boundary fixes applied after the maximum-harsh review
@@ -80,9 +80,9 @@ The package is ready for internal or trusted review. It is not final for public 
 - `FINAL_POST_SENSITIVITY_CLAIM_AND_CITATION_AUDIT_V0_1.md` — final internal post-sensitivity claim and citation audit; not external review, peer review, or public approval
 - `POST_SENSITIVITY_FOUNDER_DECISION_BRIEF_V0_1.md` — post-sensitivity founder/manual decision brief; recommends caveated bioRxiv v0.1 only after cleanup and approval
 - `reports/2026-05-04-permea-eod-report.md` — EOD report for the completed 2026-05-04 post-sensitivity manuscript package work
-- `reports/2026-05-05-permea-sod-handoff.md` — SOD handoff for continuing the package from a new ChatGPT/Codex conversation
-- `reports/2026-05-05-permea-chatgpt-sod-prompt.md` — copy-paste ChatGPT prompt for restoring the 2026-05-05 SOD context
-- `reports/2026-05-05-permea-codex-sod-prompt.md` — copy-paste Codex prompt for read-only SOD context restoration
+- `reports/2026-05-05-permea-sod-handoff.md` — SOD handoff for continuing the package from a new operator planning/operator session
+- `reports/2026-05-05-permea-operator-planning-sod-prompt.md` — removed from public repo; archived in local-only ops
+- `reports/2026-05-05-permea-maintainer-sod-prompt.md` — removed from public repo; archived in local-only ops
 - `reports/SOD_EOD_PROCESS_NOTE.md` — lightweight process note for creating EOD reports and next-day SOD handoffs
 - `results/audits/leakage_audit_summary.json` — machine-readable leakage audit summary counts
 - `REVIEW_FEEDBACK_LOG_V0_1.md` — structured feedback log
@@ -148,9 +148,9 @@ The package is ready for internal or trusted review. It is not final for public 
 56. Use `FINAL_POST_SENSITIVITY_CLAIM_AND_CITATION_AUDIT_V0_1.md` before the next internal closure task or any public-readiness decision.
 57. Use `POST_SENSITIVITY_FOUNDER_DECISION_BRIEF_V0_1.md` before founder/manual approval decisions after leakage-aware sensitivity integration.
 58. Use `reports/2026-05-04-permea-eod-report.md` for the final 2026-05-04 package state and next-task context.
-59. Use `reports/2026-05-05-permea-sod-handoff.md` when starting 2026-05-05 work or a new ChatGPT/Codex conversation.
-60. Use `reports/2026-05-05-permea-chatgpt-sod-prompt.md` to start a new ChatGPT SOD conversation.
-61. Use `reports/2026-05-05-permea-codex-sod-prompt.md` to start a read-only Codex SOD context restore.
+59. Use `reports/2026-05-05-permea-sod-handoff.md` when starting 2026-05-05 work or a new operator planning/operator session.
+60. Use `reports/2026-05-05-permea-operator-planning-sod-prompt.md` to start a new operator SOD conversation.
+61. Use `reports/2026-05-05-permea-maintainer-sod-prompt.md` to start a read-only operator SOD context restore.
 62. Use `reports/SOD_EOD_PROCESS_NOTE.md` when preparing future EOD/SOD handoff documents.
 63. Use `FIRST_REVIEW_WAVE_CHECKLIST_V0_1.md` during sending and intake.
 64. Use `REVIEW_OUTREACH_TEMPLATES_V0_1.md` for concise reviewer asks.

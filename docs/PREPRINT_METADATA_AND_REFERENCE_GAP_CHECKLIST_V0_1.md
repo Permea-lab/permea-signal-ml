@@ -118,6 +118,6 @@ No formal bibliography file, `CITATION.cff`, `.bib`, or final reference list was
 6. Retain leakage caveat: current metrics are random-stratified baseline metrics and may be optimistic.
 7. Run one final preprint readiness check before any public posting.
 
-## Recommended next Codex task
+## Recommended next maintainer task
 
 Task 048 — Insert Citation Placeholders into `PREPRINT_DRAFT_V0_1.md`

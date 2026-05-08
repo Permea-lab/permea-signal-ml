@@ -2,9 +2,9 @@
 
 ## Purpose
 
-This document is the start-of-day handoff for continuing Permea work on 2026-05-07 in a new ChatGPT/Codex conversation.
+This document is the start-of-day handoff for continuing Permea work on 2026-05-07 in a new operator planning/operator session.
 
-When the user says "SOD 진행하자", read this document first, restore repo state, summarize current status, present today priorities, and propose the next Codex task.
+When the user says "SOD 진행하자", read this document first, restore repo state, summarize current status, present today priorities, and propose the next maintainer task.
 
 ## Starting Repo State
 
@@ -110,7 +110,7 @@ Maintain these boundaries:
 - Do not claim dataset redistribution is permitted.
 - Do not imply external expert review or peer review.
 
-## Suggested First Codex Task
+## Suggested First Maintainer Task
 
 Use Task 127:
 

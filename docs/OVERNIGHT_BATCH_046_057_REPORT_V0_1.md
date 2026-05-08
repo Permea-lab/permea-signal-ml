@@ -118,7 +118,7 @@ The batch prepared a local bioRxiv v0.1 manuscript-candidate package. It did not
 4. Review `references.bib`, especially draft `and others` author forms and deferred references.
 5. Approve final export format only after blocker review.
 
-## Recommended next Codex task
+## Recommended next maintainer task
 
 Task 058 — Human-review issue register and final metadata/legal/reference closure plan for the bioRxiv v0.1 candidate package.
 

@@ -165,7 +165,7 @@ Status: Continue trusted review circulation.
 
 Rationale: Round 1 found no P0 issues and no blocking P1 issues. P1 items require monitoring and tightening before public-facing preprint use, while P2 items should be resolved or explicitly documented before preprint submission.
 
-## Recommended next Codex task
+## Recommended next maintainer task
 
 Task 009 — Commit Round 1 Revision Plan
 

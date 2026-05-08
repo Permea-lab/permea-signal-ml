@@ -118,7 +118,7 @@ A candidate should be rejected or replaced if:
 - the source would encourage overclaiming;
 - the source cannot be reconciled with dataset attribution, licensing, or redistribution needs where those are relevant.
 
-## Recommended next Codex task
+## Recommended next maintainer task
 
 Task 043 — Commit Literature Survey Landscape and Reference Queue
 

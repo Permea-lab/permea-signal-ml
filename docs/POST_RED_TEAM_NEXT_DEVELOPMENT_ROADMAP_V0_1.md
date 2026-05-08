@@ -232,7 +232,7 @@ What can be deferred as future work:
 - broader delivery-barrier expansion
 - final standard-layer promotion into `permea-core`
 
-## Recommended immediate next Codex task
+## Recommended immediate next maintainer task
 
 Task 045 — Create Draft references.bib from Verified Reference Pack
 

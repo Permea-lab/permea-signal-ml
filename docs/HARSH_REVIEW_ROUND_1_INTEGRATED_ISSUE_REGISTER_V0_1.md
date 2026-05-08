@@ -98,7 +98,7 @@ Future deck/pitch hardening:
 - review public-facing deck materials after they exist in the repo
 - align deck claims to manuscript evidence boundaries
 
-## Recommended next Codex task
+## Recommended next maintainer task
 
 Recommended next task:
 

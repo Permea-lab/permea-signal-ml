@@ -123,8 +123,8 @@ The 2026-05-05 SOD should start from:
 - `docs/PREPRINT_CANDIDATE_STATUS_REPORT_V0_1.md`
 - `docs/POST_SENSITIVITY_FOUNDER_DECISION_BRIEF_V0_1.md`
 - `docs/reports/2026-05-05-permea-sod-handoff.md`
-- `docs/reports/2026-05-05-permea-chatgpt-sod-prompt.md`
-- `docs/reports/2026-05-05-permea-codex-sod-prompt.md`
+- `docs/reports/2026-05-05-permea-operator-planning-sod-prompt.md`
+- `docs/reports/2026-05-05-permea-maintainer-sod-prompt.md`
 
 Recommended next tasks:
 

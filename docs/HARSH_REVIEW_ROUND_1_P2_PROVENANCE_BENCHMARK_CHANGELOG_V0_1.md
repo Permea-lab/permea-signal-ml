@@ -77,6 +77,6 @@ Deferred to future benchmark expansion:
 - stricter sequence-similarity-aware splits, if later required
 - new datasets, new model families, additional features, or broader barrier tasks
 
-## Recommended next Codex task
+## Recommended next maintainer task
 
 Task 013 — Commit P2 Provenance and Benchmark-Clarity Revisions

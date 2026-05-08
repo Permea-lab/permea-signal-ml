@@ -69,6 +69,6 @@ P4 future-work items:
 - new model families, new features, new datasets, benchmark expansion, and wet-lab validation remain future work
 - public deck/pitch alignment remains deferred until deck materials exist in the repo
 
-## Recommended next Codex task
+## Recommended next maintainer task
 
 Task 011 — Commit P1 Claim-Boundary Tightening

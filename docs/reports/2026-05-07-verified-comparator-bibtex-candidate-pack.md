@@ -454,7 +454,7 @@ Boundary note:
 - The article being CC BY does not automatically settle row-level redistribution terms for local processed datasets.
 - Dataset redistribution remains unresolved unless explicit source terms are documented separately.
 
-## 9. Recommended Codex Task for Applying Safe `references.bib` Updates
+## 9. Recommended Maintainer Task for Applying Safe `references.bib` Updates
 
 Recommended next task:
 

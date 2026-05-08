@@ -44,9 +44,9 @@
 - Archived old workspace and legacy analysis paths under local-only archive folders.
 - Verified old root paths are no longer used for active work.
 
-### Local-Only ChatGPT Context Migration / Update
+### Local-Only Operator Context Migration / Update
 
-- Moved local-only ChatGPT context into `18_PERMEA/local_chatgpt_context/`.
+- Moved local-only operator planning context into `18_PERMEA/local_operator_context/`.
 - Updated local-only context after final workspace cleanup.
 - Updated local-only context again after PR #3 merge so future sessions treat supplement v0.2 as current.
 - Local-only context remains outside public repos and must not be committed.
