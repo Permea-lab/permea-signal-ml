@@ -108,6 +108,6 @@ Formal references are a blocker before bioRxiv v0.1. The absence of formal refer
 
 Reference insertion should happen after verified search, dataset/source attribution checks, and final manuscript sentence-level citation mapping.
 
-## Recommended next Codex task
+## Recommended next maintainer task
 
 Task 047 — Create Draft references.bib from Verified Reference Packs

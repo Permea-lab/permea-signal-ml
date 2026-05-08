@@ -2,14 +2,14 @@
 
 ## Purpose
 
-This document is the start-of-day handoff for continuing Permea work in a new ChatGPT/Codex conversation.
+This document is the start-of-day handoff for continuing Permea work in a new operator planning/operator session.
 
 When the user says "SOD 진행하자", this document should be read first, together with `docs/reports/2026-05-04-permea-eod-report.md`.
 
 Prompt files for starting new sessions:
 
-- ChatGPT prompt: `docs/reports/2026-05-05-permea-chatgpt-sod-prompt.md`
-- Codex prompt: `docs/reports/2026-05-05-permea-codex-sod-prompt.md`
+- internal operator prompt: `docs/reports/2026-05-05-permea-operator-planning-sod-prompt.md`
+- internal operator prompt: `docs/reports/2026-05-05-permea-maintainer-sod-prompt.md`
 
 ## How to Use This SOD Document
 
@@ -18,7 +18,7 @@ Prompt files for starting new sessions:
 3. Summarize yesterday's completed work.
 4. Present today's top priorities.
 5. Ask the user to choose a path if a decision is required.
-6. Produce the Codex prompt for the next task.
+6. Produce the internal operator prompt for the next task.
 
 ## Current Repo State to Verify
 
@@ -108,30 +108,30 @@ Prepare website evidence archive only after strict claim-boundary review. Do not
 
 Recommended: start with metadata/disclosure and references cleanup because scientific evidence is now sufficiently defensible for internal candidate status.
 
-## ChatGPT SOD Behavior Rule
+## operator SOD Behavior Rule
 
 When user says "SOD 진행하자":
 
 - Load the latest SOD handoff doc.
 - Summarize current state.
 - Show today's priorities.
-- Propose the next Codex task.
+- Propose the next maintainer task.
 - Do not assume public preprint is ready.
 - Maintain claim discipline.
 
-## Suggested ChatGPT Prompt for New Conversation
+## Suggested Internal Operator Prompt for New Conversation
 
-Canonical prompt file: `docs/reports/2026-05-05-permea-chatgpt-sod-prompt.md`.
+Canonical prompt file: `docs/reports/2026-05-05-permea-operator-planning-sod-prompt.md`.
 
 ```text
 We are continuing Permea from the 2026-05-05 SOD handoff. Read docs/reports/2026-05-05-permea-sod-handoff.md and docs/reports/2026-05-04-permea-eod-report.md. Current repo is /Users/albertkim/02_PROJECTS/18_Permea-lab/permea-signal-ml. Latest pushed package includes leakage-aware sensitivity results and manuscript updates. Public bioRxiv remains Hold. Start by summarizing current status and proposing today's next task.
 ```
 
-## Suggested Codex Prompt for New Conversation
+## Suggested Internal Operator Prompt for New Conversation
 
-Canonical prompt file: `docs/reports/2026-05-05-permea-codex-sod-prompt.md`.
+Canonical prompt file: `docs/reports/2026-05-05-permea-maintainer-sod-prompt.md`.
 
-## Suggested Codex First Task for SOD
+## Suggested first maintainer task
 
 Task 100 - Commit Permea 2026-05-04 EOD and 2026-05-05 SOD Reports
 

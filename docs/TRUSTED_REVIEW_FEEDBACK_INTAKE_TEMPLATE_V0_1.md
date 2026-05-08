@@ -180,5 +180,5 @@ Each task should identify source feedback IDs, priority levels, affected files, 
 - [ ] Affected documents or artifacts identified.
 - [ ] Current-package versus future-work separation completed.
 - [ ] No immediate manuscript edits before triage.
-- [ ] Next Codex task selected.
+- [ ] Next maintainer task selected.
 

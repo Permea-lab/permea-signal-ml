@@ -18,7 +18,7 @@ This is not a submission package, does not approve public posting, does not add 
 | Post-fix harsh review | `docs/PREPRINT_MANUSCRIPT_CANDIDATE_POST_FIX_REVIEW_V0_1.md` | Improved with required follow-up | Yes | No | No remaining P0/P1 blockers for next internal draft stage; P2/P3/P4 blockers remain. |
 | Readiness reassessment | `docs/BIORXIV_V0_1_READINESS_REASSESSMENT_V0_1.md` | Candidate package prepared; not submission-ready | Yes | No | Preserves Hold status. |
 | Export package draft | `docs/BIORXIV_EXPORT_PACKAGE_DRAFT_V0_1.md` | Draft manifest only | Yes | No | No final PDF, DOCX, submission bundle, website material, or public deployment. |
-| Metadata/disclosure input form | `docs/HUMAN_METADATA_AND_DISCLOSURE_INPUT_FORM_V0_1.md` | Form prepared | Yes | No | Requires human completion; Codex must not invent values. |
+| Metadata/disclosure input form | `docs/HUMAN_METADATA_AND_DISCLOSURE_INPUT_FORM_V0_1.md` | Form prepared | Yes | No | Requires human completion; Maintainers must not invent values. |
 | Legal/availability options | `docs/DATASET_LEGAL_AND_AVAILABILITY_STATEMENT_OPTIONS_V0_1.md` | Options prepared | Yes | No | Not legal advice and not redistribution approval. |
 | References cleanup checklist | `docs/FINAL_REFERENCES_HUMAN_CLEANUP_CHECKLIST_V0_1.md` | Checklist prepared | Yes | No | Does not finalize references or modify `references.bib`. |
 | Supplement/export checklist | `docs/SUPPLEMENT_EXPORT_FORMATTING_CHECKLIST_V0_1.md` | Checklist prepared | Yes | No | Defines formatting checks; does not create final export files. |
@@ -94,7 +94,7 @@ Reasons:
 - whether to publish a Permea website preview before bioRxiv
 - final public posting approval
 
-## Codex-Can-Continue Tasks
+## Maintainer-Ready Tasks
 
 - prepare a one-page human input summary sheet
 - prepare a supplement formatting pass
@@ -137,7 +137,7 @@ This may support transparent public communication, but it still requires separat
 
 The next practical action is for the human operator to review `docs/POST_SENSITIVITY_FOUNDER_DECISION_BRIEF_V0_1.md`, complete `docs/HUMAN_METADATA_AND_DISCLOSURE_INPUT_FORM_V0_1.md`, and close the metadata, legal, reference, supplement/export, and approval blockers before bioRxiv v0.1.
 
-If Codex should continue before human inputs are available, the next useful Codex task is to prepare a one-page human-input summary sheet that condenses metadata, legal, bibliography, supplement/export, and leakage-sensitivity decisions into a shorter decision form.
+If maintainer should continue before human inputs are available, the next useful maintainer task is to prepare a one-page human-input summary sheet that condenses metadata, legal, bibliography, supplement/export, and leakage-sensitivity decisions into a shorter decision form.
 
 ## Final Status Verdict
 

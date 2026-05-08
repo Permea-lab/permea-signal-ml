@@ -198,7 +198,7 @@ This wording is a conservative draft for human review only. It is not a final av
 - Complete provenance is not claimed by this document.
 - Public preprint status remains **Hold / not submission-ready**.
 
-## Recommended Next Codex Task
+## Recommended Next Maintainer Task
 
 Recommended next task: Task 071 - Commit Dataset Legal and Availability Statement Options.
 

@@ -37,8 +37,8 @@ This EOD package adds:
 
 - `docs/reports/2026-05-05-permea-eod-report.md`
 - `docs/reports/2026-05-06-permea-sod-handoff.md`
-- `docs/prompts/2026-05-06-permea-chatgpt-sod-prompt.md`
-- `docs/prompts/2026-05-06-permea-codex-sod-prompt.md`
+- `docs/prompts/2026-05-06-permea-operator-planning-sod-prompt.md`
+- `docs/prompts/2026-05-06-permea-maintainer-sod-prompt.md`
 
 ## Commit Pushed in Task 106
 

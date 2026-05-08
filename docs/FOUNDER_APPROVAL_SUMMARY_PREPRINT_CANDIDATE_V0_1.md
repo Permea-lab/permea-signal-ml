@@ -117,7 +117,7 @@ Conservative recommendation:
 - [ ] I approve public bioRxiv posting.
 - [ ] I do not approve public bioRxiv posting.
 
-## Next Recommended Codex Task
+## Next Recommended Maintainer Task
 
 Task 080 - Commit Founder Approval Summary
 

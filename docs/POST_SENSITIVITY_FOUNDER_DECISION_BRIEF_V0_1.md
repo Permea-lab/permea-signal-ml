@@ -119,7 +119,7 @@ Do not claim the package is submission-ready yet. Prepare a website evidence arc
 - [ ] I approve moving toward bioRxiv v0.1 after remaining cleanup.
 - [ ] I approve website evidence archive planning.
 
-## Recommended Next Codex Task
+## Recommended Next Maintainer Task
 
 Task 097 - Commit Post-Sensitivity Founder Decision Brief
 

@@ -13,7 +13,7 @@ This file is a documentation draft only. It does not finalize author order, affi
 - Metadata/disclosure input form exists: `docs/HUMAN_METADATA_AND_DISCLOSURE_INPUT_FORM_V0_1.md`.
 - Public bioRxiv status remains **Hold / not submission-ready**.
 - Current manuscript metadata fields remain placeholders.
-- Codex must not infer author identity, affiliation, author order, correspondence, funding, acknowledgements, ethics, or conflicts from git history, repository path, company context, or prior conversation.
+- Maintainers must not infer author identity, affiliation, author order, correspondence, funding, acknowledgements, ethics, or conflicts from git history, repository path, company context, or prior conversation.
 
 ## Required Metadata Fields
 

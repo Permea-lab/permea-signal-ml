@@ -90,7 +90,7 @@ Recommended update direction:
 - Avoid treating audit outputs as new benchmark results or biological validation.
 - Preserve the need for leakage-aware sensitivity analysis before stronger public benchmark claims.
 
-## Recommended next Codex task
+## Recommended next maintainer task
 
 Task 034 — Investigate Leakage Audit Findings
 

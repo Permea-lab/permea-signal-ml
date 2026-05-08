@@ -154,6 +154,6 @@ This is an internal artifact audit. It does not add new scientific evidence, add
 - Complete final references, metadata, author/affiliation placeholders, and disclosure placeholders.
 - Prepare final supplement/export package with artifact inventory, table/figure captions, manifests, and claim-boundary notes.
 
-## Recommended next Codex task
+## Recommended next maintainer task
 
 Recommended next task: Task 037 — Plan Leakage-Aware Split Sensitivity Analysis.

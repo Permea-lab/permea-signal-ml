@@ -17,7 +17,7 @@ This is not the final export package. It does not create PDF, DOCX, submission-b
 | Figures | `figures/` | Figure artifacts exist | Yes, with caveats | No | Caption, numbering, resolution, inclusion, and claim-boundary checks remain pending. |
 | Result tables | `results/tables/` | Table artifacts exist | Yes, with caveats | No | Public table selection, captions, and formatting remain pending. |
 | Leakage audit outputs | `results/audits/` | Audit outputs exist | Yes, with caveats | No | Appendix formatting and conservative leakage caveats remain required. |
-| Metadata/disclosure input form | `docs/HUMAN_METADATA_AND_DISCLOSURE_INPUT_FORM_V0_1.md` | Human input form exists | Yes | No | Requires human completion; Codex must not fill final values. |
+| Metadata/disclosure input form | `docs/HUMAN_METADATA_AND_DISCLOSURE_INPUT_FORM_V0_1.md` | Human input form exists | Yes | No | Requires human completion; Maintainers must not fill final values. |
 | Export package draft | `docs/BIORXIV_EXPORT_PACKAGE_DRAFT_V0_1.md` | Draft manifest only | Yes | No | Not a final export bundle. |
 | Readiness reassessment | `docs/BIORXIV_V0_1_READINESS_REASSESSMENT_V0_1.md` | Current readiness status | Yes | No | States package is not submission-ready. |
 | Artifact traceability report | `docs/FINAL_ARTIFACT_TRACEABILITY_EXPORT_CHECK_V0_1.md` | Internal traceability check | Yes | No | Useful source for artifact-to-claim review before public export. |
@@ -106,7 +106,7 @@ This is not the final export package. It does not create PDF, DOCX, submission-b
 7. Package manuscript, supplement, references, selected figures, selected tables, and audit outputs.
 8. Obtain explicit human approval for public posting.
 
-## Recommended Next Codex Task
+## Recommended Next Maintainer Task
 
 Recommended next task: Task 069 - Commit Supplement and Export Formatting Checklist.
 

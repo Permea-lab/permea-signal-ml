@@ -197,7 +197,7 @@ No final option is selected by this plan.
 
 The human operator must decide whether bioRxiv v0.1 requires leakage-aware sensitivity before posting or whether explicit caveat language is acceptable for a bounded v0.1 release.
 
-Codex can plan and later implement leakage-aware utilities if instructed. Codex should not choose the public-posting strategy automatically, should not rerun models in this task, and should not represent future sensitivity outputs as already generated.
+Maintainers can plan and later implement leakage-aware utilities if instructed. Maintainers should not choose the public-posting strategy automatically, should not rerun models in this task, and should not represent future sensitivity outputs as already generated.
 
 ## No-Change Confirmation
 
