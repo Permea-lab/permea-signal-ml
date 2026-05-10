@@ -8,7 +8,7 @@ Aligned manuscript: `permea-first-paper-manuscript-v0-7.md`
 
 This is a working supplementary draft aligned to manuscript v0.7. It supports internal review of the current first-paper package and updates the supplement framing from the earlier v0.6-aligned supplement.
 
-Public submission remains on hold until data/code availability, figure/table, citation, and export checks are completed. Dataset source, attribution, license, redistribution permission, original label-source criteria, and public release posture remain pending manual review.
+Public submission remains on hold until data/code availability, figure/table, citation, and export checks are completed. Dataset source attribution is resolved to the B3Pred Dataset_3 benchmark surface; final data/code packaging and public release posture remain pending manual review.
 
 This supplement supports computational evidence only. It does not report wet-lab validation, biological validation, in-vivo validation, therapeutic testing, clinical testing, public dataset redistribution permission, or public submission readiness.
 
@@ -30,20 +30,22 @@ The supplement is intended to support the manuscript's conservative framing: a r
 
 ## 3. Dataset and Task Definition
 
-The current benchmark surface is a BBB-related peptide classification task built from processed peptide records and sequence-derived features. The supervised target is treated as a benchmark label, not as independently verified biological truth.
+The current benchmark surface is a BBB-related peptide classification task following the B3Pred Dataset_3 benchmark surface. It is composed of 269 BBB-penetrating peptide positives and 2,690 randomly generated non-BBB negatives across 2,959 peptide sequences. The supervised target is treated as a benchmark label, not as independently verified biological truth.
 
 Confirmed aggregate task details from current manuscript materials:
 
 - row count: 2,959
+- class composition: 269 BBB-positive peptides and 2,690 non-BBB negatives
+- source: B3Pred Dataset_3 / B3Pred-derived public benchmark surface
 - supervised target: `label`
 - sequence-derived fields: `length`, `charge`, `gravy`, `pI`, `aromaticity`
 - operational fields used for internal traceability: `sequence_id`, `source`
 
 The task supports early computational evidence and cautious candidate prioritization before experimental validation. It does not establish physical BBB transport, biological mechanism, therapeutic effect, or clinical utility.
 
-The current class distribution is imbalanced, and PR-AUC and MCC are therefore interpreted alongside ROC-AUC. Any final class prevalence wording should be verified against the committed aggregate artifacts before submission.
+The current class distribution is imbalanced, and PR-AUC and MCC are therefore interpreted alongside ROC-AUC.
 
-No row-level dataset redistribution is asserted in this supplement. Public reproducibility may remain aggregate-only if row-level redistribution is not approved.
+No row-level dataset redistribution is asserted in this supplement. Public reproducibility may remain aggregate-only if row-level artifact release is not approved.
 
 ## 4. Feature Extraction Details
 
@@ -136,7 +138,7 @@ Public submission remains on hold until final data/code availability, source-fil
 | Supplementary Table S1 | Feature definitions and interpretive cautions | Length, charge, GRAVY/hydrophobicity, pI, aromaticity. | Drafted from supplement v0.3 feature section. | Sequence-derived feature definitions used in the baseline benchmark surface, with interpretive cautions for each descriptor. These features support transparent computational modeling but do not fully represent BBB transport biology. | Verify definitions against implemented feature logic before submission. |
 | Supplementary Table S2 | Model and evaluation protocol summary | Task framing, baseline model framing, metric set, class-imbalance handling, bounded sensitivity checks, and unverified implementation-specific details. | Draft concept. | Baseline model and evaluation protocol summary for the computational benchmark package. Implementation details not confirmed in manuscript v0.7 or committed configuration files should remain marked as to verify before submission. | Confirm model families, split/evaluation framing, metric names, and sensitivity wording against committed documentation. |
 | Supplementary Table S3 | Aggregate metric interpretation guide | ROC-AUC, PR-AUC, MCC, dummy baseline interpretation, class-imbalance interpretation, and bounded sensitivity interpretation. | Draft concept using aggregate metric text above. | Aggregate metric interpretation guide for the BBB-related peptide benchmark surface. ROC-AUC, PR-AUC, and MCC are interpreted as computational benchmark summaries, not biological performance measures. | Confirm all metric definitions and examples match manuscript v0.7. |
-| Supplementary Table S4 | Artifact allow/hold matrix | Aggregate figure/table candidates, aggregate metric summaries, feature definitions, protocol summaries, and blocked row-level or row-derived artifact classes. | Drafted below. | Artifact release-status matrix separating aggregate candidates, review-required files, and blocked row-level or row-derived artifacts. This table is a release-planning aid and does not approve public release. | Confirm final release posture after source/license, repository, and manual approval decisions. |
+| Supplementary Table S4 | Artifact allow/hold matrix | Aggregate figure/table candidates, aggregate metric summaries, feature definitions, protocol summaries, and blocked row-level or row-derived artifact classes. | Drafted below. | Artifact release-status matrix separating aggregate candidates, review-required files, and blocked row-level or row-derived artifacts. This table is a release-planning aid and does not approve public release. | Confirm final release posture after repository and manual approval decisions. |
 
 ### 7.3 Supplementary Table S1: Feature Definitions and Interpretive Cautions
 
@@ -181,12 +183,12 @@ Public submission remains on hold until final data/code availability, source-fil
 | Aggregate metric summaries | `results/tables/model_comparison_summary.csv`; aggregate sensitivity summaries | Public-safe candidate after review | Aggregate model metrics. | Confirm values and exclude row-level derivatives. |
 | Feature definitions | Feature definition table in this supplement | Public-safe candidate after review | Documentation-level content. | Confirm definitions against implemented feature logic. |
 | Protocol summaries | Model/evaluation summary table | Public-safe candidate after review | Documentation-level content. | Confirm against committed configs and manuscript. |
-| Candidate-ranking preview | Candidate-ranking figures or ranking outputs | Hold / blocked | Can expose row-level or row-derived prioritization. | Explicit source permission, release approval, and claim-boundary review. |
-| Row-level predictions | Prediction CSV artifacts | Hold / blocked | Row-level derived artifact. | Explicit permission and documented release approval. |
-| Split manifests | Split-manifest artifacts | Hold / blocked | May expose identifiers, labels, folds, groups, or row-derived structure. | Explicit permission and documented release approval. |
-| Group assignments | Group-assignment artifacts | Hold / blocked | May expose row-derived grouping information. | Explicit permission and documented release approval. |
-| Leakage-pair artifacts | Pair-level leakage or similarity CSVs | Hold / blocked | Can expose restricted row relationships. | Explicit permission and documented release approval. |
-| Processed row-level datasets | Processed dataset files | Hold / blocked | Dataset redistribution remains unresolved. | Source/license/attribution/redistribution decision and manual approval. |
+| Candidate-ranking preview | Candidate-ranking figures or ranking outputs | Hold / blocked | Can expose row-level or row-derived prioritization. | Separate release approval and claim-boundary review. |
+| Row-level predictions | Prediction CSV artifacts | Hold / blocked | Row-level derived artifact. | Separate documented release approval. |
+| Split manifests | Split-manifest artifacts | Hold / blocked | May expose identifiers, labels, folds, groups, or row-derived structure. | Separate documented release approval. |
+| Group assignments | Group-assignment artifacts | Hold / blocked | May expose row-derived grouping information. | Separate documented release approval. |
+| Leakage-pair artifacts | Pair-level leakage or similarity CSVs | Hold / blocked | Can expose restricted row relationships. | Separate documented release approval. |
+| Processed row-level datasets | Processed dataset files | Hold / blocked | Row-level dataset release is not included in the current public-facing package. | Separate row-level release decision and manual approval. |
 
 ### 7.7 Numbering and Cross-Reference Notes
 
@@ -209,9 +211,9 @@ Caption verification should confirm:
 
 Code and reproducibility logic may be shared where permitted after final release review, repository URL confirmation, software license approval, release tag selection, and restricted-path review.
 
-Row-level artifacts are excluded or restricted unless redistribution permission is clarified and manual approval is documented. This includes processed row-level datasets, row-level labels, row-level predictions, rankings, split manifests, group assignments, sequence-pair leakage artifacts, upstream dataset mirrors, and row-level derived artifacts.
+Row-level artifacts are excluded or restricted unless a separate release decision and manual approval are documented. This includes processed row-level datasets, row-level labels, row-level predictions, rankings, split manifests, group assignments, sequence-pair leakage artifacts, upstream dataset mirrors, and row-level derived artifacts.
 
-This supplement does not assert dataset redistribution permission. Public release posture must remain aligned with manuscript v0.7 and final repository policy.
+This supplement does not assert row-level dataset release. Public release posture must remain aligned with manuscript v0.7 and final repository policy.
 
 Safe current posture:
 
@@ -219,14 +221,15 @@ Safe current posture:
 - processed row-level datasets are not publicly redistributed with this draft
 - row-level derived artifacts are not publicly redistributed with this draft
 - aggregate metric summaries and path-level traceability support the manuscript
-- dataset source, attribution, license, redistribution permission, original label-source criteria, and final data availability wording remain pending manual review
-- public posting remains on hold until these decisions are complete
+- dataset source attribution is B3Pred Dataset_3 / B3Pred-derived public benchmark surface
+- final data/code packaging and public release wording remain pending manual review
+- public posting remains on hold until normal paper QA and approvals are complete
 
 ## 9. Citation and Source Note
 
-This supplement is aligned to manuscript v0.7 and relies on the manuscript bibliography/reference set unless it is circulated as a standalone document. Separate supplement circulation requires citation and bibliography rendering, source/license review, figure/table source verification, and final source-to-claim review.
+This supplement is aligned to manuscript v0.7 and relies on the manuscript bibliography/reference set unless it is circulated as a standalone document. Separate supplement circulation requires citation and bibliography rendering, figure/table source verification, and final source-to-claim review.
 
-No unsupported citation keys are added in this supplement draft. Dataset source, attribution, license, redistribution permission, original label-source criteria, and final data availability wording remain pending manual review.
+No unsupported citation keys are added in this supplement draft. Dataset source attribution is resolved to the B3Pred Dataset_3 benchmark surface, with B3Pred and B3Pdb lineage handled through the manuscript bibliography. Final data/code packaging and public release wording remain pending manual review.
 
 ## 10. Limitations
 
@@ -236,7 +239,7 @@ No unsupported citation keys are added in this supplement draft. Dataset source,
 - No in-vivo validation has been performed.
 - No therapeutic effect or clinical utility claim is made.
 - No universal delivery prediction claim is made.
-- Dataset source, attribution, license, redistribution permission, and label-source criteria remain unresolved.
+- Dataset source attribution is resolved to B3Pred Dataset_3; final data/code packaging and release wording remain under review.
 - Class imbalance affects interpretation; PR-AUC and MCC should be reviewed alongside ROC-AUC.
 - The feature set is narrow and sequence-derived.
 - Feature-level associations are not mechanistic proof.
@@ -265,8 +268,8 @@ No unsupported citation keys are added in this supplement draft. Dataset source,
 - [ ] Caption QA.
 - [ ] Word/PDF export QA.
 - [ ] Data/code availability final approval.
-- [ ] Dataset source/license/redistribution decision.
 - [ ] Row-level artifact release decision.
+- [ ] Final data/code packaging decision.
 - [ ] Bibliography/source verification.
 - [ ] Founder/manual approval.
 - [ ] Limited expert review feedback integration, if performed.

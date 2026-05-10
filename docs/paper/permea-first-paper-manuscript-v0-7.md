@@ -2,7 +2,7 @@
 
 ## Manuscript Version Note
 
-This v0.7 draft is an internal-preparation manuscript draft derived from manuscript v0.6 using the title/abstract positioning cleanup plan. It sharpens the framing around a reproducible baseline evidence package rather than a state-of-the-art predictor. It does not declare public preprint readiness. Public bioRxiv remains **Hold / not submission-ready** pending dataset/source licensing decisions, final data/code availability approval, final source-to-claim review, supplement/export completion, bibliography cleanup, and founder/manual approval.
+This v0.7 draft is an internal-preparation manuscript draft derived from manuscript v0.6 using the title/abstract positioning cleanup plan. It sharpens the framing around a reproducible baseline evidence package rather than a state-of-the-art predictor. It does not declare public preprint readiness. Public bioRxiv remains **Hold / not submission-ready** pending final data/code availability approval, final source-to-claim review, supplement/export completion, bibliography cleanup, and founder/manual approval.
 
 ## Author and Affiliation
 
@@ -14,7 +14,7 @@ Corresponding author: a.kim@permea.us
 
 ## Abstract
 
-Blood-brain barrier (BBB)-related peptide permeability remains a difficult early-stage prioritization problem, and computational studies in this area require clear separation between benchmark signal, dataset provenance limits, and biological validation. This manuscript presents a reproducible baseline evidence package for a BBB-related peptide classification task using sequence-derived physicochemical features: length, charge, gravy, pI, and aromaticity. The work is positioned as a conservative peptide-focused benchmark package rather than a new state-of-the-art BBB permeability predictor or a matched comparison against prior BBB-penetrating peptide predictors. Existing aggregate artifacts compare a Dummy most-frequent classifier, Logistic Regression, and Random Forest under random-stratified baseline evaluation and a bounded leakage-aware group-stratified sensitivity setting. Under the leakage-aware sensitivity setting, Logistic Regression reached ROC-AUC 0.8587, PR-AUC 0.5024, and MCC 0.3747, while Random Forest reached ROC-AUC 0.8718, PR-AUC 0.5807, and MCC 0.5084. These aggregate results support a bounded computational benchmark-signal claim and cautious pre-experimental prioritization, but they do not establish leakage-free status, robust generalization, matched external predictor superiority, biological validation, wet-lab validation, therapeutic efficacy, or clinical efficacy. Dataset source, attribution, license, redistribution permission, label-source criteria, and public data/code availability remain unresolved; row-level processed datasets and row-level derived artifacts are not declared publicly available in this internal draft. Public bioRxiv submission remains Hold / not submission-ready pending source/license decisions, final data/code availability approval, figure/supplement/export completion, final source-to-claim review, bibliography verification, and founder/manual approval.
+Blood-brain barrier (BBB)-related peptide permeability remains a difficult early-stage prioritization problem, and computational studies in this area require clear separation between benchmark signal, dataset provenance limits, and biological validation. This manuscript presents a reproducible baseline evidence package for a BBB-related peptide classification task using sequence-derived physicochemical features: length, charge, gravy, pI, and aromaticity. The benchmark dataset follows the B3Pred Dataset_3 benchmark surface, composed of 269 BBB-penetrating peptide positives and 2,690 randomly generated non-BBB negatives across 2,959 peptide sequences [@b3pred_2021]. The work is positioned as a conservative peptide-focused benchmark package rather than a new state-of-the-art BBB permeability predictor or a matched comparison against prior BBB-penetrating peptide predictors. Existing aggregate artifacts compare a Dummy most-frequent classifier, Logistic Regression, and Random Forest under random-stratified baseline evaluation and a bounded leakage-aware group-stratified sensitivity setting. Under the leakage-aware sensitivity setting, Logistic Regression reached ROC-AUC 0.8587, PR-AUC 0.5024, and MCC 0.3747, while Random Forest reached ROC-AUC 0.8718, PR-AUC 0.5807, and MCC 0.5084. These aggregate results support a bounded computational benchmark-signal claim and cautious pre-experimental prioritization, but they do not establish leakage-free status, robust generalization, matched external predictor superiority, biological validation, wet-lab validation, therapeutic efficacy, or clinical efficacy. Row-level processed datasets and row-level derived artifacts are not declared publicly available in this internal draft. Public bioRxiv submission remains Hold / not submission-ready pending final data/code availability approval, figure/supplement/export completion, final source-to-claim review, bibliography verification, and founder/manual approval.
 
 ## Keywords
 
@@ -64,6 +64,8 @@ The study uses existing repository artifacts only. Models were not rerun for thi
 
 ### Dataset Surface
 
+The benchmark dataset follows the B3Pred Dataset_3 benchmark surface, composed of 269 BBB-penetrating peptide positives and 2,690 randomly generated non-BBB negatives across 2,959 peptide sequences [@b3pred_2021]. B3Pdb provides the closest database-lineage context for BBB-penetrating peptide resources [@b3pdb_2021]. This manuscript uses the B3Pred-derived surface as a computational benchmark surface for aggregate model evaluation.
+
 The current rerun-ready BBB-oriented processed dataset surface contains 2,959 rows. Confirmed benchmark-relevant fields include:
 
 - `sequence`
@@ -78,11 +80,7 @@ The current rerun-ready BBB-oriented processed dataset surface contains 2,959 ro
 
 The `label` field is used as the supervised benchmark target. It is treated as a benchmark label, not as independently verified biological truth.
 
-Dataset provenance and availability remain unresolved for public submission. The imported processed dataset and rerun-ready processed dataset may raise redistribution questions, and dataset availability depends on source terms and manual licensing review. This manuscript draft does not conclude that redistribution is permitted. Row-level processed datasets, row-level predictions, rankings, split manifests, group assignments, and explicit sequence-pair leakage artifacts remain excluded from the public-facing package unless explicit permission and manual approval are documented.
-
-Pre-export requirement: confirm the original dataset source citation, source license, and label-source criteria before any external circulation.
-
-Pre-export requirement: finalize dataset source attribution, license, redistribution status, and data availability wording after manual legal/licensing review.
+The source benchmark dataset is available from the B3Pred project. This repository provides code, feature extraction logic, aggregate metrics, figures, and supporting materials for the analyses reported here. Row-level processed datasets, row-level predictions, rankings, split manifests, group assignments, and explicit sequence-pair leakage artifacts remain excluded from the public-facing package unless a separate release decision approves them.
 
 ### Feature Representation
 
@@ -159,13 +157,13 @@ Leakage-aware baseline artifacts were generated by `scripts/run_leakage_aware_ba
 - `results/sensitivity/leakage_aware_predictions.csv`
 - `results/sensitivity/leakage_aware_metrics_summary.json`
 
-This manuscript revision did not rerun the script and did not regenerate these artifacts. Row-level sensitivity artifacts remain restricted from public-facing supplement/export until source/license and release-policy decisions are complete.
+This manuscript revision did not rerun the script and did not regenerate these artifacts. Row-level sensitivity artifacts remain restricted from public-facing supplement/export until release-policy decisions are complete.
 
 ### Citation and Reference Status
 
 The final post-sensitivity citation audit reported key-level consistency across 18 unique citation keys, with all checked keys present in `references.bib`. Task 114 completed conservative title-protection cleanup for existing keys only. However, `references.bib` remains a draft and requires human cleanup before public posting.
 
-Pre-export requirement: verify the original dataset source citation, source license, and label-source criteria before external circulation.
+Dataset source attribution is resolved to the B3Pred Dataset_3 benchmark surface, with B3Pred and B3Pdb cited for predictor and database lineage.
 
 Pre-export requirement: complete bibliography metadata cleanup, citation formatting review, and sentence-level source-to-claim review.
 
@@ -240,8 +238,7 @@ The result remains bounded. The dataset is not provenance-closed, source metadat
 - No biological validation was performed.
 - No in-vivo validation was performed.
 - No therapeutic or clinical efficacy is claimed.
-- Dataset source attribution, licensing, redistribution permission, and availability remain unresolved.
-- Original label-source criteria remain unresolved.
+- Dataset source attribution is resolved to B3Pred Dataset_3; final data/code packaging and export wording still require manual approval.
 - The `source` field is too coarse for source-aware split control.
 - The leakage-aware grouping has a `max_pairs=10000` caveat and may be incomplete.
 - The current combined grouping output contains only one non-singleton group.
@@ -253,25 +250,20 @@ The result remains bounded. The dataset is not provenance-closed, source metadat
 - Random-stratified metrics may be optimistic under documented duplicate and sequence-similarity findings.
 - Leakage-aware sensitivity analysis is a bounded sensitivity estimate under one manifest, not proof that leakage is fully controlled.
 - `references.bib` requires human cleanup before public posting.
-- Dataset/source citation and legal/availability decisions remain unresolved.
-- Public reproducibility may remain aggregate-only if row-level dataset redistribution is not approved.
+- Public reproducibility may remain aggregate-only if row-level artifact release is not approved.
 - Supplement/export formatting remains incomplete.
 
 ## Data and Code Availability
 
-Code and data availability are currently under internal review. Processed row-level datasets and row-level derived artifacts are not publicly redistributed with this draft. The manuscript uses aggregate metric summaries and path-level artifact traceability only. Dataset source, attribution, license, redistribution permission, original label-source criteria, and final data availability wording remain pending manual review. Public posting remains on Hold until these decisions are complete.
+Code and data availability are currently under internal review. The source benchmark dataset is available from the B3Pred project. This repository provides code, feature extraction logic, aggregate metrics, figures, and supporting materials for the analyses reported here. Processed row-level datasets and row-level derived artifacts are not publicly redistributed with this draft. The manuscript uses aggregate metric summaries and path-level artifact traceability only. Public posting remains on Hold until final data/code packaging, export QA, source-to-claim review, and founder/manual approval are complete.
 
-Code availability is separable from data availability. Any public code release remains subject to final release review, repository URL confirmation, release/tag selection, software license confirmation, and founder/manual approval. Selected aggregate metrics, aggregate figures, non-row-level summaries, and reproducibility instructions may be considered only after founder/manual, source/legal, release-policy, and claim-boundary review.
+Code availability is separable from data availability. Any public code release remains subject to final release review, repository URL confirmation, release/tag selection, software license confirmation, and founder/manual approval. Selected aggregate metrics, aggregate figures, non-row-level summaries, and reproducibility instructions may be considered only after founder/manual, release-policy, and claim-boundary review.
 
 For the current internal-preparation posture, row-level processed datasets, row-level labels, row-level predictions, rankings, split manifests, group assignments, sequence-pair leakage artifacts, upstream dataset mirrors, and row-level derived artifacts that can be linked back to restricted source rows are not declared publicly available.
 
-No row-level processed dataset redistribution is declared for this version. Dataset availability and comparability to prior BBB-penetrating peptide predictor datasets remain unresolved pending source attribution, licensing, label-source criteria, and manual review.
+No row-level processed dataset redistribution is declared for this version. Dataset comparability to prior BBB-penetrating peptide predictor datasets remains limited by differences in datasets, labels, splits, and evaluation policies.
 
-Any future release of aggregate derived artifacts must avoid implying redistribution rights over the underlying processed dataset.
-
-Pre-export requirement: confirm the original dataset source citation, source license, and label-source criteria.
-
-Pre-export requirement: finalize the public data availability posture after verified source terms, attribution requirements, redistribution permission, and manual approval.
+Any future release of aggregate derived artifacts must avoid implying row-level dataset release unless a separate release decision approves it.
 
 Pre-export requirement: finalize the code availability statement after repository release policy, software license, and archive/tag policy are approved.
 
@@ -302,7 +294,7 @@ Reference-related pre-export requirements:
 - Verify full author lists and remove or approve `and others` entries where needed.
 - Verify title casing, journal or venue names, DOI, URL, volume, issue, page, and article-number fields.
 - Confirm software citation policy for scikit-learn, pandas, and matplotlib.
-- Confirm dataset/source citations after dataset legal and provenance review.
+- Confirm B3Pred/B3Pdb citation rendering and source-to-claim placement.
 - Complete final sentence-level review after verified comparator citation integration.
 - Resolve the identity and citation role of `deepb3p3_2023` relative to `tang2025deepb3p` and `arif2025deepb3pred`.
 
@@ -328,9 +320,7 @@ Public preprint submission remains **Hold / not submission-ready**.
 
 Remaining blockers include:
 
-- dataset legal/licensing and redistribution decision
 - data/code availability wording
-- final dataset/source citation
 - final `references.bib` cleanup and source-to-claim review
 - final citation/source-claim review
 - supplement/export formatting
