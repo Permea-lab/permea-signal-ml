@@ -222,7 +222,13 @@ Safe current posture:
 - dataset source, attribution, license, redistribution permission, original label-source criteria, and final data availability wording remain pending manual review
 - public posting remains on hold until these decisions are complete
 
-## 9. Limitations
+## 9. Citation and Source Note
+
+This supplement is aligned to manuscript v0.7 and relies on the manuscript bibliography/reference set unless it is circulated as a standalone document. Separate supplement circulation requires citation and bibliography rendering, source/license review, figure/table source verification, and final source-to-claim review.
+
+No unsupported citation keys are added in this supplement draft. Dataset source, attribution, license, redistribution permission, original label-source criteria, and final data availability wording remain pending manual review.
+
+## 10. Limitations
 
 - This is computational-only evidence.
 - No wet-lab validation has been performed.
@@ -240,7 +246,7 @@ Safe current posture:
 - A design-build-test-learn loop would be needed before any biological or translational claims.
 - Figure/table numbering, captions, source files, citation rendering, and export checks remain incomplete.
 
-## 10. Supplement-to-Manuscript Alignment Checklist
+## 11. Supplement-to-Manuscript Alignment Checklist
 
 - [x] Manuscript version anchor updated to v0.7.
 - [x] Claim level aligned to computational evidence only.
@@ -252,7 +258,7 @@ Safe current posture:
 - [ ] Founder/manual approval pending.
 - [x] Public submission remains on hold.
 
-## 11. Pre-Submission Checklist
+## 12. Pre-Submission Checklist
 
 - [ ] Manual citation QA.
 - [ ] Figure/table numbering QA.

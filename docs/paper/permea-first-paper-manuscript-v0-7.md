@@ -80,9 +80,9 @@ The `label` field is used as the supervised benchmark target. It is treated as a
 
 Dataset provenance and availability remain unresolved for public submission. The imported processed dataset and rerun-ready processed dataset may raise redistribution questions, and dataset availability depends on source terms and manual licensing review. This manuscript draft does not conclude that redistribution is permitted. Row-level processed datasets, row-level predictions, rankings, split manifests, group assignments, and explicit sequence-pair leakage artifacts remain excluded from the public-facing package unless explicit permission and manual approval are documented.
 
-TODO(source-required): original dataset source/citation/license/label-source criteria.
+Pre-export requirement: confirm the original dataset source citation, source license, and label-source criteria before any external circulation.
 
-TODO(source/legal): finalize dataset source attribution, license, redistribution status, and data availability wording after manual legal/licensing review.
+Pre-export requirement: finalize dataset source attribution, license, redistribution status, and data availability wording after manual legal/licensing review.
 
 ### Feature Representation
 
@@ -165,9 +165,9 @@ This manuscript revision did not rerun the script and did not regenerate these a
 
 The final post-sensitivity citation audit reported key-level consistency across 18 unique citation keys, with all checked keys present in `references.bib`. Task 114 completed conservative title-protection cleanup for existing keys only. However, `references.bib` remains a draft and requires human cleanup before public posting.
 
-TODO(source-required): verify original dataset source citation, source license, and label-source criteria before public submission.
+Pre-export requirement: verify the original dataset source citation, source license, and label-source criteria before external circulation.
 
-TODO(reference-cleanup): complete full bibliography metadata cleanup, citation formatting, and sentence-level source-to-claim review.
+Pre-export requirement: complete bibliography metadata cleanup, citation formatting review, and sentence-level source-to-claim review.
 
 ## Results
 
@@ -269,11 +269,11 @@ No row-level processed dataset redistribution is declared for this version. Data
 
 Any future release of aggregate derived artifacts must avoid implying redistribution rights over the underlying processed dataset.
 
-TODO(source-required): original dataset source/citation/license/label-source criteria.
+Pre-export requirement: confirm the original dataset source citation, source license, and label-source criteria.
 
-TODO(source/legal): finalize the public data availability posture after verified source terms, attribution requirements, redistribution permission, and manual approval.
+Pre-export requirement: finalize the public data availability posture after verified source terms, attribution requirements, redistribution permission, and manual approval.
 
-TODO(release): finalize code availability statement after repository release policy, software license, and archive/tag policy are approved.
+Pre-export requirement: finalize the code availability statement after repository release policy, software license, and archive/tag policy are approved.
 
 ## Funding
 
@@ -291,36 +291,36 @@ N/A
 
 N/A
 
-## References Placeholder and Citation-Key Notes
+## Reference and Export Note
 
 Draft bibliography source: `references.bib`.
 
-Sentence-level citation placeholders have been integrated for background, predictor lineage, adjacent computational context, metric interpretation, and software tooling. Final public submission still requires human bibliography cleanup and source-to-claim review.
+Sentence-level Pandoc citation keys have been integrated for background, predictor lineage, adjacent computational context, metric interpretation, and software tooling. The bibliography remains source-managed through `references.bib` and should be rendered during Word/PDF export with Pandoc citeproc or an equivalent bibliography workflow.
 
-Reference-related unresolved submission blockers:
+Reference-related pre-export requirements:
 
-- TODO(reference-cleanup): verify full author lists and remove or approve `and others` entries where needed.
-- TODO(reference-cleanup): verify title casing, journal or venue names, DOI, URL, volume, issue, page, and article-number fields.
-- TODO(reference-cleanup): confirm software citation policy for scikit-learn, pandas, and matplotlib.
-- TODO(source-required): confirm dataset/source citations after dataset legal and provenance review.
-- TODO(source-to-claim): complete final sentence-level review after verified comparator citation integration.
-- TODO(reference-review): resolve the identity and citation role of `deepb3p3_2023` relative to `tang2025deepb3p` and `arif2025deepb3pred`.
+- Verify full author lists and remove or approve `and others` entries where needed.
+- Verify title casing, journal or venue names, DOI, URL, volume, issue, page, and article-number fields.
+- Confirm software citation policy for scikit-learn, pandas, and matplotlib.
+- Confirm dataset/source citations after dataset legal and provenance review.
+- Complete final sentence-level review after verified comparator citation integration.
+- Resolve the identity and citation role of `deepb3p3_2023` relative to `tang2025deepb3p` and `arif2025deepb3pred`.
 
 ## Supplementary Materials Pointer
 
-Current supplementary materials draft:
+Current supplementary materials draft aligned to this manuscript version:
 
-- `docs/supplement/permea-first-paper-supplement-v0-2.md`
+- `docs/supplement/permea-first-paper-supplement-v0-3.md`
 
-The current supplement draft is internal-review only and uses aggregate summaries and path-level traceability; it is not a public supplement export.
+The current supplement draft is internal-review only and uses aggregate summaries and path-level traceability; it is not a public supplement export. Supplement v0.3 relies on the manuscript bibliography/reference set unless a separate supplement bibliography is generated for standalone circulation.
 
 Supplement/export unresolved submission blockers:
 
-- TODO(export): finalize supplement section order and numbering.
-- TODO(export): finalize figure and table captions.
-- TODO(export): finalize file-path checks and export manifest.
-- TODO(export): rerun final claim-boundary and citation checks after formatting.
-- TODO(export): confirm that any public-facing supplement excludes row-level sequences, labels, predictions, rankings, split manifests, group assignments, and sequence-pair leakage tables.
+- Finalize supplement section order and numbering.
+- Finalize figure and table captions.
+- Finalize file-path checks and export manifest.
+- Rerun final claim-boundary and citation checks after formatting.
+- Confirm that any public-facing supplement excludes row-level sequences, labels, predictions, rankings, split manifests, group assignments, and sequence-pair leakage tables.
 
 ## Submission-Readiness Note
 
