@@ -1,4 +1,6 @@
+# Feature bundle identifier used in run manifests.
 feature_set_name: physicochemical_v0
+# Sequence-derived features computed for baseline models.
 enabled_features:
   - length
   - charge

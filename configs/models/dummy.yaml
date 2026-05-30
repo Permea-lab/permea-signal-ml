@@ -1,3 +1,6 @@
+# Baseline model used to establish a no-signal reference point.
 model_name: dummy
+# scikit-learn DummyClassifier prediction strategy.
 strategy: most_frequent
+# Kept for interface consistency with weighted classifiers.
 class_weight: null

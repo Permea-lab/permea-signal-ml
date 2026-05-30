@@ -1,7 +1,12 @@
+# Human-readable dataset identifier used in manifests and reports.
 dataset_name: example_signal_smoke_test
+# Dataset version or provenance tag for this config.
 dataset_version: synthetic-v0.1
+# Raw input table consumed by the data preparation step.
 input_path: data/examples/example_sequences.csv
+# Processed table written by the pipeline.
 processed_path: data/processed/example_sequences_processed.csv
+# Column names expected in the input table.
 id_column: sequence_id
 sequence_column: sequence
 label_column: label
