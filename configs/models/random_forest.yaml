@@ -1,6 +1,10 @@
+# Tree ensemble baseline for nonlinear feature interactions.
 model_name: random_forest
+# Number of trees in the ensemble.
 n_estimators: 200
+# Null lets trees expand until other stopping criteria are met.
 max_depth: null
 min_samples_split: 2
+# Balanced weights help compensate for class imbalance in the current task.
 class_weight: balanced
 random_state: 42

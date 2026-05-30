@@ -1,7 +1,10 @@
+# Replace these values when defining a new benchmark dataset.
 dataset_name: your_benchmark_dataset
 dataset_version: 0.1.0
+# Raw and processed dataset paths should stay under the data layer.
 input_path: data/raw/your_dataset.csv
 processed_path: data/processed/your_dataset_processed.csv
+# Column names expected by the shared data loading code.
 id_column: sequence_id
 sequence_column: sequence
 label_column: label
