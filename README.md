@@ -88,6 +88,15 @@ Run the test suite:
 python3 -m pytest tests -q
 ```
 
+Current test environments that install scikit-learn 1.8 or newer may emit a
+`FutureWarning` from `sklearn.linear_model.LogisticRegression` about the
+`penalty` argument during the leakage-aware baseline tests. The warning comes
+from dependency deprecation behavior around the current logistic-regression
+baseline config in `configs/models/logistic_regression.yaml`; it does not by
+itself indicate a benchmark failure or a change in reported model outputs.
+Any future config migration for that warning should be reviewed separately so
+before/after benchmark behavior stays explicit.
+
 Run a baseline workflow with existing configs:
 
 ```bash
