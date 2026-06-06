@@ -1,150 +1,94 @@
-# PERMEA SIGNAL ML
+# Permea Signal ML
 
-Open benchmark-oriented ML workflow for studying permeability-related signal from sequence-derived physicochemical features.
+The first computational evidence package for sequence-first delivery engineering.
 
-Permea Signal ML is the first Permea wedge evidence package in the broader program. It is designed as a reproducible, BBB-oriented, benchmark-aware workflow for initial computational evidence and candidate prioritization before experimental validation.
+Permea Signal ML is a BBB-oriented delivery-signal benchmark support repository. It packages a reproducible workflow around the B3Pred Dataset_3 / B3Pred-derived benchmark surface, sequence-derived physicochemical features, baseline modeling, aggregate evaluation outputs, and paper-support materials.
 
-The initial focus of this repository is BBB-oriented peptide and delivery-signal modeling from sequence-derived physicochemical features.
+This repository is an evidence package, not a wet-lab validation claim. It is designed to show that sequence-derived delivery-related signal can be studied under a bounded, reproducible benchmark workflow for candidate prioritization before wet-lab.
 
-## Why this repository exists
+## Relationship to Permea Core
 
-Biological delivery exploration is often difficult to compare across teams, methods, and internal workflows. In many cases, candidate prioritization remains opaque, inconsistently documented, or tightly coupled to closed research pipelines.
+[Permea Core](https://github.com/Permea-lab/permea-core) defines the broader open technical foundation for sequence-first delivery and expression engineering: benchmark-first infrastructure, dataset and evidence conventions, run manifests, claim boundaries, and contribution objects.
 
-Permea Signal ML exists to provide an open and reproducible starting point for studying whether permeability-related signals can be learned from sequence-derived features and used for candidate prioritization in a benchmark-oriented way.
+Permea Signal ML applies that foundation to the first narrow evidence surface:
 
-This repository is not intended to present a universal solution to biological delivery. Its purpose is narrower and more practical:
+- a BBB-oriented peptide benchmark support package
+- a B3Pred Dataset_3 / B3Pred-derived benchmark surface
+- sequence-derived feature engineering
+- transparent baseline models
+- aggregate metrics and figures
+- reproducibility checks and provenance-oriented outputs
+- manuscript and supplement support files
 
-- assemble structured sequence datasets
-- compute interpretable sequence-derived features
-- run baseline ML models
-- evaluate performance with transparent metrics
-- produce candidate ranking outputs
-- track provenance for reproducibility
+Read this repository as a scoped evidence package connected to Permea Core, not as the whole Permea platform.
 
-## Initial focus
+## What This Repository Contains
 
-The current v0.1 focus is:
+Permea Signal ML contains the working materials for a reproducible computational benchmark package:
 
-**BBB-oriented peptide / delivery-signal validation**
+- dataset workflow and BBB-oriented benchmark-surface documentation
+- sequence validation and preprocessing utilities
+- sequence-derived physicochemical feature extraction
+- baseline model configurations and training scripts
+- aggregate evaluation metrics and summary tables
+- leakage-audit and leakage-aware sensitivity utilities
+- candidate-ranking support scripts
+- exported figures and result artifacts
+- paper and supplement drafts for preprint-support review
+- tests for data validation, leakage audits, grouping, split construction, and leakage-aware baselines
 
-This focus is intended to provide an initial computational evidence package that is narrow enough to execute, measurable enough to benchmark, and strong enough to support future preprint and validation work.
+The current scientific framing is conservative: aggregate benchmark results may support computational evidence and evidence-backed prioritization before experimental follow-up. They do not establish biological transport, mechanism, safety, therapeutic effect, or clinical performance.
 
-### Visual snapshot
+## What This Repository Does Not Claim
 
-![Legacy vs regenerated benchmark evidence](figures/legacy_vs_rerun_metrics.png)
+This repository does not claim:
 
-*Legacy imported benchmark metrics versus regenerated benchmark-contract reruns for Dummy, Logistic Regression, and Random Forest.*
-
-## What this repository does
-
-Permea Signal ML currently focuses on the following workflow surfaces:
-
-- dataset assembly
-- sequence validation and preprocessing
-- physicochemical feature extraction
-- baseline model training
-- model evaluation
-- candidate ranking
-- run manifest and provenance tracking
-
-## What this repository does not claim
-
-This repository does **not** claim:
-
+- wet-lab validation
+- clinical or therapeutic effect
+- universal delivery prediction
+- state-of-the-art status
 - solved biological delivery
-- validated therapeutic performance
-- universal permeability prediction
-- replacement of wet-lab validation
-- biological generalization beyond the supported evidence
+- matched superiority over prior BBB peptide predictors
+- complete leakage control or robust generalization
+- public release approval for row-level processed datasets or row-level derived artifacts
 
-The intended interpretation is more limited and more rigorous:
+The intended interpretation is narrower: this repository provides a reproducible benchmark workflow for studying whether BBB-related peptide permeability signal can be learned from sequence-derived physicochemical features under documented computational settings.
 
-**This repository provides an open, benchmark-oriented workflow for studying whether permeability-related signal can be learned from sequence-derived physicochemical features and used for candidate prioritization before experimental validation.**
+## Current Benchmark Surface
 
-The current evidence package definition is documented in [docs/V0_1_EVIDENCE_PACKAGE.md](docs/V0_1_EVIDENCE_PACKAGE.md).
-The current paper-support planning layer is documented in [docs/PAPER_PACKAGE_V0_1.md](docs/PAPER_PACKAGE_V0_1.md).
+The current paper-support materials describe a BBB-related peptide classification surface following B3Pred Dataset_3:
 
-## Current baseline task framing
+- 269 BBB-positive peptides
+- 2,690 non-BBB negatives
+- 2,959 peptide sequences total
+- supervised benchmark target: `label`
+- sequence-derived fields: `length`, `charge`, `gravy`, `pI`, `aromaticity`
 
-The current baseline framing is:
+The label is treated as a benchmark label with provenance and limitations, not as independently verified biological truth.
 
-- task type: binary classification
-- initial context: permeability-related signal / BBB-oriented prioritization
-- input object: sequence-level records with labels and metadata
-- feature family: sequence-derived physicochemical features
-- baseline models:
-  - Dummy classifier
-  - Logistic Regression
-  - Random Forest
-- evaluation metrics:
-  - ROC-AUC
-  - PR-AUC
-  - Precision
-  - Recall
-  - F1
-  - MCC
+Baseline model families in the repository:
 
-This framing is intended as a benchmark-ready starting surface, not as a final scientific conclusion.
+- Dummy most-frequent classifier
+- Logistic Regression
+- Random Forest
 
-## What the current evidence surface supports
+Reported aggregate metrics include ROC-AUC, PR-AUC, MCC, precision, recall, and F1 where available. PR-AUC and MCC are important because the benchmark surface is class-imbalanced.
 
-The current repository supports:
+## Suggested Usage
 
-- reproducible baseline reruns
-- benchmark-oriented model comparison
-- bounded candidate-prioritization interpretation before wet-lab
+Install dependencies in a local Python environment:
 
-## Initial dataset surface
-
-![Initial BBB dataset distribution](figures/dataset_distribution.png)
-
-*Initial BBB dataset distribution showing strong class imbalance in the current benchmark surface.*
-
-## Repository structure
-
-```text
-permea-signal-ml/
-├─ README.md
-├─ LICENSE
-├─ .gitignore
-├─ requirements.txt
-├─ configs/
-├─ data/
-├─ docs/
-├─ figures/
-├─ notebooks/
-├─ results/
-├─ src/
-└─ scripts/
+```bash
+python3 -m pip install -r requirements.txt
 ```
 
-## More detailed structure
+Run the test suite:
 
-- `configs/`: versioned settings for data, features, models, and evaluation
-- `data/`: raw, interim, and processed dataset layers with dataset notes
-- `docs/`: methods, dataset, limitations, and provenance documentation
-- `figures/`: exported plots for reports or manuscript support
-- `notebooks/`: structured exploratory notebooks aligned with the pipeline stages
-- `results/`: metrics, predictions, ranking outputs, tables, and run manifests
-- `src/`: importable pipeline code for data, features, models, evaluation, and provenance
-- `scripts/`: thin CLI entrypoints for baseline runs and export steps
-
-## Benchmark workflow
-
-```mermaid
-flowchart LR
-    A["Imported legacy artifacts"] --> B["Onboarded dataset"]
-    B --> C["Rerun-ready dataset"]
-    C --> D["Benchmark reruns"]
-    D --> E["Metrics JSON"]
-    D --> F["Predictions CSV"]
-    D --> G["Ranking CSV"]
-    D --> H["Summary CSV"]
-    D --> I["Manifest JSON"]
-    D --> J["Figures"]
+```bash
+python3 -m pytest tests -q
 ```
 
-## Baseline run example
+Run a baseline workflow with existing configs:
 
 ```bash
 python scripts/run_baseline.py \
@@ -155,60 +99,118 @@ python scripts/run_baseline.py \
   --output-prefix smoke_test_rf
 ```
 
-## Reproducibility
+Inspect paper-support materials:
 
-This repository is intended to support reproducible workflows by default.
+- [Manuscript draft v0.7](docs/paper/permea-first-paper-manuscript-v0-7.md)
+- [Supplement draft v0.3](docs/supplement/permea-first-paper-supplement-v0-3.md)
+- [Preprint candidate status report](docs/PREPRINT_CANDIDATE_STATUS_REPORT_V0_1.md)
+- [Bibliography](references.bib)
 
-- dataset structure is documented before modeling claims
-- configurations are expected to live under versioned config paths
-- outputs are separated into metrics, predictions, ranking artifacts, and manifests
-- notebooks are present for inspection, but the intended workflow is scriptable and auditable
-- provenance artifacts are treated as first-class outputs rather than optional side notes
+Reproduce or inspect aggregate outputs where scripts and artifacts exist:
+
+- `scripts/run_baseline.py`
+- `scripts/run_leakage_aware_baselines.py`
+- `scripts/audit_leakage.py`
+- `scripts/build_leakage_aware_groups.py`
+- `scripts/build_leakage_aware_split_manifest.py`
+- `scripts/export_metrics.py`
+- `scripts/generate_figures.py`
+- `scripts/rank_candidates.py`
+
+Paper and preprint-support materials remain subject to normal source-to-claim review, release review, export checks, and manual approval before any public posting.
+
+## Repository Structure
+
+```text
+permea-signal-ml/
+├─ README.md
+├─ LICENSE
+├─ requirements.txt
+├─ references.bib
+├─ configs/
+├─ data/
+├─ docs/
+├─ figures/
+├─ notebooks/
+├─ results/
+├─ scripts/
+├─ src/
+└─ tests/
+```
+
+Key directories:
+
+- `configs/`: data, feature, model, and evaluation configuration files
+- `data/`: dataset layers and dataset notes
+- `docs/`: methods, provenance, audit, manuscript, supplement, and review-support documentation
+- `figures/`: exported figures for reports and manuscript-support review
+- `notebooks/`: exploratory notebooks aligned with pipeline stages
+- `results/`: aggregate metrics, tables, audits, sensitivity outputs, and manifests
+- `scripts/`: command-line entrypoints for benchmark, audit, figure, export, and ranking workflows
+- `src/permea_signal_ml/`: importable code for data, features, models, evaluation, audits, and provenance
+- `tests/`: reproducibility and validation tests
+
+## Benchmark Workflow
+
+```mermaid
+flowchart LR
+    A["B3Pred-derived benchmark surface"] --> B["Dataset assembly and validation"]
+    B --> C["Sequence-derived features"]
+    C --> D["Baseline models"]
+    D --> E["Aggregate metrics"]
+    D --> F["Predictions and rankings"]
+    D --> G["Run manifests"]
+    E --> H["Figures and paper-support summaries"]
+```
+
+Workflow outputs are interpreted as computational benchmark artifacts. Candidate rankings support dry-lab screening and prioritization before wet-lab; they do not guarantee biological delivery.
+
+## Reproducibility Framing
+
+This repository is intended to make the first Permea evidence package auditable:
+
+- dataset and label assumptions are documented before modeling claims
+- feature extraction is narrow and sequence-derived
+- baseline models are transparent and configurable
+- aggregate metrics are stored as reviewable outputs
+- leakage audits and sensitivity workflows are included
+- figures and manuscript-support materials are tied to committed artifacts
+- limitations are explicit and repeated across public-facing docs
+
+Row-level processed datasets, row-level predictions, candidate rankings, split manifests, group assignments, and leakage-pair artifacts may require separate release review before public redistribution.
+
+## Visual Snapshots
+
+![Legacy vs regenerated benchmark evidence](figures/legacy_vs_rerun_metrics.png)
+
+*Legacy imported benchmark metrics versus regenerated benchmark-contract reruns for Dummy, Logistic Regression, and Random Forest.*
+
+![Initial BBB dataset distribution](figures/dataset_distribution.png)
+
+*Initial BBB dataset distribution showing class imbalance in the current benchmark surface.*
 
 ![Random Forest feature importance](figures/legacy_rf_feature_importance_chart.png)
 
 *Imported legacy Random Forest feature-importance values retained as legacy evidence rather than current regenerated benchmark output.*
 
-## Near-term outputs
+## Contributing
 
-- baseline metrics exports
-- ranking outputs
-- summary tables
-- provenance manifests
-- figure generation
-- preprint-support artifacts
+Contributions should preserve provenance, claim discipline, and reproducibility.
 
-![Candidate ranking preview](figures/candidate_ranking_preview.png)
+Useful contributions include:
 
-*Top-ranked candidates from the regenerated Random Forest rerun shown as a compact preview rather than a final publication claim.*
+- source attribution improvements
+- dataset-card or benchmark-surface documentation
+- feature descriptor clarification
+- baseline or evaluation reproducibility checks
+- leakage-audit improvements
+- tests for validation and split behavior
+- documentation fixes that keep claim boundaries clear
 
-## Legacy evidence onboarding status
-
-- imported legacy artifacts are retained as legacy reference material
-- regenerated benchmark-contract reruns are now available for Dummy, Logistic Regression, and Random Forest
-- dataset version, attribution, and licensing remain pending confirmation
-- imported legacy artifacts should not be treated as current benchmark evidence unless rerun under the current contract
-
-## Connection to Permea Core
-
-Permea Signal ML is not the whole Permea platform. It is the first narrow evidence repository in the broader Permea program.
-
-Permea Core defines the public technical foundation, benchmark-first principles, and architecture conventions for the larger effort. Permea Signal ML is a wedge repository that applies those principles to a specific early computational question:
-
-- can permeability-related signal be studied through sequence-derived physicochemical features
-- can that signal support transparent candidate prioritization under a benchmark-oriented workflow
-
-This repository should therefore be read as a scoped evidence package connected to Permea Core, not as a claim that the broader delivery problem is solved.
-
-Related Permea Core documents:
-
-- [Delivery Taxonomy](https://github.com/Permea-lab/permea-core/blob/main/docs/DELIVERY-TAXONOMY.md)
-- [Evidence Ladder](https://github.com/Permea-lab/permea-core/blob/main/docs/EVIDENCE-LADDER.md)
-- [Benchmark Contract](https://github.com/Permea-lab/permea-core/blob/main/docs/BENCHMARK-CONTRACT.md)
-- [Result Artifact Schema](https://github.com/Permea-lab/permea-core/blob/main/docs/RESULT-ARTIFACT-SCHEMA.md)
+Do not add private data, restricted row-level artifacts, sensitive candidate rankings, credentials, or unsupported biological or clinical claims.
 
 ## Status
 
-Status: v0.1 benchmark-contract scaffold
+Status: public benchmark-support and evidence-package repository.
 
-Current default configs point to a synthetic smoke-test dataset and should be replaced or versioned for real benchmark runs.
+The repository supports a first computational evidence package for a BBB-oriented, sequence-first benchmark surface. Preprint-support files are included for review, but public posting remains dependent on normal approval, source-to-claim review, release review, and export checks.
