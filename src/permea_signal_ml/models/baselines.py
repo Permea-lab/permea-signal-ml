@@ -1,6 +1,7 @@
 """Baseline model registry."""
 
 from __future__ import annotations
+from logging import config
 
 from sklearn.dummy import DummyClassifier
 from sklearn.ensemble import RandomForestClassifier
@@ -17,13 +18,19 @@ def build_baseline_model(config: dict[str, object]) -> object:
         )
 
     if model_name == "logistic_regression":
-        return LogisticRegression(
-            penalty=str(config.get("penalty", "l2")),
-            C=float(config.get("C", 1.0)),
-            max_iter=int(config.get("max_iter", 1000)),
-            class_weight=config.get("class_weight"),
-            random_state=int(config.get("random_state", 42)),
-        )
+        kwargs = {
+        "C": float(config.get("C", 1.0)),
+        "max_iter": int(config.get("max_iter", 1000)),
+        "class_weight": config.get("class_weight"),
+        "random_state": int(config.get("random_state", 42)),}
+
+        penalty = config.get("penalty")
+        # Avoid passing the default L2 penalty explicitly to prevent
+        # scikit-learn penalty deprecation warnings.
+        if penalty not in (None, "l2"):
+            kwargs["penalty"] = str(penalty)
+
+        return LogisticRegression(**kwargs)
 
     if model_name == "random_forest":
         return RandomForestClassifier(
