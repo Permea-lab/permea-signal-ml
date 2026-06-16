@@ -97,7 +97,10 @@ itself indicate a benchmark failure or a change in reported model outputs.
 Any future config migration for that warning should be reviewed separately so
 before/after benchmark behavior stays explicit.
 
-Run a baseline workflow with existing configs:
+Run a baseline workflow with existing configs. The default example below uses
+the committed synthetic smoke-test table at `data/examples/example_sequences.csv`
+via `configs/data/default.yaml`, so it does not require private or prepared
+legacy data.
 
 ```bash
 python scripts/run_baseline.py \
@@ -107,6 +110,10 @@ python scripts/run_baseline.py \
   --eval-config configs/eval/default.yaml \
   --output-prefix smoke_test_rf
 ```
+
+Legacy benchmark configs, such as
+`configs/data/legacy_bbb_dataset_with_features.yaml`, expect the referenced
+processed artifact under `data/processed/` to be prepared before running.
 
 Inspect paper-support materials:
 
