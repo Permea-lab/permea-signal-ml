@@ -1,0 +1,107 @@
+{
+  "run_id": "p-signal-001-leakage-controlled-physchem-baseline",
+  "task_id": "P-SIGNAL-001",
+  "artifact_type": "public_safe_aggregate_run_manifest",
+  "dataset_private_reference": "private_local_b3pred_dataset3_rerun_ready_csv",
+  "dataset_sha256": "2e8d3fc30becfdd00ad7cd25eedd5e6c00df7698747ea358b4cc97f4268f8abf",
+  "row_count": 2959,
+  "label_counts": {
+    "positive": 269,
+    "negative": 2690
+  },
+  "feature_columns": [
+    "length",
+    "charge",
+    "gravy",
+    "pI",
+    "aromaticity"
+  ],
+  "split_policy": "leakage_aware_group_stratified",
+  "grouping_method": "combined_exact+edit_distance<=1+kmer3_jaccard>=0.8",
+  "grouping_settings": {
+    "edit_distance_threshold": 1,
+    "kmer_size": 3,
+    "jaccard_threshold": 0.8,
+    "max_pairs": 10000
+  },
+  "duplicate_handling_summary": {
+    "duplicate_sequence_groups": 4,
+    "label_conflict_groups": 0,
+    "groups_crossing_folds": 0
+  },
+  "fold_counts": {
+    "1": 592,
+    "2": 592,
+    "3": 592,
+    "4": 592,
+    "5": 591
+  },
+  "fold_label_counts": {
+    "1": {
+      "0": 538,
+      "1": 54
+    },
+    "2": {
+      "0": 538,
+      "1": 54
+    },
+    "3": {
+      "0": 538,
+      "1": 54
+    },
+    "4": {
+      "0": 538,
+      "1": 54
+    },
+    "5": {
+      "0": 538,
+      "1": 53
+    }
+  },
+  "models": [
+    "dummy",
+    "logistic_regression",
+    "random_forest"
+  ],
+  "metrics": [
+    "roc_auc",
+    "pr_auc",
+    "balanced_accuracy",
+    "precision",
+    "recall",
+    "f1",
+    "mcc"
+  ],
+  "public_outputs": [
+    "results/p_signal_001/physchem_baseline_model_comparison.csv",
+    "results/p_signal_001/physchem_baseline_per_fold_metrics.csv",
+    "results/p_signal_001/physchem_baseline_leakage_summary.json",
+    "results/p_signal_001/physchem_baseline_run_manifest.json",
+    "docs/reports/p-signal-001-leakage-controlled-physchem-baseline.md"
+  ],
+  "private_outputs": "row-level groups, split manifest, predictions, and sequence-pair leakage files were written to a private run directory and are not public artifacts",
+  "command_list": [
+    "python3 scripts/build_leakage_aware_groups.py --input <private_local_dataset> --output-dir <private_local_run_dir>/groups --method combined --edit-distance-threshold 1 --kmer-size 3 --jaccard-threshold 0.8 --max-pairs 10000",
+    "python3 scripts/build_leakage_aware_split_manifest.py --input <private_local_dataset> --groups <private_local_run_dir>/groups/group_assignments_combined.csv --output-dir <private_local_run_dir>/split --n-splits 5 --random-state 42",
+    "python3 scripts/audit_leakage.py --input <private_local_dataset> --output-dir <private_local_run_dir>/audits --sequence-col sequence --label-col label --source-col source --n-splits 5 --random-state 42 --kmer-size 3 --jaccard-threshold 0.8 --max-pairs 10000",
+    "python3 scripts/run_leakage_aware_baselines.py --input <private_local_dataset> --split-manifest <private_local_run_dir>/split/combined_group_stratified_split_manifest.csv --output-dir <private_local_run_dir>/baseline"
+  ],
+  "random_seed": 42,
+  "code_commit_at_run_start": "d8c945d481411f2834ee51071b7f21a8051b9674",
+  "generated_at_utc": "2026-06-21T07:32:36.202249+00:00",
+  "release_classification": {
+    "aggregate_metrics": "public_safe_candidate",
+    "aggregate_leakage_summary": "public_safe_candidate",
+    "row_level_dataset": "private_only_rights_review_required",
+    "row_level_predictions": "private_only_rights_review_required",
+    "row_level_split_manifest": "private_only_rights_review_required",
+    "row_level_group_assignments": "private_only_rights_review_required",
+    "sequence_pair_leakage_files": "do_not_release_until_explicit_approval"
+  },
+  "limitations": [
+    "Dataset availability claims cannot be made until rights and redistribution posture are reviewed.",
+    "The source column is coarse and not sufficient for source-aware split control.",
+    "Grouping retained the max_pairs=10000 caveat, so sequence-similarity grouping may be incomplete.",
+    "This is computational candidate-prioritization benchmark evidence before experimental validation."
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "artifact_type": "public_safe_aggregate_leakage_summary",
+  "task_id": "P-SIGNAL-001",
+  "dataset_private_reference": "private_local_b3pred_dataset3_rerun_ready_csv",
+  "row_count": 2959,
+  "duplicate_sequence_groups": 4,
+  "label_conflict_groups": 0,
+  "near_duplicate_pairs": 73,
+  "high_jaccard_pairs": 33,
+  "cross_fold_high_similarity_pairs_reconstructed_stratified_audit": 29,
+  "source_group_rows": 5,
+  "grouping_summary": {
+    "number_of_groups": 2958,
+    "singleton_groups": 2957,
+    "non_singleton_groups": 1,
+    "largest_group_size": 2,
+    "grouping_method": "combined_exact+edit_distance<=1+kmer3_jaccard>=0.8",
+    "caveats": [
+      "Pairwise comparison stopped after max_pairs=10000; grouping may be incomplete."
+    ],
+    "source_group_feasibility": {
+      "source_col_present": true,
+      "number_of_unique_sources": 1,
+      "source_counts": {
+        "legacy_bbb_import": 2959
+      },
+      "feasible_for_group_split": false,
+      "caveat": "Source field is too coarse for source-aware group splitting."
+    }
+  },
+  "split_summary": {
+    "split_policy": "leakage_aware_group_stratified",
+    "number_of_rows": 2959,
+    "number_of_groups": 2958,
+    "n_splits": 5,
+    "groups_crossing_folds": 0,
+    "fold_counts": {
+      "1": 592,
+      "2": 592,
+      "3": 592,
+      "4": 592,
+      "5": 591
+    },
+    "fold_label_counts": {
+      "1": {
+        "0": 538,
+        "1": 54
+      },
+      "2": {
+        "0": 538,
+        "1": 54
+      },
+      "3": {
+        "0": 538,
+        "1": 54
+      },
+      "4": {
+        "0": 538,
+        "1": 54
+      },
+      "5": {
+        "0": 538,
+        "1": 53
+      }
+    },
+    "caveats": [
+      "At least one non-singleton group is kept within one fold."
+    ]
+  },
+  "private_only_exclusions": [
+    "raw sequences",
+    "row-level dataset",
+    "row-level split manifest",
+    "row-level group assignments",
+    "sequence-pair leakage files",
+    "row-level predictions"
+  ]
+}
