@@ -1,0 +1,53 @@
+{
+  "artifact_type": "public_safe_aggregate_run_manifest",
+  "dataset_release_boundary": "dataset_not_redistributed_publicly",
+  "dataset_sha256": "2e8d3fc30becfdd00ad7cd25eedd5e6c00df7698747ea358b4cc97f4268f8abf",
+  "excluded_public_artifacts": [
+    "primary_input_strings",
+    "individual_row_labels",
+    "individual_row_scores",
+    "representation_matrices",
+    "fold_membership_tables",
+    "similarity_group_tables"
+  ],
+  "grouping_settings": {
+    "edit_distance_threshold": 1,
+    "jaccard_threshold": 0.8,
+    "kmer_size": 3,
+    "max_pairs": 10000
+  },
+  "label_counts": {
+    "negative": 2690,
+    "positive": 269
+  },
+  "limitations": [
+    "Dataset availability claims cannot be made until rights and redistribution posture are reviewed.",
+    "The source column is too coarse for source-aware split control.",
+    "Grouping retained the max_pairs=10000 caveat.",
+    "This is computational candidate-prioritization benchmark evidence before experimental validation."
+  ],
+  "metrics": [
+    "roc_auc",
+    "pr_auc",
+    "balanced_accuracy",
+    "precision",
+    "recall",
+    "f1",
+    "mcc"
+  ],
+  "model_id": "facebook/esm2_t12_35M_UR50D",
+  "public_artifacts": [
+    "results/p_signal_002/esm2_embedding_model_comparison.csv",
+    "results/p_signal_002/esm2_embedding_per_fold_metrics.csv",
+    "results/p_signal_002/esm2_embedding_leakage_summary.json",
+    "results/p_signal_002/esm2_embedding_run_manifest.json",
+    "docs/reports/p-signal-002-esm2-embedding-comparison.md"
+  ],
+  "public_boundary": "aggregate_only_no_raw_sequences_no_row_level_predictions_no_representation_matrices",
+  "representation": "esm2_t12_35m_ur50d_mean_pooled",
+  "representation_dim": 480,
+  "row_count": 2959,
+  "source_task_id": "P-SIGNAL-002X",
+  "split_policy": "leakage_aware_group_stratified",
+  "task_id": "P-SIGNAL-002Y"
+}
