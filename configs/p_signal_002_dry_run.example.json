@@ -1,0 +1,73 @@
+{
+  "task_id": "P-SIGNAL-002D",
+  "dry_run_only": true,
+  "no_model_download": true,
+  "no_model_load": true,
+  "no_inference": true,
+  "no_embeddings": true,
+  "private_input_path_placeholder": "<PRIVATE_DATASET_PATH>",
+  "private_run_dir_placeholder": "<PRIVATE_RUN_DIR>",
+  "expected_dataset_sha256": "2e8d3fc30becfdd00ad7cd25eedd5e6c00df7698747ea358b4cc97f4268f8abf",
+  "expected_rows": 2959,
+  "expected_positive_labels": 269,
+  "expected_negative_labels": 2690,
+  "model_id": "facebook/esm2_t12_35M_UR50D",
+  "primary_recommended_model": "facebook/esm2_t12_35M_UR50D",
+  "allowed_model_ids": [
+    "facebook/esm2_t6_8M_UR50D",
+    "facebook/esm2_t12_35M_UR50D",
+    "facebook/esm2_t30_150M_UR50D",
+    "facebook/esm2_t33_650M_UR50D"
+  ],
+  "split_policy": {
+    "name": "leakage_aware_group_stratified",
+    "grouping_method": "combined_exact+edit_distance<=1+kmer3_jaccard>=0.8",
+    "edit_distance_threshold": 1,
+    "kmer_size": 3,
+    "jaccard_threshold": 0.8,
+    "max_pairs": 10000,
+    "source_aware_limitation": "Source metadata is too coarse for source-aware split control.",
+    "caveat": "Pairwise comparison stopped after max_pairs=10000; grouping may be incomplete."
+  },
+  "planned_output_families": {
+    "private_outputs": [
+      "row-level dataset",
+      "raw sequences",
+      "split manifests",
+      "group assignments",
+      "row-level embeddings",
+      "per-row predictions",
+      "sequence-pair leakage files",
+      "model cache paths",
+      "H100 paths"
+    ],
+    "public_safe_aggregate_candidates": [
+      "aggregate model-comparison metrics",
+      "aggregate per-fold metrics",
+      "aggregate leakage summary",
+      "no-private-path run manifest",
+      "claim-bounded report",
+      "public tests confirming no row-level leakage"
+    ]
+  },
+  "non_claims": [
+    "wet-lab validation",
+    "in-vivo validation",
+    "clinical relevance",
+    "therapeutic efficacy",
+    "solved delivery",
+    "state-of-the-art status",
+    "dataset redistribution rights"
+  ],
+  "stop_conditions": [
+    "dataset SHA mismatch",
+    "repo dirty state",
+    "wrong repo HEAD",
+    "package import failure",
+    "model download failure",
+    "OOM or GPU failure",
+    "leakage audit failure",
+    "public/private boundary risk",
+    "claim discipline risk"
+  ]
+}
