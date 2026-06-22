@@ -16,7 +16,7 @@ This report does not claim wet-lab validation, in-vivo validation, clinical rele
 | Logistic regression | 0.8843 | 0.5771 | 0.7962 | 0.4496 | 0.6768 | 0.5382 | 0.4954 |
 | Random forest | 0.9027 | 0.6891 | 0.6361 | 0.8921 | 0.2752 | 0.4202 | 0.4734 |
 
-The P-SIGNAL-001 aggregate physicochemical baseline reported random forest ROC-AUC 0.7533 and PR-AUC 0.2767 under the same leakage-aware group-stratified 5-fold policy. In this aggregate comparison, the ESM-2 representation run shows higher ROC-AUC and PR-AUC for the random forest summary row, while remaining computational benchmark evidence only.
+The P-SIGNAL-001 aggregate physicochemical baseline random forest row reported ROC-AUC 0.8718, PR-AUC 0.5807, and MCC 0.5084 under the same leakage-aware group-stratified 5-fold policy. The P-SIGNAL-002 ESM-2 random forest aggregate result is ROC-AUC 0.9027, PR-AUC 0.6891, and MCC 0.4734. The P-SIGNAL-002 ESM-2 logistic regression aggregate result is ROC-AUC 0.8843, PR-AUC 0.5771, and MCC 0.4954. This is computational aggregate benchmark evidence only, not biological validation.
 
 ## Leakage Summary
 

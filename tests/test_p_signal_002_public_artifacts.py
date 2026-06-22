@@ -158,9 +158,35 @@ def test_p_signal_002_report_contains_required_boundaries_and_caveats() -> None:
         "max_pairs=10000",
         "Source-aware biological interpretation is limited",
         "P-SIGNAL-001 aggregate physicochemical baseline",
+        "0.8718",
+        "0.5807",
+        "0.5084",
     ]
     for phrase in required:
         assert phrase in report
+
+
+def test_p_signal_002_report_matches_p_signal_001_baseline_artifact() -> None:
+    report = (
+        ROOT / "docs" / "reports" / "p-signal-002-esm2-embedding-comparison.md"
+    ).read_text(encoding="utf-8")
+    baseline_path = ROOT / "results" / "p_signal_001" / "physchem_baseline_model_comparison.csv"
+    with baseline_path.open(newline="", encoding="utf-8") as handle:
+        baseline_rows = {row["model"]: row for row in csv.DictReader(handle)}
+
+    random_forest = baseline_rows["random_forest"]
+    expected_values = {
+        "roc_auc": "0.8718",
+        "pr_auc": "0.5807",
+        "mcc": "0.5084",
+    }
+    for metric, rounded in expected_values.items():
+        assert f"{float(random_forest[metric]):.4f}" == rounded
+        assert rounded in report
+
+    stale_values = ["0.7533", "0.2767"]
+    for value in stale_values:
+        assert value not in report
 
 
 def test_p_signal_002_report_has_no_unsupported_affirmative_claims() -> None:
