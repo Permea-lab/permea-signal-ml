@@ -1,0 +1,22 @@
+{
+  "artifact_type": "public_safe_aggregate_leakage_summary",
+  "task_id": "P-SIGNAL-003Y",
+  "source_task_id": "P-SIGNAL-003X",
+  "row_count": 2959,
+  "label_counts": {
+    "negative": 2690,
+    "positive": 269
+  },
+  "split_policy": "leakage_aware_group_stratified",
+  "folds": 5,
+  "grouping_method": "combined_exact+edit_distance<=1+kmer3_jaccard>=0.8",
+  "groups_crossing_folds": 0,
+  "duplicate_sequence_group_count": 4,
+  "label_conflict_group_count": 0,
+  "near_duplicate_pair_count": 73,
+  "high_jaccard_pair_count": 33,
+  "source_aware_limitation": "Source metadata is too coarse for source-aware split control.",
+  "caveats": [
+    "Pairwise comparison stopped after max_pairs=10000; grouping may be incomplete."
+  ]
+}
