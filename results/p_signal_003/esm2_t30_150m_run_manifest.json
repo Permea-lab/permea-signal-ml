@@ -1,0 +1,53 @@
+{
+  "artifact_type": "public_safe_aggregate_run_manifest",
+  "task_id": "P-SIGNAL-003Y",
+  "source_task_id": "P-SIGNAL-003X",
+  "model_id": "facebook/esm2_t30_150M_UR50D",
+  "representation": "esm2_t30_150m_ur50d_mean_pooled",
+  "representation_dim": 640,
+  "row_count": 2959,
+  "label_counts": {
+    "negative": 2690,
+    "positive": 269
+  },
+  "dataset_sha256": "2e8d3fc30becfdd00ad7cd25eedd5e6c00df7698747ea358b4cc97f4268f8abf",
+  "dataset_release_boundary": "dataset_not_redistributed_publicly",
+  "split_policy": "leakage_aware_group_stratified",
+  "folds": 5,
+  "grouping_settings": {
+    "edit_distance_threshold": 1,
+    "jaccard_threshold": 0.8,
+    "kmer_size": 3,
+    "max_pairs": 10000
+  },
+  "metrics": [
+    "roc_auc",
+    "pr_auc",
+    "balanced_accuracy",
+    "precision",
+    "recall",
+    "f1",
+    "mcc"
+  ],
+  "public_artifacts": [
+    "results/p_signal_003/esm2_t30_150m_model_comparison.csv",
+    "results/p_signal_003/esm2_t30_150m_per_fold_metrics.csv",
+    "results/p_signal_003/esm2_t30_150m_leakage_summary.json",
+    "results/p_signal_003/esm2_t30_150m_run_manifest.json",
+    "docs/reports/p-signal-003-esm2-150m-embedding-comparison.md"
+  ],
+  "excluded_public_artifacts": [
+    "primary_input_strings",
+    "individual_row_labels",
+    "individual_row_scores",
+    "representation_matrices",
+    "fold_membership_tables",
+    "similarity_group_tables"
+  ],
+  "limitations": [
+    "Dataset availability claims cannot be made until rights and redistribution posture are reviewed.",
+    "The source column is too coarse for source-aware split control.",
+    "Grouping retained the max_pairs=10000 caveat.",
+    "This is computational candidate-prioritization benchmark evidence before experimental validation."
+  ]
+}
