@@ -1,0 +1,23 @@
+{
+  "artifact_type": "public_safe_aggregate_leakage_summary",
+  "caveats": [
+    "Pairwise comparison stopped after max_pairs=10000; grouping may be incomplete."
+  ],
+  "duplicate_sequence_group_count": 4,
+  "folds": 5,
+  "grouping_method": "combined_exact+edit_distance<=1+kmer3_jaccard>=0.8",
+  "groups_crossing_folds": 0,
+  "high_jaccard_pair_count": 33,
+  "label_conflict_group_count": 0,
+  "label_counts": {
+    "negative": 2690,
+    "positive": 269
+  },
+  "near_duplicate_pair_count": 73,
+  "public_boundary": "aggregate_only_no_raw_sequences_no_row_level_predictions_no_representation_matrices",
+  "row_count": 2959,
+  "source_aware_limitation": "Source metadata is too coarse for source-aware split control.",
+  "source_task_id": "P-SIGNAL-002X",
+  "split_policy": "leakage_aware_group_stratified",
+  "task_id": "P-SIGNAL-002Y"
+}
