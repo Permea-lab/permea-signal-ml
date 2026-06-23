@@ -1,0 +1,10 @@
+evidence_package,representation,model_id,classifier,n_rows,n_positives,n_negatives,brier_score,expected_calibration_error_10_bins,calibration_intercept,calibration_slope,mean_predicted_score_positives,mean_predicted_score_negatives,score_min,score_max,score_finite_check
+P-SIGNAL-001,physicochemical_features,not_applicable,dummy,2959,269,2690,0.090909,0.090909,,,0.000000,0.000000,0.000000,0.000000,True
+P-SIGNAL-001,physicochemical_features,not_applicable,logistic_regression,2959,269,2690,0.149626,0.256124,-2.280548,1.072116,0.684115,0.313325,0.000019,0.998462,True
+P-SIGNAL-001,physicochemical_features,not_applicable,random_forest,2959,269,2690,0.056459,0.021510,-0.539583,0.618670,0.412974,0.058456,0.000000,0.995000,True
+P-SIGNAL-002,esm2_t12_35m_mean_pooled,facebook/esm2_t12_35M_UR50D,dummy,2959,269,2690,0.090909,0.090909,,,0.000000,0.000000,0.000000,0.000000,True
+P-SIGNAL-002,esm2_t12_35m_mean_pooled,facebook/esm2_t12_35M_UR50D,logistic_regression,2959,269,2690,0.083533,0.084061,-1.562450,0.356430,0.654534,0.104640,0.000000,1.000000,True
+P-SIGNAL-002,esm2_t12_35m_mean_pooled,facebook/esm2_t12_35M_UR50D,random_forest,2959,269,2690,0.051176,0.036305,1.148120,1.608742,0.348290,0.059731,0.000000,0.893333,True
+P-SIGNAL-003,esm2_t30_150m_mean_pooled,facebook/esm2_t30_150M_UR50D,dummy,2959,269,2690,0.090909,0.090909,,,0.000000,0.000000,0.000000,0.000000,True
+P-SIGNAL-003,esm2_t30_150m_mean_pooled,facebook/esm2_t30_150M_UR50D,logistic_regression,2959,269,2690,0.076637,0.073183,-1.445414,0.329507,0.640683,0.086797,0.000000,1.000000,True
+P-SIGNAL-003,esm2_t30_150m_mean_pooled,facebook/esm2_t30_150M_UR50D,random_forest,2959,269,2690,0.052877,0.034750,1.348508,1.703104,0.326493,0.061004,0.000000,0.860000,True

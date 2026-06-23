@@ -1,0 +1,21 @@
+{
+  "task": "P-SIGNAL-004",
+  "source": "public-safe aggregate calibration and threshold summary",
+  "public_export_scope": "aggregate_only",
+  "dataset_rows": 2959,
+  "positive_count": 269,
+  "negative_count": 2690,
+  "split_policy": "leakage_aware_group_stratified",
+  "evidence_packages": [
+    "P-SIGNAL-001 physicochemical baseline",
+    "P-SIGNAL-002 ESM-2 t12/35M",
+    "P-SIGNAL-003 ESM-2 t30/150M"
+  ],
+  "row_level_public_release": false,
+  "raw_sequences_public_release": false,
+  "embeddings_public_release": false,
+  "split_manifests_public_release": false,
+  "group_assignments_public_release": false,
+  "dataset_public_availability_claim": false,
+  "claim_boundary": "Computational aggregate benchmark evidence for candidate prioritization before experimental validation; not biological validation."
+}
