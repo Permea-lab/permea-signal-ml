@@ -1,0 +1,76 @@
+{
+  "date": "2026-06-24",
+  "representation_matrices_included": false,
+  "experimental_validation_claim": false,
+  "export_scope": "public-safe aggregate-only and metadata-only figure assets for review",
+  "exported_files": [
+    "figure_01_workflow_release_boundary.svg",
+    "figure_01_workflow_release_boundary.png",
+    "figure_02_aggregate_performance_comparison.svg",
+    "figure_02_aggregate_performance_comparison.png",
+    "figure_03_non_monotonic_classifier_interaction.svg",
+    "figure_03_non_monotonic_classifier_interaction.png",
+    "figure_04_calibration_threshold_operating_summary.svg",
+    "figure_04_calibration_threshold_operating_summary.png",
+    "figure_05_prioritization_at_k_summary.svg",
+    "figure_05_prioritization_at_k_summary.png",
+    "figure_06_source_lineage_overlap_risk.svg",
+    "figure_06_source_lineage_overlap_risk.png"
+  ],
+  "figure_decisions": [
+    {
+      "claim_boundary": "aggregate-only workflow and release-boundary transparency",
+      "classification": "PUBLIC_EXPORT_READY_AFTER_REDACTION",
+      "figure_id": "Figure 1",
+      "public_file_stem": "figure_01_workflow_release_boundary",
+      "source_data": "figure_01_workflow_release_boundary.json"
+    },
+    {
+      "claim_boundary": "aggregate benchmark-label evaluation only",
+      "classification": "PUBLIC_EXPORT_READY_AFTER_REDACTION",
+      "figure_id": "Figure 2",
+      "public_file_stem": "figure_02_aggregate_performance_comparison",
+      "source_data": "figure_02_aggregate_performance_comparison.csv"
+    },
+    {
+      "claim_boundary": "no universal model-scale claim",
+      "classification": "PUBLIC_EXPORT_READY_AFTER_REDACTION",
+      "figure_id": "Figure 3",
+      "public_file_stem": "figure_03_non_monotonic_classifier_interaction",
+      "source_data": "figure_03_non_monotonic_classifier_interaction.csv"
+    },
+    {
+      "claim_boundary": "probability use remains cautious",
+      "classification": "PUBLIC_EXPORT_READY_AFTER_REDACTION",
+      "figure_id": "Figure 4",
+      "public_file_stem": "figure_04_calibration_threshold_operating_summary",
+      "source_data": "figure_04_calibration_threshold_operating_summary.csv"
+    },
+    {
+      "claim_boundary": "top-k hits are benchmark-label hits",
+      "classification": "PUBLIC_EXPORT_READY_AFTER_REDACTION",
+      "figure_id": "Figure 5",
+      "public_file_stem": "figure_05_prioritization_at_k_summary",
+      "source_data": "figure_05_prioritization_at_k_summary.csv"
+    },
+    {
+      "claim_boundary": "metadata-level source context only; no independence proof",
+      "classification": "PUBLIC_EXPORT_READY_AFTER_REDACTION",
+      "figure_id": "Figure 6",
+      "public_file_stem": "figure_06_source_lineage_overlap_risk",
+      "source_data": "figure_06_source_lineage_overlap_risk.json"
+    }
+  ],
+  "group_assignments_included": false,
+  "independent_validation_claim": false,
+  "not_final_publication_figures": true,
+  "public_dataset_availability_claim": false,
+  "public_permea_signal_ml_source_head": "c139010e20977e699554b91bffaf9c3743a0fd09",
+  "raw_peptide_records_included": false,
+  "row_level_labels_included": false,
+  "row_level_predictions_included": false,
+  "row_level_public_release": false,
+  "source_private_draft_task": "P-FIGURE-003",
+  "fold_assignment_records_included": false,
+  "task_id": "P-FIGURE-004"
+}
