@@ -1,0 +1,122 @@
+{
+  "task_number": 133,
+  "task_id": "P-REPRO-004",
+  "title": "Public-Safe Packet Minor Corrections Before Export",
+  "status": "public_export_candidate_for_human_review",
+  "public_export_performed": true,
+  "public_release_status": "pr_candidate_not_merged",
+  "source_summary": "Derived from prior public-safe reproducibility packet review.",
+  "public_packet_directory": "docs/reproducibility/public_safe_packet/",
+  "packet_files": [
+    "docs/reproducibility/public_safe_packet/README.md",
+    "docs/reproducibility/public_safe_packet/public_artifact_manifest.md",
+    "docs/reproducibility/public_safe_packet/validation_commands.md",
+    "docs/reproducibility/public_safe_packet/expected_output_summary.md",
+    "docs/reproducibility/public_safe_packet/aggregate_result_checksum_shape_summary.md",
+    "docs/reproducibility/public_safe_packet/figure_manifest_summary.md",
+    "docs/reproducibility/public_safe_packet/claim_boundary_checklist.md",
+    "docs/reproducibility/public_safe_packet/public_private_boundary_checklist.md",
+    "docs/reproducibility/public_safe_packet/reviewer_walkthrough.md",
+    "docs/reproducibility/public_safe_packet/reproducibility_packet_manifest.json",
+    "docs/reproducibility/public_safe_packet/correction_manifest.json"
+  ],
+  "public_repositories": [
+    {
+      "name": "permea-core",
+      "repository": "Permea-lab/permea-core",
+      "read_only_in_task": true
+    },
+    {
+      "name": "permea-signal-ml",
+      "repository": "Permea-lab/permea-signal-ml",
+      "public_export_target": true
+    }
+  ],
+  "public_baseline_commits": {
+    "permea-core": "e6ed1b53c25103f73a82710cdb22d6f2bd65aa6c",
+    "permea-signal-ml": "8ea31ddf3f5f70319b8a275753980ce11cfea3cc"
+  },
+  "validation_baseline": {
+    "p_figure_004_public_figures": "5 passed",
+    "p_signal_001_public_artifacts": "4 passed",
+    "p_signal_002_dry_run_gate": "11 passed",
+    "p_signal_002_public_artifacts": "8 passed",
+    "p_signal_003_public_artifacts": "8 passed",
+    "p_signal_004_public_artifacts": "6 passed",
+    "full_public_suite": "71 passed, with 3 known scikit-learn warnings"
+  },
+  "public_private_boundary": {
+    "public": [
+      "aggregate reports",
+      "aggregate metrics",
+      "public-safe figures",
+      "public validation commands",
+      "public repo tests"
+    ],
+    "not_public": [
+      "raw dataset rows",
+      "sequences",
+      "labels",
+      "row-level predictions",
+      "embeddings",
+      "split manifests",
+      "group assignments",
+      "sequence-pair leakage files",
+      "private paper drafts",
+      "private planning docs"
+    ],
+    "export_requires_separate_public_task": true
+  },
+  "claim_boundary": {
+    "allowed": [
+      "initial computational evidence",
+      "aggregate benchmark-label evaluation",
+      "sequence-derived feature and representation comparison",
+      "candidate prioritization before experimental validation",
+      "public-safe aggregate artifact validation",
+      "bounded reproducibility of public aggregate artifacts"
+    ],
+    "forbidden_affirmative_claims": [
+      "public dataset availability",
+      "independent validation",
+      "experimental validation",
+      "wet-lab validation",
+      "in-vivo validation",
+      "clinical validation",
+      "therapeutic efficacy",
+      "solved delivery",
+      "universal delivery",
+      "SOTA",
+      "deployment-grade model",
+      "biological transport proof",
+      "AlphaFold for Delivery as achieved status"
+    ]
+  },
+  "corrections_applied": [
+    "Replaced private local absolute repository paths with public repository names.",
+    "Split combined SVG/PNG figure artifact rows into exact per-file rows.",
+    "Rewrote source-plan provenance into a public-safe source summary.",
+    "Replaced bare python validation commands with python3 commands."
+  ],
+  "forbidden_outputs": [
+    "public reproducibility packet",
+    "public manuscript files",
+    "final manuscript",
+    "bioRxiv submission",
+    "new public figures",
+    "final publication figures",
+    "dataset downloads",
+    "supplementary downloads",
+    "row-level dataset ingestion",
+    "sequence extraction",
+    "label extraction",
+    "mini-set creation",
+    "GPU or accelerator jobs",
+    "model work",
+    "prediction recomputation",
+    "calibration recomputation",
+    "threshold sweep recomputation",
+    "new experiments"
+  ],
+  "generated_at_utc": "2026-06-24T16:19:49Z"
+}
