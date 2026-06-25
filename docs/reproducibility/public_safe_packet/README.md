@@ -1,6 +1,6 @@
 # P-REPRO Public-Safe Reproducibility Packet
 
-Status: public export candidate for human review; this is not a merged release.
+Status: merged public reproducibility packet on the public repository branch; not a tagged release, formal publication, dataset release, or manuscript release.
 
 This packet gives a reviewer a public-safe map of reproducible aggregate artifacts derived from prior public-safe packet review. It is intended to make the public reproducibility surface inspectable without exposing row-level or private execution material.
 

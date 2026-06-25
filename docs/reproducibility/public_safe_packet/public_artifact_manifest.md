@@ -1,6 +1,6 @@
 # Public Artifact Manifest
 
-Status: public export candidate manifest for aggregate artifacts only.
+Status: merged public packet artifact manifest for aggregate artifacts only.
 
 ## Public Repositories
 
