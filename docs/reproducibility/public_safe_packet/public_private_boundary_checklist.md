@@ -1,6 +1,6 @@
 # Public / Private Boundary Checklist
 
-This packet is a public export candidate for human review and must not be merged until review approves it.
+This packet is a merged public reproducibility packet on the public repository branch; it is not a tagged release, formal publication, dataset release, or manuscript release.
 
 ## What Is Public
 
