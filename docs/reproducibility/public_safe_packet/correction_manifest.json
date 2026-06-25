@@ -1,0 +1,57 @@
+{
+  "task_number": 133,
+  "task_id": "P-REPRO-004",
+  "title": "Public-Safe Packet Minor Corrections Before Export",
+  "status": "public_export_candidate_for_human_review",
+  "public_export_performed": true,
+  "source_task": "Task 131 P-REPRO-002",
+  "source_review_task": "Task 132 P-REPRO-003",
+  "source_packet_summary": "Public-safe reproducibility packet draft reviewed and corrected before export.",
+  "public_packet_directory": "docs/reproducibility/public_safe_packet/",
+  "corrections_applied": [
+    "Replaced private local absolute repository paths with public repository names.",
+    "Split combined SVG/PNG figure artifact rows into exact per-file rows.",
+    "Rewrote source-plan provenance into a public-safe source summary.",
+    "Replaced bare python validation commands with python3 commands."
+  ],
+  "candidate_files": [
+    "docs/reproducibility/public_safe_packet/README.md",
+    "docs/reproducibility/public_safe_packet/public_artifact_manifest.md",
+    "docs/reproducibility/public_safe_packet/validation_commands.md",
+    "docs/reproducibility/public_safe_packet/expected_output_summary.md",
+    "docs/reproducibility/public_safe_packet/aggregate_result_checksum_shape_summary.md",
+    "docs/reproducibility/public_safe_packet/figure_manifest_summary.md",
+    "docs/reproducibility/public_safe_packet/claim_boundary_checklist.md",
+    "docs/reproducibility/public_safe_packet/public_private_boundary_checklist.md",
+    "docs/reproducibility/public_safe_packet/reviewer_walkthrough.md",
+    "docs/reproducibility/public_safe_packet/reproducibility_packet_manifest.json",
+    "docs/reproducibility/public_safe_packet/correction_manifest.json"
+  ],
+  "public_repositories_checked": [
+    {
+      "name": "permea-core",
+      "repository": "Permea-lab/permea-core",
+      "observed_head": "e6ed1b53c25103f73a82710cdb22d6f2bd65aa6c",
+      "status": "clean_read_only"
+    },
+    {
+      "name": "permea-signal-ml",
+      "repository": "Permea-lab/permea-signal-ml",
+      "observed_head": "8ea31ddf3f5f70319b8a275753980ce11cfea3cc",
+      "status": "clean_read_only"
+    }
+  ],
+  "public_baseline_commits": {
+    "permea-core": "e6ed1b53c25103f73a82710cdb22d6f2bd65aa6c",
+    "permea-signal-ml": "8ea31ddf3f5f70319b8a275753980ce11cfea3cc"
+  },
+  "claim_boundary_result": "pass",
+  "public_private_boundary_result": "pass",
+  "artifact_consistency_result": "pass",
+  "remaining_public_export_gates": [
+    "Review this public PR candidate in Permea-lab/permea-signal-ml before merge.",
+    "Preserve aggregate-only scope and claim boundaries during review."
+  ],
+  "current_public_export_task": "Task 134 P-REPRO-005 Public Reproducibility Packet Export Candidate",
+  "generated_at_utc": "2026-06-24T16:19:49Z"
+}
