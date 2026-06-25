@@ -25,4 +25,4 @@ This packet is a merged public reproducibility packet on the public repository b
 
 ## Boundary Result
 
-This public export candidate contains public-safe summaries only. It does not copy row-level dataset records, raw sequences, row-level labels, row-level predictions, embedding matrices, split internals, group assignments, or sequence-pair leakage files.
+This merged public reproducibility packet contains public-safe summaries only. It does not copy row-level dataset records, raw sequences, row-level labels, row-level predictions, embedding matrices, split internals, group assignments, or sequence-pair leakage files.
