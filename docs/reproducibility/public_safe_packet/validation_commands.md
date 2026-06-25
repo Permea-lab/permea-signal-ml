@@ -21,7 +21,7 @@ test -f docs/reproducibility/public_safe_packet/reproducibility_packet_manifest.
 test -f docs/reproducibility/public_safe_packet/correction_manifest.json
 python3 -m json.tool docs/reproducibility/public_safe_packet/reproducibility_packet_manifest.json >/tmp/p_repro_packet_manifest_check.json
 python3 -m json.tool docs/reproducibility/public_safe_packet/correction_manifest.json >/tmp/p_repro_correction_manifest_check.json
-grep -R "not a merged release" docs/reproducibility/public_safe_packet/README.md
+grep -R "not a tagged release, formal publication, dataset release, or manuscript release" docs/reproducibility/public_safe_packet/README.md
 grep -R "public dataset availability" docs/reproducibility/public_safe_packet/claim_boundary_checklist.md
 grep -R "independent validation" docs/reproducibility/public_safe_packet/claim_boundary_checklist.md
 grep -R "experimental validation" docs/reproducibility/public_safe_packet/claim_boundary_checklist.md

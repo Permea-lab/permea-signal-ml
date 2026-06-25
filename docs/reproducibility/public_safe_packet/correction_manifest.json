@@ -2,7 +2,7 @@
   "task_number": 133,
   "task_id": "P-REPRO-004",
   "title": "Public-Safe Packet Minor Corrections Before Export",
-  "status": "public_export_candidate_for_human_review",
+  "status": "merged_public_packet",
   "public_export_performed": true,
   "source_task": "Task 131 P-REPRO-002",
   "source_review_task": "Task 132 P-REPRO-003",
@@ -49,8 +49,8 @@
   "public_private_boundary_result": "pass",
   "artifact_consistency_result": "pass",
   "remaining_public_export_gates": [
-    "Review this public PR candidate in Permea-lab/permea-signal-ml before merge.",
-    "Preserve aggregate-only scope and claim boundaries during review."
+    "Preserve aggregate-only scope and claim boundaries after public packet merge.",
+    "Do not treat the merged packet as a tagged release, formal publication, dataset release, or manuscript release."
   ],
   "current_public_export_task": "Task 134 P-REPRO-005 Public Reproducibility Packet Export Candidate",
   "generated_at_utc": "2026-06-24T16:19:49Z"

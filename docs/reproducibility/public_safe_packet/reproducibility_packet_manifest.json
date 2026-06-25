@@ -2,9 +2,9 @@
   "task_number": 133,
   "task_id": "P-REPRO-004",
   "title": "Public-Safe Packet Minor Corrections Before Export",
-  "status": "public_export_candidate_for_human_review",
+  "status": "merged_public_packet",
   "public_export_performed": true,
-  "public_release_status": "pr_candidate_not_merged",
+  "public_release_status": "merged_public_packet_not_formal_release",
   "source_summary": "Derived from prior public-safe reproducibility packet review.",
   "public_packet_directory": "docs/reproducibility/public_safe_packet/",
   "packet_files": [
