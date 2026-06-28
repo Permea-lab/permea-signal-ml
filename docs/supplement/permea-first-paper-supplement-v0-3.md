@@ -1,3 +1,8 @@
+> **SUPERSEDED (2026-06).** This draft predates Permea Signal ML's repositioning as a
+> construct-validity audit of BBB peptide benchmarks. It is retained for history and link
+> stability; it does not reflect the repository's current scope or claims. See the README
+> for the current direction.
+
 # Supplementary Information for Permea First Paper
 
 Version: v0.3

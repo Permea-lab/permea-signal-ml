@@ -1,232 +1,137 @@
 # Permea Signal ML
 
-The first computational evidence package for sequence-first delivery engineering.
+**A construct-validity audit of blood–brain barrier (BBB) peptide benchmarks.**
 
-Permea Signal ML is a BBB-oriented delivery-signal benchmark support repository. It packages a reproducible workflow around the B3Pred Dataset_3 / B3Pred-derived benchmark surface, sequence-derived physicochemical features, baseline modeling, aggregate evaluation outputs, and paper-support materials.
+This repository asks a single question: *do published BBB-peptide predictors measure
+BBB penetration, or do they measure how their benchmarks were built?* It provides a
+fixed, reproducible evaluation harness, a cross-dataset provenance auditor, and the
+aggregate findings that follow from them.
 
-This repository is an evidence package, not a wet-lab validation claim. It is designed to show that sequence-derived delivery-related signal can be studied under a bounded, reproducible benchmark workflow for candidate prioritization before wet-lab.
+It is an **honest-evaluation** package, not a new predictor and not a wet-lab claim.
+The model is CASP-style: the contribution is rigorous, shared evaluation infrastructure
+for a problem where benchmark construction has not yet had that scrutiny.
+
+> Repositioning note (2026-06): this repository previously framed itself as an early
+> "evidence package" demonstrating that BBB signal is learnable from sequence features.
+> It is being repositioned around the audit question above. Earlier manuscript drafts in
+> `docs/` predate this direction and are being revised; treat this README as the current
+> scope of record.
 
 ## Relationship to Permea Core
 
-[Permea Core](https://github.com/Permea-lab/permea-core) defines the broader open technical foundation for sequence-first delivery and expression engineering: benchmark-first infrastructure, dataset and evidence conventions, run manifests, claim boundaries, and contribution objects.
+[Permea Core](https://github.com/Permea-lab/permea-core) defines the broader open
+infrastructure for sequence-first delivery: benchmark contracts, dataset/evidence
+conventions, run manifests, and claim boundaries. **Permea Signal ML** applies that
+foundation to the first concrete audit surface — the standard BBB peptide benchmark —
+and reports what an identity-controlled, provenance-aware re-evaluation finds.
 
-Permea Signal ML applies that foundation to the first narrow evidence surface:
+## The audit question
 
-- a BBB-oriented peptide benchmark support package
-- a B3Pred Dataset_3 / B3Pred-derived benchmark surface
-- sequence-derived feature engineering
-- transparent baseline models
-- aggregate metrics and figures
-- reproducibility checks and provenance-oriented outputs
-- manuscript and supplement support files
+Standard BBB peptide benchmarks pair a small set of curated positive peptides against
+randomly chosen negatives, and predictors are scored with random train/test splits. Two
+things follow that are rarely checked:
 
-Read this repository as a scoped evidence package connected to Permea Core, not as the whole Permea platform.
+- **Shared-source provenance.** Different "datasets" draw their positives from the same
+  few archives, so they are not independent.
+- **Similarity leakage.** Random splits place near-duplicate peptides in both train and
+  test, so a model can score well by memorizing rather than generalizing.
 
-## What This Repository Contains
+This repository measures these directly and reports the results as aggregate, reproducible
+artifacts.
 
-Permea Signal ML contains the working materials for a reproducible computational benchmark package:
+## First public finding: cross-dataset positive overlap
 
-- dataset workflow and BBB-oriented benchmark-surface documentation
-- sequence validation and preprocessing utilities
-- sequence-derived physicochemical feature extraction
-- baseline model configurations and training scripts
-- aggregate evaluation metrics and summary tables
-- leakage-audit and leakage-aware sensitivity utilities
-- candidate-ranking support scripts
-- exported figures and result artifacts
-- paper and supplement drafts for preprint-support review
-- tests for data validation, leakage audits, grouping, split construction, and leakage-aware baselines
+The standard B3Pred Dataset_3 positives and the independent Brainpeps archive are largely
+the **same pool of peptides**:
 
-The current scientific framing is conservative: aggregate benchmark results may support computational evidence and evidence-backed prioritization before experimental follow-up. They do not establish biological transport, mechanism, safety, therapeutic effect, or clinical performance.
+- 54.0% of Brainpeps positives appear **verbatim** in B3Pred; 82.5% as near-duplicates
+  (identity ≥ 0.9).
+- 88.3% of B3Pred positives have a near-duplicate in Brainpeps.
 
-## What This Repository Does Not Claim
+These figures are stable across identity thresholds and comparator definitions. Full
+tables, sensitivity sweeps, and provenance notes are in
+[`results/cross_dataset_overlap/`](results/cross_dataset_overlap/); the tool is
+[`scripts/cross_dataset_overlap.py`](scripts/cross_dataset_overlap.py). The leakage and
+representation analyses are described in the accompanying manuscript (under revision).
 
-This repository does not claim:
+## What this repository contains
 
-- wet-lab validation
-- clinical or therapeutic effect
-- universal delivery prediction
-- state-of-the-art status
-- solved biological delivery
-- matched superiority over prior BBB peptide predictors
-- complete leakage control or robust generalization
-- public release approval for row-level processed datasets or row-level derived artifacts
+- a fixed evaluation harness contrasting random-split vs identity-controlled grouped CV
+- a cross-dataset positive-overlap / provenance auditor (aggregate-only)
+- leakage-aware grouping and split-construction utilities
+- sequence-derived physicochemical feature extraction and transparent baselines
+  (Dummy, Logistic Regression, Random Forest)
+- aggregate metrics, sensitivity outputs, and figures
+- tests for data validation, leakage audits, grouping, split construction, and baselines
+- manuscript and supplement support files (being revised to the audit framing)
 
-The intended interpretation is narrower: this repository provides a reproducible benchmark workflow for studying whether BBB-related peptide permeability signal can be learned from sequence-derived physicochemical features under documented computational settings.
+## The benchmark under audit
 
-## Current Benchmark Surface
+The audited surface follows B3Pred Dataset_3:
 
-The current paper-support materials describe a BBB-related peptide classification surface following B3Pred Dataset_3:
-
-- 269 BBB-positive peptides
-- 2,690 non-BBB negatives
-- 2,959 peptide sequences total
-- supervised benchmark target: `label`
+- 269 BBB-positive peptides, 2,690 non-BBB negatives (2,959 total)
 - sequence-derived fields: `length`, `charge`, `gravy`, `pI`, `aromaticity`
+- the negatives are random Swiss-Prot proteins (keyword-filtered), not experimentally
+  validated non-penetrators — itself one of the audit's points
 
-The label is treated as a benchmark label with provenance and limitations, not as independently verified biological truth.
+The `label` is treated as a benchmark label with provenance and limitations, not as
+independently verified biological truth.
 
-Baseline model families in the repository:
+## What this repository does NOT claim
 
-- Dummy most-frequent classifier
-- Logistic Regression
-- Random Forest
+- no new predictor and no state-of-the-art claim
+- no claim that prior predictors are worthless — it characterizes *what the benchmark
+  measures*, not whether the methods are well built
+- no wet-lab validation, clinical, or therapeutic-effect claim
+- no claim of complete leakage control or robust generalization
+- no public release of row-level processed datasets, predictions, split manifests, or
+  group assignments
 
-Reported aggregate metrics include ROC-AUC, PR-AUC, MCC, precision, recall, and F1 where available. PR-AUC and MCC are important because the benchmark surface is class-imbalanced.
+## Suggested usage
 
-## Suggested Usage
+Install dependencies:
 
-Install dependencies in a local Python environment:
-
-```bash
+```
 python3 -m pip install -r requirements.txt
 ```
 
-Run the test suite:
+Run the tests:
 
-```bash
+```
 python3 -m pytest tests -q
 ```
 
-Current test environments that install scikit-learn 1.8 or newer may emit a
-`FutureWarning` from `sklearn.linear_model.LogisticRegression` about the
-`penalty` argument during the leakage-aware baseline tests. The warning comes
-from dependency deprecation behavior around the current logistic-regression
-baseline config in `configs/models/logistic_regression.yaml`; it does not by
-itself indicate a benchmark failure or a change in reported model outputs.
-Any future config migration for that warning should be reviewed separately so
-before/after benchmark behavior stays explicit.
+Validate the overlap tool, then run it on staged positive sets:
 
-Run a baseline workflow with existing configs. The default example below uses
-the committed synthetic smoke-test table at `data/examples/example_sequences.csv`
-via `configs/data/default.yaml`, so it does not require private or prepared
-legacy data.
-
-```bash
-python scripts/run_baseline.py \
-  --data-config configs/data/default.yaml \
-  --feature-config configs/features/physicochemical.yaml \
-  --model-config configs/models/random_forest.yaml \
-  --eval-config configs/eval/default.yaml \
-  --output-prefix smoke_test_rf
+```
+python3 scripts/cross_dataset_overlap.py --selftest
+python3 scripts/cross_dataset_overlap.py \
+  --dataset b3pred=<b3pred_positives.csv>:sequence \
+  --dataset brainpeps=<brainpeps_positives.csv>:sequence \
+  --tau 0.9 --out results/cross_dataset_overlap/overlap
 ```
 
-Legacy benchmark configs, such as
-`configs/data/legacy_bbb_dataset_with_features.yaml`, expect the referenced
-processed artifact under `data/processed/` to be prepared before running.
+Inspect the leakage-aware evaluation and baseline entrypoints under `scripts/`.
 
-Inspect paper-support materials:
+## Reproducibility framing
 
-- [Manuscript draft v0.7](docs/paper/permea-first-paper-manuscript-v0-7.md)
-- [Supplement draft v0.3](docs/supplement/permea-first-paper-supplement-v0-3.md)
-- [Preprint candidate status report](docs/PREPRINT_CANDIDATE_STATUS_REPORT_V0_1.md)
-- [Bibliography](references.bib)
-
-Reproduce or inspect aggregate outputs where scripts and artifacts exist:
-
-- `scripts/run_baseline.py`
-- `scripts/run_leakage_aware_baselines.py`
-- `scripts/audit_leakage.py`
-- `scripts/build_leakage_aware_groups.py`
-- `scripts/build_leakage_aware_split_manifest.py`
-- `scripts/export_metrics.py`
-- `scripts/generate_figures.py`
-- `scripts/rank_candidates.py`
-
-Paper and preprint-support materials remain subject to normal source-to-claim review, release review, export checks, and manual approval before any public posting.
-
-## Repository Structure
-
-```text
-permea-signal-ml/
-├─ README.md
-├─ LICENSE
-├─ requirements.txt
-├─ references.bib
-├─ configs/
-├─ data/
-├─ docs/
-├─ figures/
-├─ notebooks/
-├─ results/
-├─ scripts/
-├─ src/
-└─ tests/
-```
-
-Key directories:
-
-- `configs/`: data, feature, model, and evaluation configuration files
-- `data/`: dataset layers and dataset notes
-- `docs/`: methods, provenance, audit, manuscript, supplement, and review-support documentation
-- `figures/`: exported figures for reports and manuscript-support review
-- `notebooks/`: exploratory notebooks aligned with pipeline stages
-- `results/`: aggregate metrics, tables, audits, sensitivity outputs, and manifests
-- `scripts/`: command-line entrypoints for benchmark, audit, figure, export, and ranking workflows
-- `src/permea_signal_ml/`: importable code for data, features, models, evaluation, audits, and provenance
-- `tests/`: reproducibility and validation tests
-
-## Benchmark Workflow
-
-```mermaid
-flowchart LR
-    A["B3Pred-derived benchmark surface"] --> B["Dataset assembly and validation"]
-    B --> C["Sequence-derived features"]
-    C --> D["Baseline models"]
-    D --> E["Aggregate metrics"]
-    D --> F["Predictions and rankings"]
-    D --> G["Run manifests"]
-    E --> H["Figures and paper-support summaries"]
-```
-
-Workflow outputs are interpreted as computational benchmark artifacts. Candidate rankings support dry-lab screening and prioritization before wet-lab; they do not guarantee biological delivery.
-
-## Reproducibility Framing
-
-This repository is intended to make the first Permea evidence package auditable:
-
-- dataset and label assumptions are documented before modeling claims
+- dataset and label assumptions are documented before any modeling claim
 - feature extraction is narrow and sequence-derived
-- baseline models are transparent and configurable
-- aggregate metrics are stored as reviewable outputs
-- leakage audits and sensitivity workflows are included
-- figures and manuscript-support materials are tied to committed artifacts
+- baselines are transparent and configurable
+- aggregate metrics, audits, and sensitivity outputs are stored as reviewable artifacts
+- identity conventions are stated explicitly (overlap uses LCS / shorter-length)
 - limitations are explicit and repeated across public-facing docs
 
-Row-level processed datasets, row-level predictions, candidate rankings, split manifests, group assignments, and leakage-pair artifacts may require separate release review before public redistribution.
-
-## Visual Snapshots
-
-![Legacy vs regenerated benchmark evidence](figures/legacy_vs_rerun_metrics.png)
-
-*Legacy imported benchmark metrics versus regenerated benchmark-contract reruns for Dummy, Logistic Regression, and Random Forest.*
-
-![Initial BBB dataset distribution](figures/dataset_distribution.png)
-
-*Initial BBB dataset distribution showing class imbalance in the current benchmark surface.*
-
-![Random Forest feature importance](figures/legacy_rf_feature_importance_chart.png)
-
-*Imported legacy Random Forest feature-importance values retained as legacy evidence rather than current regenerated benchmark output.*
-
-## Contributing
-
-Contributions should preserve provenance, claim discipline, and reproducibility.
-
-Useful contributions include:
-
-- source attribution improvements
-- dataset-card or benchmark-surface documentation
-- feature descriptor clarification
-- baseline or evaluation reproducibility checks
-- leakage-audit improvements
-- tests for validation and split behavior
-- documentation fixes that keep claim boundaries clear
-
-Do not add private data, restricted row-level artifacts, sensitive candidate rankings, credentials, or unsupported biological or clinical claims.
+Row-level processed datasets, predictions, rankings, split manifests, and group
+assignments may require separate release review before any redistribution.
 
 ## Status
 
-Status: public benchmark-support and evidence-package repository.
+Active early-stage open audit package. The first aggregate finding (cross-dataset
+overlap) is in `results/`; the evaluation harness and leakage-aware utilities are in
+`scripts/`; the manuscript is being revised to the audit framing. Public posting of any
+result remains subject to source-to-claim review and release review.
 
-The repository supports a first computational evidence package for a BBB-oriented, sequence-first benchmark surface. Preprint-support files are included for review, but public posting remains dependent on normal approval, source-to-claim review, release review, and export checks.
+## License
+
+Apache-2.0. See [LICENSE](LICENSE).
